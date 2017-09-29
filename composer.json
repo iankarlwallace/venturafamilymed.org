@@ -6,12 +6,6 @@
 		"email": "iankarlwallace@gmail.com",
 		"homepage": "http://www.venturafamilymed.org",
 		"role": "Developer"
-        },
-        {
-		"name": "Jacob David",
-		"email": "Jacob.David@ventura.org",
-		"homepage": "http://www.venturafamilymed.org",
-		"role": "Developer"
         }
 	],
 	"support": {
@@ -26,6 +20,9 @@
 		"behat/mink-selenium2-driver": "*",
 		"behat/mink-zombie-driver": "*",
 		"behat/symfony2-extension": "*"
+	},
+ 	"config": {
+		"bin-dir": "bin/"
 	}
 }
 
