@@ -1,10 +1,31 @@
-#
-# Basic setup to add in Behat and MINK
-#
-
 {
-	require: {
-		"behat/behat": "*"
+	"name": "venturafamilymed.org/venturafamilymed.org",
+	"authors": [
+	{
+		"name": "Ian Wallace",
+		"email": "iankarlwallace@gmail.com",
+		"homepage": "http://www.venturafamilymed.org",
+		"role": "Developer"
+        },
+        {
+		"name": "Jacob David",
+		"email": "Jacob.David@ventura.org",
+		"homepage": "http://www.venturafamilymed.org",
+		"role": "Developer"
+        }
+	],
+	"support": {
+		"email": "iankarlwallace@gmail.com"
+    	},
+	"require": {
+		"behat/behat": "*",
+		"behat/mink" : "*",
+		"behat/mink-extension": "*",
+		"behat/mink-browserkit-driver": "*",
+		"behat/mink-goutte-driver": "*",
+		"behat/mink-selenium2-driver": "*",
+		"behat/mink-zombie-driver": "*",
+		"behat/symfony2-extension": "*"
 	}
 }
 
