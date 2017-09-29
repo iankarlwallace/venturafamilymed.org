@@ -1,0 +1,10 @@
+#
+# Basic setup to add in Behat and MINK
+#
+
+{
+	require: {
+		"behat/behat": "*"
+	}
+}
+
