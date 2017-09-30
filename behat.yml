@@ -2,5 +2,7 @@
 default:
     extensions:
         Behat\MinkExtension:
-            base_url: http://www.venturafamilymed.org
+            base_url: http://venturafamilymed.org/
+            goutte: ~
             selenium2: ~
+            show_cmd: firefox %s
