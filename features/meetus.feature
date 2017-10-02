@@ -106,3 +106,23 @@ Feature: Meet Us
     | Jessica White, MD        |
     | Kent Willis, DO          |
 
+  #Meet Us Faculty
+  Scenario Outline: Meet Us Faculty Names
+    Given I am on "/meet-us/faculty"
+    Then I should see "<faculty>"
+
+    Examples:
+    | faculty                  |
+    | David Araujo, M.D.       |
+    | Leslie-Lynn Pawson, M.D. |
+    | Cheryl Lambing, M.D.     |
+    | Kristi Schoeld, M.D.     |
+    | Neil Jorgensen, M.D.     |
+    | Jim Helmer, M.D.         |
+    | Sheri Dickstein, M.D.    |
+    | Jacob David, M.D.        |
+    | Zach Zwolak, D.O.        |
+    | Wally Baker, M.D.        |
+    | Tipu Khan, M.D.          |
+    | Ron Bale, Ph.D.          |
+    | Ian Wallace, M.D.        |
