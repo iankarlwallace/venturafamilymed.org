@@ -47,3 +47,12 @@ Feature: Homepage
     And I should see "Ventura, California 93003"
     And I should see "phone: (805) 652-6228"
     And I should see "2017 Ventura Family Medicine"
+
+  #The search function is available from the homepage as well
+  Scenario: Homepage search function as visitor
+    Given I am on the homepage
+    When I fill in "q" with "Global Health"
+    And I press "Search"
+    Then I should see "Search Terms:"
+    And I should see "Ventura Global Health Fellowship"
+    And I should see "Results 1 - "
