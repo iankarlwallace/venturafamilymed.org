@@ -25,23 +25,84 @@ Feature: Meet Us
     And I should see "Life in Ventura, California"
     And I should see "Alumni"
 
-  #Meet Us Class of 2020
-  Scenario: Meet us Class of 2020
+  #Meet Us Classes of 2020, 2019, and 2018
+  Scenario Outline: Meet us Class Testing
+    Given I am on "<url>"
+    Then I should see "<title>"
+    And I should see "<resident>"
+
+    Examples:
+      | url                    | title         | resident          |
+      | /meet-us/class-of-2020 | Class of 2020 | Helen Ashton, MD  |
+      | /meet-us/class-of-2019 | Class of 2019 | Abigail Nimz, MD  |
+      | /meet-us/class-of-2018 | Class of 2018 | Matthew Combs, MD |
+
+  #Meet Us Class of 2020 Residents
+  Scenario Outline: Meet Us Class of 2020 Names
     Given I am on "/meet-us/class-of-2020"
-    Then I should see "Class of 2020"
-    And I should see "Helen Ashton, MD"
-    # ... the rest of the 2020 residents ...
+    Then I should see "<resident>"
 
-  #Meet Us Class of 2019
-  Scenario: Meet us Class of 2019
+    Examples:
+    | resident                 |
+    | Helen Ashton, MD         |
+    | Caitlin Bradshaw, DO     |
+    | Rachel Corbin, MD        |
+    | Sara Dunham, MD          |
+    | Jennifer Gima, MD        |
+    | Emilie Halbach, MD       |
+    | Orin Hansen, MD          |
+    | Jong Kim, MD             |
+    | Jon-Peter Meckel, DO     |
+    | Maura Olcese, MD         |
+    | Philip Prusack, MD       |
+    | Magdalena Reinsvold, MD  |
+    | Cesar Soria, MD          |
+    | Tommaso Tosini, MD       |
+    | Kevin Yi, MD             |
+
+  #Meet Us Class of 2019 Residents
+  Scenario Outline: Meet Us Class of 2019 Names
     Given I am on "/meet-us/class-of-2019"
-    Then I should see "Class of 2019"
-    And I should see "Abigail Nimz, MD"
-    # ... the rest of the 2019 residents ...
+    Then I should see "<resident>"
 
-  #Meet Us Class of 2018
-  Scenario: Meet us Class of 2018
+    Examples:
+    | resident                 |
+    | Abigail Nimz, MD         |
+    | Catherine Arellano, MD   |
+    | Tyler Barr, MD           |
+    | Annie Chang, MD          |
+    | Samantha Chirunomula, MD |
+    | Chloe Ekelem, MD         |
+    | Audrey Gray, MD          |
+    | Jennifer Johnston, MD    |
+    | Aubrey Jordan, MD        |
+    | Shadia Karim, MD         |
+    | Raul Meza, MD            |
+    | Eric Monaco, MD          |
+    | James Rohlfing, MD       |
+    | Jesus Ruiz, MD           |
+    | Carmen Stellar, MD       |
+
+  #Meet Us Class of 2018 Residents
+  Scenario Outline: Meet Us Class of 2018 Names
     Given I am on "/meet-us/class-of-2018"
-    Then I should see "Class of 2018"
-    And I should see "Matthew Combs, MD"
-    # ... the rest of the 2018 residents ...
+    Then I should see "<resident>"
+
+    Examples:
+    | resident                 |
+    | Matthew Combs, MD        |
+    | Max Goldstein, MD        |
+    | Grace Harding, DO        |
+    | Ken Jones, MD            |
+    | Karen Kayekjian, DO      |
+    | John Paul Kelada, MD     |
+    | Kristin King, MD         |
+    | Bethany Laubacher, MD    |
+    | Jacob Marquette, DO      |
+    | Heather Nennig, MD       |
+    | Paul Opare-Addo, MD      |
+    | Carmen Ramirez, MD       |
+    | Michael Ramirez, MD      |
+    | Jessica White, MD        |
+    | Kent Willis, DO          |
+
