@@ -6,3 +6,8 @@ default:
             goutte: ~
             selenium2: ~
             show_cmd: firefox %s
+
+test:
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://www.venturafamilymed.dreamhosters.com/
