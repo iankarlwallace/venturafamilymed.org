@@ -25,7 +25,7 @@ Feature: Meet Us
     And I should see "Life in Ventura, California"
     And I should see "Alumni"
 
-  #Meet Us Classes of 2020, 2019, and 2018
+  #Meet Us Classes of 2020, 2019, and 2018, Faculty, Alumni, Global Health
   Scenario Outline: Meet us Class Testing
     Given I am on "<url>"
     Then I should see "<title>"
@@ -36,6 +36,9 @@ Feature: Meet Us
       | /meet-us/class-of-2020 | Class of 2020 | Helen Ashton, MD  |
       | /meet-us/class-of-2019 | Class of 2019 | Abigail Nimz, MD  |
       | /meet-us/class-of-2018 | Class of 2018 | Matthew Combs, MD |
+      | /meet-us/faculty       | Faculty       | David Araujo, M.D.|
+      | /meet-us/alumni        | Alumni        | Ventura Family Medicine Alumni |
+      | /meet-us/global-health | Global Health | Anna Rogers |
 
   #Meet Us Class of 2020 Residents
   Scenario Outline: Meet Us Class of 2020 Names
@@ -123,6 +126,6 @@ Feature: Meet Us
     | Jacob David, M.D.        |
     | Zach Zwolak, D.O.        |
     | Wally Baker, M.D.        |
-    | Tipu Khan, M.D.          |
+    | Tipu V. Khan, M.D., FAAFP|
     | Ron Bale, Ph.D.          |
     | Ian Wallace, M.D.        |
