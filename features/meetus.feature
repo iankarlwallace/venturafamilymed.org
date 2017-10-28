@@ -75,10 +75,10 @@ Feature: Meet Us
     | Tyler Barr, MD           |
     | Annie Chang, MD          |
     | Samantha Chirunomula, MD |
-    | Chloe Ekelem, MD         |
+#    | Chloe Ekelem, MD         |
     | Audrey Gray, MD          |
     | Jennifer Johnston, MD    |
-    | Aubrey Jordan, MD        |
+#    | Aubrey Jordan, MD        |
     | Shadia Karim, MD         |
     | Raul Meza, MD            |
     | Eric Monaco, MD          |
@@ -129,3 +129,4 @@ Feature: Meet Us
     | Tipu V. Khan, M.D., FAAFP|
     | Ron Bale, Ph.D.          |
     | Ian Wallace, M.D.        |
+    | Daniel Cox, M.D.         |
