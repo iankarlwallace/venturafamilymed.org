@@ -3,10 +3,20 @@ default:
     extensions:
         Behat\MinkExtension:
             base_url: http://venturafamilymed.org/
+            show_cmd: /opt/google/chrome/chrome %s
+            default_session: goutte
             goutte: ~
-            selenium2: ~
-            show_cmd: firefox %s
-
+            selenium2:
+                browser: chrome
+                wd_host: "http://127.0.0.1:4444/wd/hub"
+                capabilities:
+                    browserName: chrome
+                    browser: chrome
+                    version: ""
+                    chrome:
+                        switches:
+                            - "start-maximized"
+            
 test:
     extensions:
         Behat\MinkExtension:
