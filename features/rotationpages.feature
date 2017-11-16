@@ -25,4 +25,3 @@ Feature: Rotation Pages
     And I should see "Outpatient Diabetes Management (2015)"
     And I should see "Transition Algorithm"
     And I press "Log out"
-    Then show last response
