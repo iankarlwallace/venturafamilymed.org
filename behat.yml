@@ -8,7 +8,7 @@ default:
             goutte: ~
             selenium2:
                 browser: chrome
-                wd_host: "http://127.0.0.1:4444/wd/hub"
+                wd_host: "http://localhost:4444/wd/hub"
                 capabilities:
                     browserName: chrome
                     browser: chrome
@@ -20,4 +20,18 @@ default:
 test:
     extensions:
         Behat\MinkExtension:
-            base_url: http://www.venturafamilymed.dreamhosters.com/
+            base_url: http://localhost:8080/
+            show_cmd: /opt/google/chrome/chrome %s
+            default_session: goutte
+            goutte: ~
+            selenium2:
+                browser: chrome
+                wd_host: "http://localhost:4444/wd/hub"
+                capabilities:
+                    browserName: chrome
+                    browser: chrome
+                    version: ""
+                    chrome:
+                        switches:
+                            - "start-maximized"
+           
