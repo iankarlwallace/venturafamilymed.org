@@ -23,3 +23,6 @@ easiest to implement.
 
 Run via: java -Dwebdriver.chrome.driver=/usr/lib/chromium-browser/chromedriver -jar selenium-server-standalone-3.6.0.jar
 Then run the tests (namely with features/rotationpages.features)
+
+You run them with: bin/behat
+Which would just run all of the tests in the features directory.
