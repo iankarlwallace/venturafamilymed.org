@@ -1,4 +1,16 @@
 composer.phar
+/public_html/administrator/
+/public_html/bin/
+/public_html/cli/
+/public_html/cache/
+/public_html/components/
+/public_html/images/
+/public_html/layouts/
+/public_html/language/
+/public_html/libraries/
+/public_html/media/
+/public_html/modules/
+/public_html/plugins/
 /testing/vendor/
 
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
