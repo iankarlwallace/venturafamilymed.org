@@ -1,6 +1,11 @@
 # venturafamilymed.org
 Venturafamilymed.org Website and Testing suite
 
+Source code lives in the root level directory and can be pulled from github to GoDaddy or Dreamhost as needed.
+
+Testing Units:
+Live under the testing directory.
+
 Currently starting Behavoir Direct Development with Behat/Mink
 This is a alpha project and should not be considered stable in any sense
 
@@ -9,6 +14,7 @@ Branches:
   remotes/origin/behat.config
   remotes/origin/homepage.feature
   remotes/origin/meetus.feature
+  ... and others ...
 
 General Usage:
 If you have just pulled the project it uses PHP Composer to control the dependencies.
