@@ -1,0 +1,41 @@
+[25-Oct-2017 16:04:10 UTC] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[25-Oct-2017 16:04:12 UTC] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[25-Oct-2017 16:04:12 UTC] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[01-Nov-2017 21:50:08 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[17-Nov-2017 05:11:22 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/jad503/public_html/libraries/src/Plugin/PluginHelper.php on line 103
+[21-Nov-2017 07:28:50 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[30-Nov-2017 13:13:20 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/jad503/public_html/libraries/src/Plugin/PluginHelper.php on line 103
+[05-Dec-2017 10:04:40 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[05-Dec-2017 10:04:40 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[21-Dec-2017 13:40:30 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[21-Dec-2017 13:40:30 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[21-Dec-2017 13:40:30 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[21-Dec-2017 13:40:30 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[21-Dec-2017 13:40:32 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[21-Dec-2017 13:40:36 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[21-Dec-2017 13:40:36 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[23-Dec-2017 01:56:10 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[24-Dec-2017 16:19:04 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/jad503/public_html/libraries/src/Plugin/PluginHelper.php on line 103
+[10-Jan-2018 08:56:02 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[11-Jan-2018 08:38:04 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[11-Jan-2018 08:38:04 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[18-Jan-2018 05:21:25 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/jad503/public_html/libraries/src/Plugin/PluginHelper.php on line 103
+[23-Jan-2018 06:36:08 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[23-Jan-2018 06:36:12 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[24-Jan-2018 15:33:18 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[24-Jan-2018 15:33:22 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[24-Jan-2018 15:36:48 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[24-Jan-2018 15:36:48 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[26-Jan-2018 22:11:30 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[02-Feb-2018 06:48:22 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[07-Feb-2018 08:25:34 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:35 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:37 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:38 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:38 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:40 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:40 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:41 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 06:44:42 America/Los_Angeles] PHP Warning:  session_start(): Failed to read session data: user (path: /tmp) in /home/jad503/public_html/libraries/joomla/session/handler/native.php on line 260
+[13-Feb-2018 19:32:17 America/Los_Angeles] PHP Fatal error:  Class 'FOF30\Pimple\Container' not found in /home/jad503/public_html/libraries/fof30/Container/ContainerBase.php on line 14
+[13-Feb-2018 19:32:17 America/Los_Angeles] PHP Fatal error:  Class 'FOF30\Pimple\Container' not found in /home/jad503/public_html/libraries/fof30/Container/ContainerBase.php on line 14

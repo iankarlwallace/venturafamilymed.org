@@ -1,0 +1,12 @@
+[04-Oct-2017 18:55:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; plgSystemJsAsyncDefer has a deprecated constructor in /home/jad503/public_html/plugins/system/jsasyncdefer/jsasyncdefer.php on line 18
+[04-Oct-2017 18:55:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; plgSystemAridocsviewer has a deprecated constructor in /home/jad503/public_html/plugins/system/aridocsviewer/aridocsviewer.php on line 21
+[04-Oct-2017 18:55:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; AriDocsViewerContentPlugin has a deprecated constructor in /home/jad503/public_html/plugins/system/aridocsviewer/aridocsviewer.php on line 106
+[04-Oct-2017 18:55:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; plgSystemJsAsyncDefer has a deprecated constructor in /home/jad503/public_html/plugins/system/jsasyncdefer/jsasyncdefer.php on line 18
+[04-Oct-2017 18:55:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; plgSystemAridocsviewer has a deprecated constructor in /home/jad503/public_html/plugins/system/aridocsviewer/aridocsviewer.php on line 21
+[04-Oct-2017 18:55:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; AriDocsViewerContentPlugin has a deprecated constructor in /home/jad503/public_html/plugins/system/aridocsviewer/aridocsviewer.php on line 106
+[05-Oct-2017 05:44:42 UTC] PHP Fatal error:  Uncaught Error: Class 'JClassLoader' not found in /home/jad503/public_html/libraries/cms.php:40
+Stack trace:
+#0 /home/jad503/public_html/includes/framework.php(18): require_once()
+#1 /home/jad503/public_html/index.php(40): require_once('/home/jad503/pu...')
+#2 {main}
+  thrown in /home/jad503/public_html/libraries/cms.php on line 40
