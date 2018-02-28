@@ -8295,9 +8295,9 @@ color: #006EA0;
 /* --- END --- */
 /*Color Scheme: #011822: Black #006EA0: blue #FDFDFD: white #d2d7d9: sand #fdb527: red */
 /*Begin Source Coast Login Override for Login Link*/
+.sclogin { overflow: visible; text-align: right; margin-bottom: 3px; max-width: 110px; float: right; margin-left: 15px; }
 #login-modal { top:15%; }
 /*End Source Coast Addition*/
-
 ul.banner-menu {text-align:center;display:inline-block;margin-bottom:5px;margin-left:auto;}
 ul.banner-menu > li {margin-left: 10px;margin-right: 10px;float: left;margin-top: 2px;}
 ul.banner-menu > li > a:hover {text-decoration:underline;}
