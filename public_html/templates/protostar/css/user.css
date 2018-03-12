@@ -8154,6 +8154,7 @@ div.k2UserBlock form {}
 div.k2UserBlock form input.ubLogout {}
 /*----------------------------------------------------------------------
 Modules: mod_k2_tools
+Will be removed shortly b/c all this is duplicates of various code
 ----------------------------------------------------------------------*/
 /* --- Archives --- */
 div.k2ArchivesBlock {}
