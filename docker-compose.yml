@@ -6,19 +6,17 @@ services:
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
     volumes:
-      - '/home/iankarlwallace/docker/mariadb_data:/bitnami'
+      - 'bitnami:/bitnami'
   joomla:
     image: 'bitnami/joomla:latest'
     ports:
-      - '80:80'
-      - '443:443'
+      - '8080:80'
+      - '8443:443'
     volumes:
-      - '/home/iankarlwallace/docker/joomla_data:/bitnami'
+      - 'bitnami:/bitnami'
     depends_on:
       - mariadb
 
 volumes:
-  mariadb_data:
-    driver: local
-  joomla_data:
+  bitnami:
     driver: local
