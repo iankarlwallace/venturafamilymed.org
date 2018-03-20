@@ -1,0 +1,12 @@
+Docker install as follows:
+
+Install repo and load rpms via these instructions:
+https://docs.docker.com/install/linux/docker-ce/fedora/
+
+Follow post install setup:
+https://docs.docker.com/install/linux/linux-postinstall/
+
+Install docker-compose:
+dnf install docker-compose
+
+Then you want to install the Joomla/MariaDB Docker Base
