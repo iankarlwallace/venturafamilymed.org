@@ -12,26 +12,26 @@
       "height": 768
     },
     {
-			"label": "small-monitor",
-	    "width": "1280",
-	    "height": "720"
+      "label": "small-monitor",
+      "width": 1280,
+      "height": 720
     },
     {
-			"label": "medium-monitor",
-	    "width": "1600",
-	    "height": "900"
+      "label": "medium-monitor",
+      "width": 1600,
+	    "height": 900
     },
     {
-			"label": "large-monitor",
-	    "width": "1920",
-	    "height": "1080"
+      "label": "large-monitor",
+      "width": 1920,
+      "height": 1080
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "Test Venturafamilymed ORG",
+      "label": "index_php",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://test.venturafamilymed.org/index.php",
       "referenceUrl": "",
