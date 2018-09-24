@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "backstopjs": "^3.5.14",
+    "npm": "^6.4.1"
+  }
+}
