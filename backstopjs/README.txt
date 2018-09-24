@@ -21,4 +21,10 @@ Then you use yarn to add/run/etc all the nodejs commands that keeps you environm
 Need the latest nodejs packages?
 yarn upgrade
 
+To run the tests and compare you would:
+yarn backstop test
+
+See yarn backstop --help for more details
+This currently is the most minimal testing suite for index.php only
+
 This was true as of 09/24/2018
