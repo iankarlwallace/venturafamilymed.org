@@ -86,6 +86,8 @@
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://test.venturafamilymed.org/facilities",
       "referenceUrl": "https://www.venturafamilymed.org/facilities",
+      "delay": 5000,
+      "removeSelectors": [".itemVideoEmbedded","iframe"],
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
     },
