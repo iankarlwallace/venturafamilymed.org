@@ -34,7 +34,7 @@
       "label": "index_php",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://test.venturafamilymed.org/index.php",
-      "referenceUrl": "",
+      "referenceUrl": "https://www.venturafamilymed.org/index.php",
       "readyEvent": "",
       "readySelector": "",
       "delay": 0,
@@ -46,6 +46,78 @@
       "selectors": [],
       "selectorExpansion": true,
       "expect": 0,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "meet-us",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/meet-us",
+      "referenceUrl": "https://www.venturafamilymed.org/meet-us",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "applicants",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/applicants",
+      "referenceUrl": "https://www.venturafamilymed.org/applicants",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "students",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/students",
+      "referenceUrl": "https://www.venturafamilymed.org/students",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "fellowships",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/fellowships",
+      "referenceUrl": "https://www.venturafamilymed.org/fellowships",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "facilities",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/facilities",
+      "referenceUrl": "https://www.venturafamilymed.org/facilities",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "cme",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/cme",
+      "referenceUrl": "https://www.venturafamilymed.org/cme",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "cerner-ehr-tips",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/cerner-ehr-tips",
+      "referenceUrl": "https://www.venturafamilymed.org/cerner-ehr-tips",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "rotations",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/rotations",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations",
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "hepc",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/hepc",
+      "referenceUrl": "https://www.venturafamilymed.org/hepc",
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
     }
