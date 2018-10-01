@@ -105,6 +105,36 @@
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
+      "label": "rotations-inpatient-medicine",
+      "url": "https://test.venturafamilymed.org/rotations/inpatient-medicine",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/inpatient-medicine",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+          "label": "rotations-icu-intensive-care",
+          "url": "https://test.venturafamilymed.org/rotations/icu-intensive-care",
+          "referenceUrl": "https://www.venturafamilymed.org/rotations/icu-intensive-care",
+          "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-surgery",
+      "url": "https://test.venturafamilymed.org/rotations/surgery",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/surgery",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-ob-gyn",
+      "url": "https://test.venturafamilymed.org/rotations/ob-gyn",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/ob-gyn",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-pediatrics",
+      "url": "https://test.venturafamilymed.org/rotations/pediatrics",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/pediatrics",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
       "label": "hepc",
       "url": "https://test.venturafamilymed.org/hepc",
       "referenceUrl": "https://www.venturafamilymed.org/hepc"
@@ -122,7 +152,7 @@
   "engineOptions": {
     "args": ["--no-sandbox"]
   },
-  "asyncCaptureLimit": 5,
+  "asyncCaptureLimit": 1,
   "asyncCompareLimit": 50,
   "debug": false,
   "debugWindow": false
