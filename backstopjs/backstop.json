@@ -2,11 +2,6 @@
   "id": "test_vfm_org",
   "viewports": [
     {
-      "label": "phone",
-      "width": 320,
-      "height": 480
-    },
-    {
       "label": "tablet",
       "width": 1024,
       "height": 768
@@ -19,7 +14,7 @@
     {
       "label": "medium-monitor",
       "width": 1600,
-	    "height": 900
+      "height": 900
     },
     {
       "label": "large-monitor",
@@ -56,6 +51,20 @@
       "referenceUrl": "https://www.venturafamilymed.org/meet-us",
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
+    },
+    {
+      "label": "meet-us-hover-class-2021",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/meet-us",
+      "referenceUrl": "https://www.venturafamilymed.org/meet-us",
+      "hoverSelectors": [ "li.item-198","li.item-843" ]
+    },
+    {
+      "label": "meet-us-hover-global-health",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://test.venturafamilymed.org/meet-us",
+      "referenceUrl": "https://www.venturafamilymed.org/meet-us",
+      "hoverSelectors": [ "li.item-198","li.item-224" ]
     },
     {
       "label": "applicants",
@@ -112,6 +121,7 @@
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://test.venturafamilymed.org/rotations",
       "referenceUrl": "https://www.venturafamilymed.org/rotations",
+      "onBeforeScript":"onBefore-login.js",
       "misMatchThreshold" : 0.1,
       "requireSameDimensions": true
     },
