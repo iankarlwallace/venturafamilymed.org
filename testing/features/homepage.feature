@@ -14,7 +14,7 @@ Feature: Homepage
     And I should see "TigerText"
     And I should see "CURES"
     And I should see "Log in"
-    And I should see "Search ..."
+    And I should see "Search"
 
   # Homepage Default Menu
   Scenario: Homepage menu should be visible
@@ -43,10 +43,10 @@ Feature: Homepage
     Given I am on the homepage
     Then I should see "Ventura County Medical Center Family Medicine Residency Program"
     And I should see "Office of Medical Education"
-    And I should see "3291 Loma Vista Road"
+    And I should see "300 Hillmont Avenue, Bldg 340, Room 120"
     And I should see "Ventura, California 93003"
     And I should see "phone: (805) 652-6228"
-    And I should see "2017 Ventura Family Medicine"
+    And I should see "2018 Ventura Family Medicine"
 
   #The search function is available from the homepage as well
   Scenario: Homepage search function as visitor

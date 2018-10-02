@@ -102,7 +102,8 @@
       "label": "rotations-afmc",
       "url": "https://test.venturafamilymed.org/rotations/afmc",
       "referenceUrl": "https://www.venturafamilymed.org/rotations/afmc",
-      "onBeforeScript":"puppet/onBefore-login.js"
+      "onBeforeScript":"puppet/onBefore-login.js",
+      "removeSelectors": ["iframe"]
     },
     {
       "label": "rotations-inpatient-medicine",
@@ -135,6 +136,65 @@
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
+      "label": "rotations-emergency-medicine",
+      "url": "https://test.venturafamilymed.org/rotations/emergency-medicine",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/emergency-medicine",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-outpatient-specialties",
+      "url": "https://test.venturafamilymed.org/rotations/outpatient-specialties",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/outpatient-specialties",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-psychology-psychiatry",
+      "url": "https://test.venturafamilymed.org/rotations/psychology-psychiatry",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/psychology-psychiatry",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-urgent-care",
+      "url": "https://test.venturafamilymed.org/rotations/urgent-care",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/urgent-care",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-palliative-care",
+      "url": "https://test.venturafamilymed.org/rotations/palliative-care",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/palliative-care",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-anesthesia",
+      "url": "https://test.venturafamilymed.org/rotations/anesthesia",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/anesthesia",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-diabetes",
+      "url": "https://test.venturafamilymed.org/rotations/diabetes",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/diabetes",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-point-of-care-ultrasound",
+      "url": "https://test.venturafamilymed.org/point-of-care-ultrasound",
+      "referenceUrl": "https://www.venturafamilymed.org/point-of-care-ultrasound",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-procedure-videos",
+      "url": "https://test.venturafamilymed.org/rotations/procedure-videos",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/procedure-videos",
+      "onBeforeScript":"puppet/onBefore-login.js"
+    },
+    {
+      "label": "rotations-infectious-disease",
+      "url": "https://test.venturafamilymed.org/rotations/infectious-disease",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/infectious-disease"
+    },
+    {
       "label": "hepc",
       "url": "https://test.venturafamilymed.org/hepc",
       "referenceUrl": "https://www.venturafamilymed.org/hepc"
@@ -152,7 +212,7 @@
   "engineOptions": {
     "args": ["--no-sandbox"]
   },
-  "asyncCaptureLimit": 5,
+  "asyncCaptureLimit": 1,
   "asyncCompareLimit": 50,
   "debug": false,
   "debugWindow": false
