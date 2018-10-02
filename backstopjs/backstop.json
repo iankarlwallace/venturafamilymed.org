@@ -112,10 +112,10 @@
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
-          "label": "rotations-icu-intensive-care",
-          "url": "https://test.venturafamilymed.org/rotations/icu-intensive-care",
-          "referenceUrl": "https://www.venturafamilymed.org/rotations/icu-intensive-care",
-          "onBeforeScript":"puppet/onBefore-login.js"
+      "label": "rotations-icu-intensive-care",
+      "url": "https://test.venturafamilymed.org/rotations/icu-intensive-care",
+      "referenceUrl": "https://www.venturafamilymed.org/rotations/icu-intensive-care",
+      "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-surgery",
@@ -187,7 +187,8 @@
       "label": "rotations-procedure-videos",
       "url": "https://test.venturafamilymed.org/rotations/procedure-videos",
       "referenceUrl": "https://www.venturafamilymed.org/rotations/procedure-videos",
-      "onBeforeScript":"puppet/onBefore-login.js"
+      "onBeforeScript":"puppet/onBefore-login.js",
+			"removeSelectors": [".itemFullText"]
     },
     {
       "label": "rotations-infectious-disease",
@@ -212,7 +213,7 @@
   "engineOptions": {
     "args": ["--no-sandbox"]
   },
-  "asyncCaptureLimit": 1,
+  "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
   "debug": false,
   "debugWindow": false
