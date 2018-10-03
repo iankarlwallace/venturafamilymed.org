@@ -8,9 +8,12 @@ Feature: Rotation Pages
     Given I am on "/rotations"
     And I fill in "username" with "resident"
     And I fill in "password" with "play"
-    And I press "userlogin"
-    When I go to "/rotations"
-    Then I should be on "/rotations"
+    And I press "submit"
+    Then I should be on "/component/users/"
+    And I press "Rotation Pages"
+    Then I should see "Rotations"
+    And I should see "AFMC"
+    And I should see "Ultrasound"
 
   @javascript 
   #Rotation Pages Diabetes
