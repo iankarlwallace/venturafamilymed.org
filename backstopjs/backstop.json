@@ -131,12 +131,14 @@
     {
       "label": "rotations-psychology-psychiatry",
       "url": "https://test.venturafamilymed.org/rotations/psychology-psychiatry",
-      "onBeforeScript":"puppet/onBefore-login.js"
+      "onBeforeScript":"puppet/onBefore-login.js",
+      "removeSelectors": [".aridoc-container"]
     },
     {
       "label": "rotations-urgent-care",
       "url": "https://test.venturafamilymed.org/rotations/urgent-care",
-      "onBeforeScript":"puppet/onBefore-login.js"
+      "onBeforeScript":"puppet/onBefore-login.js",
+      "removeSelectors": [".aridoc-container"]
     },
     {
       "label": "rotations-palliative-care",
@@ -162,7 +164,7 @@
       "label": "rotations-procedure-videos",
       "url": "https://test.venturafamilymed.org/rotations/procedure-videos",
       "onBeforeScript":"puppet/onBefore-login.js",
-			"removeSelectors": [".itemFullText"]
+      "removeSelectors": [".itemFullText"]
     },
     {
       "label": "rotations-infectious-disease",
@@ -170,7 +172,8 @@
     },
     {
       "label": "hepc",
-      "url": "https://test.venturafamilymed.org/hepc"
+      "url": "https://test.venturafamilymed.org/hepc",
+      "removeSelectors": ["iframe"]
     }
   ],
   "paths": {
