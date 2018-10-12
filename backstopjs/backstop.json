@@ -41,7 +41,7 @@
       "selectorExpansion": true,
       "expect": 0,
       "misMatchThreshold": 0.1,
-      "requireSameDimensions": true
+      "requireSameDimensions": false
     },
     {
       "label": "meet-us",
@@ -188,7 +188,7 @@
   "engineOptions": {
     "args": ["--no-sandbox"]
   },
-  "asyncCaptureLimit": 1,
+  "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
   "debug": false,
   "debugWindow": false
