@@ -42,8 +42,11 @@ fi
 cd $BEHATDIR
 $COMPOSER install
 /usr/bin/nohup $CHROME $CHROMEOPTS > /dev/null 2>&1 &
+CHROMEPID=$!
+echo "Chrome headless running at [$CHROMEPID]"
 /usr/bin/sleep 5
 $BEHATDIR/bin/behat
-/usr/bin/kill %1
+/usr/bin/kill -9 $CHROMEPID
+/usr/bin/sleep 5
 
 exit 0
