@@ -14,6 +14,7 @@ composer.phar
 /public_html/templates/beez3/
 /public_html/templates/system/
 /testing/vendor/
+/testing/xml/
 /backstopjs/node_modules/
 /backstopjs/yarn-error.log
 /backstopjs/backstop_data/bitmaps_test

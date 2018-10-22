@@ -45,8 +45,9 @@ $COMPOSER install
 CHROMEPID=$!
 echo "Chrome headless running at [$CHROMEPID]"
 /usr/bin/sleep 5
-$BEHATDIR/bin/behat
-/usr/bin/kill -9 $CHROMEPID
+$BEHATDIR/bin/behat -f pretty -o std -f junit -o xml
+/usr/bin/kill -9 $CHROMEPID > /dev/null 2>&1
+echo "Chrome headless stoppd on [$CHROMEPID]"
 /usr/bin/sleep 5
 
 exit 0
