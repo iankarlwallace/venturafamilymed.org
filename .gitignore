@@ -14,12 +14,10 @@ composer.phar
 /public_html/templates/beez3/
 /public_html/templates/system/
 /testing/vendor/
-/testing/xml/
 /backstopjs/node_modules/
 /backstopjs/yarn-error.log
 /backstopjs/backstop_data/bitmaps_test
 /backstopjs/backstop_data/html_report
-/backstopjs/backstop_data/ci_report
 
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
