@@ -1,0 +1,4 @@
+# Behat CI Junit XML output - Don't check it to GIT not useful to version control
+*
+# Except this file
+!.gitignore
