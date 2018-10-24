@@ -126,7 +126,8 @@
     {
       "label": "rotations-outpatient-specialties",
       "url": "https://test.venturafamilymed.org/rotations/outpatient-specialties",
-      "onBeforeScript":"puppet/onBefore-login.js"
+      "onBeforeScript":"puppet/onBefore-login.js",
+      "misMatchThreshold":"5"
     },
     {
       "label": "rotations-psychology-psychiatry",

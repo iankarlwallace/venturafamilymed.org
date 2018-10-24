@@ -14,7 +14,9 @@ Branches:
   remotes/origin/behat.config
   remotes/origin/homepage.feature
   remotes/origin/meetus.feature
-  ... and others ...
+  ... and others ..
+  
+  Testing is all under the features/testing branch which is where Jenkins CI tests from.
 
 General Usage:
 If you have just pulled the project it uses PHP Composer to control the dependencies.
