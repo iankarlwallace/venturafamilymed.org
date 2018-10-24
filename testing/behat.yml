@@ -1,37 +1,26 @@
 # behat.yml
 default:
     extensions:
-        Behat\MinkExtension:
-            base_url: http://venturafamilymed.org/
+      DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
+      Behat\MinkExtension:
+            base_url: http://test.venturafamilymed.org/
             show_cmd: /opt/google/chrome/chrome %s
-            default_session: goutte
-            goutte: ~
-            selenium2:
-                browser: chrome
-                wd_host: "http://localhost:4444/wd/hub"
-                capabilities:
-                    browserName: chrome
-                    browser: chrome
-                    version: ""
+            browser_name: chrome
+            sessions:
+                default:
                     chrome:
-                        switches:
-                            - "start-maximized"
-            
+                        api_url: "http://localhost:9222"
+                        validate_certificate: false
+
 test:
     extensions:
-        Behat\MinkExtension:
-            base_url: http://localhost:8080/
+      DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
+      Behat\MinkExtension:
+            base_url: http://test.venturafamilymed.org/
             show_cmd: /opt/google/chrome/chrome %s
-            default_session: goutte
-            goutte: ~
-            selenium2:
-                browser: chrome
-                wd_host: "http://localhost:4444/wd/hub"
-                capabilities:
-                    browserName: chrome
-                    browser: chrome
-                    version: ""
+            browser_name: chrome
+            sessions:
+                default:
                     chrome:
-                        switches:
-                            - "start-maximized"
-           
+                        api_url: "http://localhost:9222"
+                        validate_certificate: false

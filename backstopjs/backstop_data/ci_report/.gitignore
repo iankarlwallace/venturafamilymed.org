@@ -1,0 +1,4 @@
+# Backtstop CI Junit Reports - Don't check them in to version control
+*
+# Except this file
+!.gitignore

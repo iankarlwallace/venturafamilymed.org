@@ -1,0 +1,11 @@
+{
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "backstopjs": "^3.5.14",
+    "npm": "^6.4.1"
+  },
+  "scripts": {
+    "test:visual": "rm -rf backstop_data/bitmaps_test && yarn backstop test",
+    "test:visual:approve": "yarn backstop approve"
+  }
+}

@@ -1,0 +1,24 @@
+Docker install as follows:
+
+Install repo and load rpms via these instructions:
+https://docs.docker.com/install/linux/docker-ce/fedora/
+
+Follow post install setup:
+https://docs.docker.com/install/linux/linux-postinstall/
+
+Install docker-compose:
+dnf install docker-compose
+
+Then you want to install the Joomla/MariaDB Docker Base
+(see the docker-compose.yml file for a start)
+
+docker-compose up (for the first run to see if errors)
+Two Ctrl-C's to stop them
+Then in the future run docker-compose up -d
+
+The Joomla files will live in:
+/var/lib/docker/volumes/venturafamilymedorg_joomla_data/_data/joomla
+
+Which is owned by bin:bin ... more on how to load an image from GoDaddy here for testing
+It would be nice if it was owned by the local user and writtable by the server (Apache)
+But maybe a depolyment script could be used after some testing
