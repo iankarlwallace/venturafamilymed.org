@@ -1,6 +1,8 @@
 # behat.yml
 default:
-    extensions:
+   gherkin:
+      cache: ~
+   extensions:
       DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
       Behat\MinkExtension:
             base_url: http://test.venturafamilymed.org/
@@ -13,7 +15,9 @@ default:
                         validate_certificate: false
 
 test:
-    extensions:
+  gherkin:
+      cache: ~
+  extensions:
       DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
       Behat\MinkExtension:
             base_url: http://test.venturafamilymed.org/

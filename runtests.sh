@@ -9,7 +9,7 @@ ROOTDIR="$PWD"
 
 # Node.js first (easier)
 YARNCMD="/usr/bin/yarn"
-YARNDIR="$ROOTDIR/backstopjs"
+YARNDIR="$ROOTDIR/testing/backstopjs"
 if [ ! -x "$YARNCMD" ]; then
   echo "No yarn cmd found. Abort."
   exit 1
@@ -25,7 +25,7 @@ $YARNCMD upgrade
 $YARNCMD backstop test
 
 # Behat
-BEHATDIR="$ROOTDIR/testing"
+BEHATDIR="$ROOTDIR/testing/behat"
 COMPOSER="/usr/bin/composer"
 CHROME="/usr/bin/google-chrome"
 CHROMEOPTS="--disable-gpu --headless --remote-debugging-address=0.0.0.0 --remote-debugging-port=9222 --window-size=1920,1080 --disable-extensions"
