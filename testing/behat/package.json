@@ -1,0 +1,7 @@
+{
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "zombie": "^6.0.0",
+    "npm": "^6.4.1"
+  }
+}

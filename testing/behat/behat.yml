@@ -3,16 +3,12 @@ default:
    gherkin:
       cache: ~
    extensions:
-      DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
       Behat\MinkExtension:
             base_url: http://test.venturafamilymed.org/
             show_cmd: /opt/google/chrome/chrome %s
-            browser_name: chrome
             sessions:
                 default:
-                    chrome:
-                        api_url: "http://localhost:9222"
-                        validate_certificate: false
+                    zombie: ~
 
 test:
   gherkin:

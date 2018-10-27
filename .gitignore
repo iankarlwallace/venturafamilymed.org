@@ -14,6 +14,8 @@
 /public_html/templates/system/
 /testing/behat/vendor/
 /testing/behat/xml/
+/testing/behat/node_modules/
+/testing/behat/yarn-error.log
 /testing/backstopjs/node_modules/
 /testing/backstopjs/yarn-error.log
 /testing/backstopjs/backstop_data/bitmaps_test
