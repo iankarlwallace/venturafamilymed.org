@@ -3,6 +3,7 @@ Feature: Rotation Pages
   Rotation Pages that house all the little tid bits about the rotations
   As a resident (with proper login)
   You are allowed to download all kinds of wonderful PDF's and presentations
+  These do not work currently due to login problems
 
   Background:
     Given I am on "/rotations"
@@ -15,10 +16,10 @@ Feature: Rotation Pages
   #And I should see "AFMC"
   #And I should see "Ultrasound"
 
-  #  @javascript 
-  #Rotation Pages Diabetes
-  #  Scenario: Diabetes
-  #    When I am on "/rotations/diabetes"
+  @javascript 
+  Rotation Pages Diabetes
+  Scenario: Diabetes
+      When I am on "/rotations/diabetes"
   #    Then I should see "Contact information for DM experts:"
   #    And I should see "Dr. Teresa Cho:"
   #    And I should see "Dr. Catherine Sever:"
