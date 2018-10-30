@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 # Deploy the public_html dir to the test or www environments
 #
 # Initially just check and tell me what would be done
@@ -30,5 +30,8 @@ fi
 
 # Source is $HOME/$DOMAINROOT while target is $HOME/$TARGETDIR
 # Use rsync to tell us what would be copied if anything is needed
-# for now its only a dry run, use partial and progress as well
-/usr/bin/rsync -avP -n $HOME/$DOMAINROOT/public_html/templates/protostar/css/user.css $HOME/$TARGETDIR/.
+cd $HOME/$DOMAINROOT/public_html
+TARGETFILE="templates/protostar/css/user.css"
+
+/usr/bin/diff -sc $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
+/usr/bin/rsync -avP $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE 
