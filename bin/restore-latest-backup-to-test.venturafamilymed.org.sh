@@ -8,6 +8,8 @@ HOMEDIR=/home/iankarlwallace
 PRODSITE=www.venturafamilymed.org
 TESTSITE=test.venturafamilymed.org
 BKUPTIMESTAMP=`/bin/ls -1r /home/iankarlwallace/akeeba-backups/$PRODSITE/site-${PRODSITE}-*.jpa | /usr/bin/head -n 1 | cut -c 92-106`
+AKEEBAVER="5-5-1"
+KICKSTARTFILE="kickstart-core-${AKEEBAVER}-zip.zip"
 
 # Remove files in testing dir ... but with restraint
 if [ -d "$HOMEDIR/$TESTSITE" ]; then
@@ -40,10 +42,10 @@ if [ -d "$HOMEDIR/$TESTSITE" ]; then
 	/bin/cp $HOMEDIR/akeeba-backups/$PRODSITE/site-${PRODSITE}-${BKUPTIMESTAMP}.j* $HOMEDIR/$TESTSITE/.
 
 	# Get a version of KickStart
-	echo "Using Akeeba Backup Kickstart Version 5.5.1"
-	/usr/bin/wget https://www.akeebabackup.com/download/akeeba-kickstart/5-5-1/kickstart-core-5-5-1-zip.zip	
-	/usr/bin/unzip kickstart-core-5-5-1-zip.zip
-	/bin/rm $HOMEDIR/$TESTSITE/kickstart-core-5-5-1-zip.zip
+	echo "Using Akeeba Backup Kickstart Version ${AKEEBAVER}"
+	/usr/bin/wget https://www.akeebabackup.com/download/akeeba-kickstart/${AKEEBAVER}/${KICKSTARTFILE}
+	/usr/bin/unzip ${KICKSTARTFILE}
+	/bin/rm $HOMEDIR/$TESTSITE/${KICKSTARTFILE}
 
 	/usr/bin/rsync -rPv $HOMEDIR/$PRODSITE/images $HOMEDIR/$TESTSITE/.
 else
