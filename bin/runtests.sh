@@ -4,7 +4,17 @@
 # 1) Setup npm and behat environments
 # 2) Converted to using Zombie Driver (Node.js JavaScript Headless Browswer)
 
+cd "$(dirname "$0")"
+cd ..
 ROOTDIR="$PWD"
+
+# This script should live in the "bin" dir for the repo
+if [ ! -d "$ROOTDIR/bin" ]; then
+  echo "I appear to be confused on the directories ... bailing."
+  exit 1
+else
+  echo "Running [$0] from [$ROOTDIR]."
+fi
 
 # Node.js first (easier)
 YARNCMD="/usr/bin/yarn"
