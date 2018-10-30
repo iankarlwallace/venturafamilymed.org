@@ -6,6 +6,17 @@
 DOMAINROOT=venturafamilymed.org
 
 case $1 in
+  deploy) CMD="deploy"
+	  ;;
+  diff)	  CMD="diff"
+	  ;;
+  *)
+	  echo "First arg is deploy or diff."
+	  exit 1
+	  ;;
+esac
+
+case $2 in
   test)     TARGETDIR=test.$DOMAINROOT
             ;;
   www)      TARGETDIR=www.$DOMAINROOT
@@ -16,7 +27,7 @@ case $1 in
             ;;
 esac
 
-echo "Working on env [$TARGETDIR]."
+echo "Doing [$CMD] in env [$TARGETDIR]."
 
 # Check that environment directory exists
 if [ ! -d "$HOME/$TARGETDIR" ]; then
@@ -33,5 +44,10 @@ fi
 cd $HOME/$DOMAINROOT/public_html
 TARGETFILE="templates/protostar/css/user.css"
 
-/usr/bin/diff -sc $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
-/usr/bin/rsync -avP $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE 
+if [ "$CMD" == "diff" ]; then
+  /usr/bin/diff -sc $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
+fi
+
+if [ "$CMD" == "deploy" ]; then
+  /usr/bin/rsync -avP -n $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
+fi
