@@ -977,9 +977,9 @@ got@^6.7.1:
     url-parse-lax "^1.0.0"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@~4.1.11:
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
-  integrity sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.14.tgz#1b6e8362ef8c5ecb5da799901f39297e3054773a"
+  integrity sha512-ns/IGcSmmGNPP085JCheg0Nombh1QPvSCnlx+2V+byQWRQEIL4ZB5jXJMNIHOFVS1roi85HIi5Ka0h43iWXfcQ==
 
 har-schema@^2.0.0:
   version "2.0.0"

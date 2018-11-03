@@ -165,7 +165,10 @@
       "label": "rotations-procedure-videos",
       "url": "https://test.venturafamilymed.org/rotations/procedure-videos",
       "onBeforeScript":"puppet/onBefore-login.js",
-      "removeSelectors": [".itemFullText"]
+      "removeSelectors": [
+		".itemFullText",
+		"span.itemDateModified"
+      ]
     },
     {
       "label": "rotations-infectious-disease",
