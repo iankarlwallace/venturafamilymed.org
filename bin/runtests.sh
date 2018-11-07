@@ -4,6 +4,19 @@
 # 1) Setup npm and behat environments
 # 2) Converted to using Zombie Driver (Node.js JavaScript Headless Browswer)
 
+run_backstopjs_tests () {
+  cd $YARNDIR
+  $YARNCMD upgrade
+  $YARNCMD backstop test
+}
+
+run_behat_tests() {
+  cd $BEHATDIR
+  $YARNCMD upgrade
+  $COMPOSER upgrade
+  $BEHATDIR/bin/behat -f pretty -o std -f junit -o xml
+}
+
 cd "$(dirname "$0")"
 cd ..
 ROOTDIR="$PWD"
@@ -17,7 +30,7 @@ else
 fi
 
 # Node.js first (easier)
-YARNCMD="/usr/bin/yarn"
+YARNCMD="/usr/local/bin/yarn"
 YARNDIR="$ROOTDIR/testing/backstopjs"
 if [ ! -x "$YARNCMD" ]; then
   echo "No yarn cmd found. Abort."
@@ -28,10 +41,6 @@ if [ ! -d "$YARNDIR" ]; then
   echo "Hmmm, missing Backstop JS dir. Abort."
   exit 1
 fi
-
-cd $YARNDIR
-$YARNCMD upgrade
-$YARNCMD backstop test
 
 # Behat
 BEHATDIR="$ROOTDIR/testing/behat"
@@ -46,9 +55,28 @@ if [ ! -d "$BEHATDIR" ]; then
   exit 1
 fi
 
-cd $BEHATDIR
-$YARNCMD upgrade
-$COMPOSER upgrade
-$BEHATDIR/bin/behat -f pretty -o std -f junit -o xml
+if [ "x${1}" == "x" ]; then
+  OPT="all"
+else
+  OPT="$1"
+fi
+
+case "$OPT" in
+  behat)
+    run_behat_tests
+    ;;
+  backstopjs)
+    run_backstopjs_tests
+    ;;
+  all)
+    run_behat_tests
+    sleep 5
+    run_backstopjs_tests
+    ;;
+  *)
+    echo "Unknown option [$OPT] - stopping."
+    exit 1
+    ;;
+esac
 
 exit 0
