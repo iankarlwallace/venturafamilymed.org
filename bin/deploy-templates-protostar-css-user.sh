@@ -49,5 +49,5 @@ if [ "$CMD" == "diff" ]; then
 fi
 
 if [ "$CMD" == "deploy" ]; then
-  /usr/bin/rsync -avP -n $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
+  /usr/bin/rsync -avP $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
 fi
