@@ -30,11 +30,14 @@ else
 fi
 
 # Node.js first (easier)
-YARNCMD="/usr/local/bin/yarn"
 YARNDIR="$ROOTDIR/testing/backstopjs"
-if [ ! -x "$YARNCMD" ]; then
-  echo "No yarn cmd found. Abort."
-  exit 1
+if [ -x "/usr/local/bin/yarn" ]; then
+	YARNCMD="/usr/local/bin/yarn"
+elif [ -x "/usr/bin/yarn" ]; then
+	YARNCMD="/usr/bin/yarn"
+else
+	echo "No yarn found and can't run without.  Abort."
+	exit 1
 fi
 
 if [ ! -d "$YARNDIR" ]; then
