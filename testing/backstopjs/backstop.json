@@ -2,11 +2,6 @@
   "id": "vfm_org",
   "viewports": [
     {
-      "label": "tablet",
-      "width": 1024,
-      "height": 768
-    },
-    {
       "label": "small-monitor",
       "width": 1280,
       "height": 720
@@ -29,6 +24,7 @@
       "label": "index_php",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://test.venturafamilymed.org/index.php",
+      "referenceUrl": "https://test.venturafamilymed.org/index.php",
       "readyEvent": "",
       "readySelector": "",
       "delay": 0,
@@ -45,138 +41,161 @@
     },
     {
       "label": "meet-us",
-      "url": "https://test.venturafamilymed.org/meet-us"
+      "url": "https://test.venturafamilymed.org/meet-us",
+      "referenceUrl": "https://test.venturafamilymed.org/meet-us"
     },
     {
       "label": "meet-us-hover-class-2021",
       "url": "https://test.venturafamilymed.org/meet-us",
+      "referenceUrl": "https://test.venturafamilymed.org/meet-us",
       "hoverSelectors": [ "li.item-198","li.item-843" ]
     },
     {
       "label": "meet-us-hover-global-health",
       "url": "https://test.venturafamilymed.org/meet-us",
+      "referenceUrl": "https://test.venturafamilymed.org/meet-us",
       "hoverSelectors": [ "li.item-198","li.item-224" ]
     },
     {
       "label": "applicants",
-      "url": "https://test.venturafamilymed.org/applicants"
+      "url": "https://test.venturafamilymed.org/applicants",
+      "referenceUrl": "https://test.venturafamilymed.org/applicants"
     },
     {
       "label": "students",
-      "url": "https://test.venturafamilymed.org/students"
+      "url": "https://test.venturafamilymed.org/students",
+      "referenceUrl": "https://test.venturafamilymed.org/students"
     },
     {
       "label": "fellowships",
-      "url": "https://test.venturafamilymed.org/fellowships"
+      "url": "https://test.venturafamilymed.org/fellowships",
+      "referenceUrl": "https://test.venturafamilymed.org/fellowships"
     },
     {
       "label": "facilities",
       "url": "https://test.venturafamilymed.org/facilities",
+      "referenceUrl": "https://test.venturafamilymed.org/facilities",
       "removeSelectors": [".itemVideoEmbedded","iframe"]
     },
     {
       "label": "cme",
-      "url": "https://test.venturafamilymed.org/cme"
+      "url": "https://test.venturafamilymed.org/cme",
+      "referenceUrl": "https://test.venturafamilymed.org/cme"
     },
     {
       "label": "cerner-ehr-tips",
-      "url": "https://test.venturafamilymed.org/cerner-ehr-tips"
+      "url": "https://test.venturafamilymed.org/cerner-ehr-tips",
+      "referenceUrl": "https://test.venturafamilymed.org/cerner-ehr-tips"
     },
     {
       "label": "rotations",
       "url": "https://test.venturafamilymed.org/rotations",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-afmc",
       "url": "https://test.venturafamilymed.org/rotations/afmc",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/afmc",
       "onBeforeScript":"puppet/onBefore-login.js",
       "removeSelectors": ["iframe"]
     },
     {
       "label": "rotations-inpatient-medicine",
       "url": "https://test.venturafamilymed.org/rotations/inpatient-medicine",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/inpatient-medicine",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-icu-intensive-care",
       "url": "https://test.venturafamilymed.org/rotations/icu-intensive-care",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/icu-intensive-care",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-surgery",
       "url": "https://test.venturafamilymed.org/rotations/surgery",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/surgery",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-ob-gyn",
       "url": "https://test.venturafamilymed.org/rotations/ob-gyn",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/ob-gyn",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-pediatrics",
       "url": "https://test.venturafamilymed.org/rotations/pediatrics",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/pediatrics",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-emergency-medicine",
       "url": "https://test.venturafamilymed.org/rotations/emergency-medicine",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/emergency-medicine",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-outpatient-specialties",
       "url": "https://test.venturafamilymed.org/rotations/outpatient-specialties",
-      "onBeforeScript":"puppet/onBefore-login.js",
-      "misMatchThreshold":"5"
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/outpatient-specialties",
+      "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-psychology-psychiatry",
       "url": "https://test.venturafamilymed.org/rotations/psychology-psychiatry",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/psychology-psychiatry",
       "onBeforeScript":"puppet/onBefore-login.js",
       "removeSelectors": [".aridoc-container"]
     },
     {
       "label": "rotations-urgent-care",
       "url": "https://test.venturafamilymed.org/rotations/urgent-care",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/urgent-care",
       "onBeforeScript":"puppet/onBefore-login.js",
       "removeSelectors": [".aridoc-container"]
     },
     {
       "label": "rotations-palliative-care",
       "url": "https://test.venturafamilymed.org/rotations/palliative-care",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/palliative-care",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-anesthesia",
       "url": "https://test.venturafamilymed.org/rotations/anesthesia",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/anesthesia",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-diabetes",
       "url": "https://test.venturafamilymed.org/rotations/diabetes",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/diabetes",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-point-of-care-ultrasound",
       "url": "https://test.venturafamilymed.org/point-of-care-ultrasound",
+      "referenceUrl": "https://test.venturafamilymed.org/point-of-care-ultrasound",
       "onBeforeScript":"puppet/onBefore-login.js"
     },
     {
       "label": "rotations-procedure-videos",
       "url": "https://test.venturafamilymed.org/rotations/procedure-videos",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/procedure-videos",
       "onBeforeScript":"puppet/onBefore-login.js",
-      "removeSelectors": [
-		".itemFullText",
-		"span.itemDateModified"
-      ]
+      "removeSelectors": [ ".itemFullText", "span.itemDateModified" ]
     },
     {
       "label": "rotations-infectious-disease",
-      "url": "https://test.venturafamilymed.org/rotations/infectious-disease"
+      "url": "https://test.venturafamilymed.org/rotations/infectious-disease",
+      "referenceUrl": "https://test.venturafamilymed.org/rotations/infectious-disease"
     },
     {
       "label": "hepc",
       "url": "https://test.venturafamilymed.org/hepc",
+      "referenceUrl": "https://test.venturafamilymed.org/hepc",
       "removeSelectors": ["iframe"]
     }
   ],
@@ -192,7 +211,7 @@
   "engineOptions": {
     "args": ["--no-sandbox"]
   },
-  "asyncCaptureLimit": 1,
+  "asyncCaptureLimit": 2,
   "asyncCompareLimit": 50,
   "debug": false,
   "debugWindow": false
