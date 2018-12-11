@@ -78,6 +78,7 @@ case "$OPT" in
     ;;
   *)
     echo "Unknown option [$OPT] - stopping."
+    echo "$0 [behat|backstopjs|all]"
     exit 1
     ;;
 esac
