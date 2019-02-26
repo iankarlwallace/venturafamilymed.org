@@ -55,4 +55,4 @@ Feature: Homepage
     And I press "Search"
     Then I should see "Search Terms:"
     And I should see "Ventura Global Health Fellowship"
-    And I should see "Results 1 - "
+    And I should see "Results 1"
