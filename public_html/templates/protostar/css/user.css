@@ -1,15 +1,9 @@
-.bfPage {
-padding-left: 15px;
-padding-right: 15px;
-}
 body {
-margin: 0;
-font-family: Raleway, sans-serif;
-font-weight: 400;
-font-size: 13px;
-line-height: 25px;
-color: #011822;
-background-color: #FEFEFE;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  color: #011822;
+  background-color: #FEFEFE;
 }
 a {
 color: #fdb527;
@@ -12149,4 +12143,8 @@ margin-right:auto;
     float: none;
     max-width: none;
     text-align: left;
+}
+.bfPage {
+padding-left: 15px;
+padding-right: 15px;
 }
