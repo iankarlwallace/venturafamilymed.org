@@ -3209,6 +3209,7 @@ input[type="submit"].btn.btn-mini {
   float: left;
   min-height: 28px;
   margin-right: 1%;
+  height: 38px;
 }
 
 .nav-tabs>li>a,
