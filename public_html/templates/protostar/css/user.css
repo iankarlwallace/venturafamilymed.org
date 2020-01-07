@@ -8379,7 +8379,7 @@ border-radius: 4px;*/
 
 .navigation .nav-child {
   position: absolute;
-  top: 95%;
+  top: 85%;
   left: 0;
   z-index: 1000;
   display: none;
