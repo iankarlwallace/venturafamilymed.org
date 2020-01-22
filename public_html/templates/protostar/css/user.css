@@ -1,3 +1,78 @@
+/* Cafe POCUS Changes By Jake David - 01-22-2020 START */
+div.utzprobe {
+  float: right;
+  border: 1px solid #006EA0;
+  border-radius: 4px;
+  width: 300px;
+  padding: 3px;
+  margin: 5px;
+  background-color: #e7edf1;
+}
+
+div.utzprobe img {
+  max-width: 250px;
+  max-height: 150px;
+  text-align: center;
+}
+
+div.utzblock {
+  width: 98%;
+  border: 1px solid #006EA0;
+  overflow: auto;
+  padding: 3px;
+  margin: 5px auto;
+  border-radius: 4px;
+  background-color: #e7edf1;
+  text-align: center;
+}
+
+div.utzblock img {
+  max-width: 600px;
+  max-height: 250px;
+  border-radius: 5px;
+  border: 1px solid #d2d7d9;
+}
+
+div.utzblock iframe {
+  border-radius: 5px;
+  border: 1px solid #d2d7d9;
+  max-width: 600px;
+  max-height: 250px
+}
+
+img.utz {
+  max-width: 600px;
+  border-radius: 5px;
+  border: 1px solid #d2d7d9;
+}
+
+div.reference {
+  font-size: 8px;
+  width: 400px;
+  line-height: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.reference {
+  font-size: 8px;
+  line-height: 10px;
+}
+
+div.utzright {
+  float: right;
+  margin: 5px;
+  text-align: center;
+}
+
+div.utzleft {
+  float: left;
+  margin: 5px;
+  text-align: center;
+}
+/* Cafe POCUS Changes By Jake David - 01-22-2020 END */
+
 .bfPage {
   padding-left: 15px;
   padding-right: 15px;
