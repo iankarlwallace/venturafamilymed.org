@@ -1,3 +1,4 @@
+/* Refactored CSS file - Changes are bracketed with a START and END comment*/
 /* Cafe POCUS Changes By Jake David - 01-22-2020 START */
 div.utzprobe {
   float: right;
@@ -73,10 +74,19 @@ div.utzleft {
 }
 /* Cafe POCUS Changes By Jake David - 01-22-2020 END */
 
+/* Changes note in template.css START */
+div#sclogin-126 {
+  float: none;
+  max-width: none;
+  text-align: left;
+}
+
 .bfPage {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* END */
 
 body {
   font-family: Raleway, sans-serif;
@@ -103,168 +113,7 @@ a:focus {
   border-radius: 6px;
 }
 
-.img-circle {
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
-}
-
-.row {
-  margin-left: -20px;
-  *zoom: 1;
-}
-
-.row:before,
-.row:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-
-.row:after {
-  clear: both;
-}
-
-[class*="span"] {
-  float: left;
-  min-height: 1px;
-  margin-left: 20px;
-}
-
-.container,
-.navbar-static-top .container,
-.navbar-fixed-top .container,
-.navbar-fixed-bottom .container {
-  width: 940px;
-}
-
-.span12 {
-  width: 940px;
-}
-
-.span11 {
-  width: 860px;
-}
-
-.span10 {
-  width: 780px;
-}
-
-.span9 {
-  width: 700px;
-}
-
-.span8 {
-  width: 620px;
-}
-
-.span7 {
-  width: 540px;
-}
-
-.span6 {
-  width: 460px;
-}
-
-.span5 {
-  width: 380px;
-}
-
-.span4 {
-  width: 300px;
-}
-
-.span3 {
-  width: 220px;
-}
-
-.span2 {
-  width: 140px;
-}
-
-.span1 {
-  width: 60px;
-}
-
-.offset12 {
-  margin-left: 980px;
-}
-
-.offset11 {
-  margin-left: 900px;
-}
-
-.offset10 {
-  margin-left: 820px;
-}
-
-.offset9 {
-  margin-left: 740px;
-}
-
-.offset8 {
-  margin-left: 660px;
-}
-
-.offset7 {
-  margin-left: 580px;
-}
-
-.offset6 {
-  margin-left: 500px;
-}
-
-.offset5 {
-  margin-left: 420px;
-}
-
-.offset4 {
-  margin-left: 340px;
-}
-
-.offset3 {
-  margin-left: 260px;
-}
-
-.offset2 {
-  margin-left: 180px;
-}
-
-.offset1 {
-  margin-left: 100px;
-}
-
-.row-fluid {
-  width: 100%;
-  *zoom: 1;
-}
-
-.row-fluid:before,
-.row-fluid:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-
-.row-fluid:after {
-  clear: both;
-}
-
-.row-fluid [class*="span"] {
-  display: block;
-  width: 100%;
-  min-height: 28px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  float: left;
-  margin-left: 2.127659574%;
-  *margin-left: 2.0744680846383%;
-}
-
-.row-fluid [class*="span"]:first-child {
-  margin-left: 0;
-}
+/* DUPLICATE LINES template.css 262 - 424*/
 
 .row-fluid .controls-row [class*="span"]+[class*="span"] {
   margin-left: 2.127659574%;
@@ -16953,10 +16802,4 @@ div.moduletable-resmodule ul.moduleAttachments li a {
 .navigation>.navbar>.btn-navbar {
   margin-left: auto;
   margin-right: auto;
-}
-
-div#sclogin-126 {
-  float: none;
-  max-width: none;
-  text-align: left;
 }
