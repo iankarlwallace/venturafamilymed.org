@@ -7,8 +7,8 @@ Feature: Rotation Pages
 
   Background:
     Given I am on "/rotations"
-    And I fill in "username" with "resident"
-    And I fill in "password" with "play"
+  #And I fill in "username" with "resident"
+  #And I fill in "password" with "play"
   #And I press "submit"
   #Then I should be on "/component/users/"
   #And I press "Rotation Pages"

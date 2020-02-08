@@ -17,6 +17,11 @@ run_behat_tests() {
   $BEHATDIR/bin/behat -f pretty -o std -f junit -o xml
 }
 
+open_report_backstopjs() {
+  cd $YARNDIR
+  $YARNCMD backstop openReport
+}
+
 cd "$(dirname "$0")"
 cd ..
 ROOTDIR="$PWD"
@@ -71,6 +76,9 @@ case "$OPT" in
   backstopjs)
     run_backstopjs_tests
     ;;
+  openReport)
+    open_report_backstopjs
+    ;;
   all)
     run_behat_tests
     sleep 5
@@ -78,6 +86,7 @@ case "$OPT" in
     ;;
   *)
     echo "Unknown option [$OPT] - stopping."
+    echo "Options are [behat|backstopjs|openReport|all]"
     exit 1
     ;;
 esac

@@ -15,9 +15,10 @@
 		"behat/behat": "*",
 		"behat/mink" : "*",
 		"behat/mink-extension": "*",
-		"behat/mink-zombie-driver": "dev-master",
-		"behat/symfony2-extension": "*",
-                "dmore/behat-chrome-extension": "*"
+		"behat/mink-zombie-driver": "*",
+		"behat/mink-goutte-driver": "*",
+                "dmore/behat-chrome-extension": "*",
+		"behat/symfony2-extension": "*"
 	},
  	"config": {
 		"bin-dir": "bin/"

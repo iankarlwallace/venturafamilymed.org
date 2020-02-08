@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 # Deploy the public_html dir to the test or www environments
 #
 # Initially just check and tell me what would be done
@@ -45,7 +45,7 @@ cd $HOME/$DOMAINROOT/public_html
 TARGETFILE="templates/protostar/css/user.css"
 
 if [ "$CMD" == "diff" ]; then
-  /usr/bin/diff -sc $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
+  /usr/bin/diff -wBsc $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
 fi
 
 if [ "$CMD" == "deploy" ]; then
