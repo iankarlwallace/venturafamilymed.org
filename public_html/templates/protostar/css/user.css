@@ -106,22 +106,15 @@ a:focus {
 
 /* END */
 
-/* DUPLICATE LINES template.css 246 - 250 */
-/* DUPLICATE LINES template.css 262 - 634*/
-
 .container-fluid {
   background-color: #FEFEFE;
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* DUPLICATE LINES template.css 641 - 667*/
-
 strong {
   font-weight: 600;
 }
-
-/* DUPLICATE LINES template.css 671 - 735*/
 
 h1,
 h2,
@@ -132,8 +125,6 @@ h6 {
   margin: 6px 0;
   font-weight: 400;
 }
-
-/* DUPLICATE LINES template.css 750 - 760*/
 
 h1,
 h2,
@@ -183,32 +174,22 @@ h4 small {
   font-size: 12px;
 }
 
-/* DUPLICATE LINES template.css 807 - 826*/
-
 li {
   line-height: 175%;
 }
-
-/* DUPLICATE LINES template.css 830 - 896*/
 
 hr {
   margin: 12px 0;
   border-bottom: 1px solid #FEFEFE;
 }
 
-/* DUPLICATE LINES template.css 904 - 921*/
-
 blockquote p {
   font-weight: 400;
 }
 
-/* DUPLICATE LINES template.css 928 - 1027*/
-
 form {
   margin: 0 0 2px;
 }
-
-/* DUPLICATE LINES template.css 1033 - 1077*/
 
 select,
 textarea,
@@ -232,35 +213,25 @@ input[type="color"],
   line-height: 16px;
 }
 
-/* DUPLICATE LINES template.css 1108 - 1193*/
-
 select {
   background-color: #FEFEFE;
 }
-
-/* DUPLICATE LINES template.css 1200 - 1213*/
 
 .uneditable-input,
 .uneditable-textarea {
   background-color: #FEFEFE;
 }
 
-/* DUPLICATE LINES template.css 1224 - 1708*/
-
 .input-append .add-on,
 .input-prepend .add-on {
   text-shadow: 0 1px 0 #FEFEFE;
 }
-
-/* DUPLICATE LINES template.css 1724 - 1736*/
 
 .input-append .active,
 .input-prepend .active {
   background-color: #a9dba9;
   border-color: #46a546;
 }
-
-/* DUPLICATE LINES template.css 1737 - 1856*/
 
 .form-search input,
 .form-search textarea,
@@ -286,28 +257,17 @@ select {
   margin-right: 4px;
 }
 
-/* DUPLICATE LINES template.css 1889 - 1987*/
-/* MISSING LINES template.css 1988 - 2014*/
-/* DUPLICATE LINES template.css 2015 - 2056*/
-
 .table .table {
   background-color: #FEFEFE;
 }
-
-/* DUPLICATE LINES template.css 2060 - 2293*/
-/* DUPLICATE LINES template.css 2302 - 2342*/
 
 .dropdown-menu {
   background-color: #FEFEFE;
 }
 
-/* DUPLICATE LINES template.css 2344 - 2371*/
-
 .dropdown-menu .divider {
   border-bottom: 1px solid #FEFEFE;
 }
-
-/* DUPLICATE LINES template.css 2373 - 2396*/
 
 .nav-collapse .dropdown-menu>li>a {
   margin: 2px;
@@ -345,13 +305,9 @@ select {
   color: #111;
 }
 
-/* DUPLICATE LINES template.css 2433 - 2520*/
-
 .dropdown-submenu:hover>a:after {
   border-left-color: #FEFEFE;
 }
-
-/* DUPLICATE LINES template.css 2524 - 2550*/
 
 .well {
   background-color: #d2d7d9;
@@ -384,8 +340,6 @@ select {
   text-shadow: 0 1px 0 #FEFEFE;
 }
 
-/* DUPLICATE LINES template.css 2619 - 2655*/
-
 .btn {
   line-height: 16px;
   background-image: -moz-linear-gradient(top, #FEFEFE, #e6e6e6);
@@ -394,8 +348,6 @@ select {
   background-image: -o-linear-gradient(top, #FEFEFE, #e6e6e6);
   background-image: linear-gradient(to bottom, #FEFEFE, #e6e6e6);
 }
-
-/* DUPLICATE LINES template.css 2690 - 2815*/
 
 .btn-primary {
   color: #FEFEFE;
@@ -438,8 +390,6 @@ select {
 .btn-warning[disabled] {
   color: #FEFEFE;
 }
-
-/* DUPLICATE LINES template.css 2874 - 2880*/
 
 .btn-danger {
   color: #FEFEFE;
@@ -688,17 +638,10 @@ input[type="submit"].btn {
   color: #FEFEFE;
 }
 
-/* DUPLICATE LINES template.css up to 4309*/
-
 .navbar-inverse .nav li.dropdown>a:hover .caret,
 .navbar-inverse .nav li.dropdown>a:focus .caret {
   border-top-color: #FEFEFE;
   border-bottom-color: #FEFEFE;
-}
-
-.navbar-inverse .nav li.dropdown>.dropdown-toggle .caret {
-  border-top-color: #999;
-  border-bottom-color: #999;
 }
 
 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle .caret,
@@ -710,56 +653,16 @@ input[type="submit"].btn {
 
 .navbar-inverse .navbar-search .search-query {
   color: #FEFEFE;
-  background-color: #515151;
-  border-color: #111111;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .15);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .15);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .15);
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-
-.navbar-inverse .navbar-search .search-query:-moz-placeholder {
-  color: #ccc;
-}
-
-.navbar-inverse .navbar-search .search-query:-ms-input-placeholder {
-  color: #ccc;
-}
-
-.navbar-inverse .navbar-search .search-query::-webkit-input-placeholder {
-  color: #ccc;
 }
 
 .navbar-inverse .navbar-search .search-query:focus,
 .navbar-inverse .navbar-search .search-query.focused {
-  padding: 5px 15px;
-  color: #333;
   text-shadow: 0 1px 0 #FEFEFE;
   background-color: #FEFEFE;
-  border: 0;
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-  outline: 0;
 }
 
 .navbar-inverse .btn-navbar {
   color: #FEFEFE;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #0e0e0e;
-  background-image: -moz-linear-gradient(top, #151515, #040404);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
-  background-image: -webkit-linear-gradient(top, #151515, #040404);
-  background-image: -o-linear-gradient(top, #151515, #040404);
-  background-image: linear-gradient(to bottom, #151515, #040404);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff151515', endColorstr='#ff040404', GradientType=0);
-  border-color: #040404 #040404 #000000;
-  *background-color: #040404;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .navbar-inverse .btn-navbar:hover,
@@ -769,73 +672,22 @@ input[type="submit"].btn {
 .navbar-inverse .btn-navbar.disabled,
 .navbar-inverse .btn-navbar[disabled] {
   color: #FEFEFE;
-  background-color: #040404;
-  *background-color: #000000;
-}
-
-.navbar-inverse .btn-navbar:active,
-.navbar-inverse .btn-navbar.active {
-  background-color: #000000 \9;
 }
 
 .breadcrumb {
-  padding: 8px 15px;
   margin: 5px 15px;
-  list-style: none;
-  background-color: #f5f5f5;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
 }
 
 .breadcrumb>li {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
   text-shadow: 0 1px 0 #FEFEFE;
-}
-
-.breadcrumb>li>.divider {
-  padding: 0 5px;
-  color: #ccc;
-}
-
-.breadcrumb>.active {
-  color: #999;
-}
-
-.pagination {
-  margin: 18px 0;
-}
-
-.pagination ul {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  margin-left: 0;
-  margin-bottom: 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-
-.pagination ul>li {
-  display: inline;
 }
 
 .pagination ul>li>a,
 .pagination ul>li>span {
-  float: left;
-  padding: 4px 12px;
-  line-height: 18px;
-  text-decoration: none;
   background-color: #FEFEFE;
-  border: 1px solid #ddd;
-  border-left-width: 0;
 }
+
+/* DUPLICATE LINES template.css up to 4457*/
 
 .pagination ul>li>a:hover,
 .pagination ul>li>a:focus,
