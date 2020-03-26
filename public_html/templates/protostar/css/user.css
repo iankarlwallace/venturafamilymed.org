@@ -91,10 +91,19 @@ div.clr:after {
   clear: both;
 }
 
-/* Used in the meet-us module for the padding-left padding-right */
+/* Used in the meet-us module for the padding-left padding-right and highlight*/
+/* the top box                                                                */
 div.moduletable {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+div#k2ModuleBox216.k2ItemsBlock {
+  background: #d2d7d9;
+  border: 1px solid #006EA0;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 /* Changes note in template.css START */
