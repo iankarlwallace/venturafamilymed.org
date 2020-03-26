@@ -2413,8 +2413,11 @@ div.itemContainerAnnouncements {
   border-top: 1px solid #fdb527;
 }
 
+/* Needed to assure the resident and faculty images flow correctly on fluid   */
+/* row layout.  This is a hack to make it work currently but should be fixed  */
+/* otherwise the second row image is "trapped" on the right border            */
 div.itemContainerLast {
-  height: 375px;
+  height: 500px;
 }
 
 /* this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container) */
