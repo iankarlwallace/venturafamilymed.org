@@ -91,6 +91,12 @@ div.clr:after {
   clear: both;
 }
 
+/* Used in the meet-us module for the padding-left padding-right */
+div.moduletable {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* Changes note in template.css START */
 div#sclogin-126 {
   float: none;
@@ -3698,7 +3704,6 @@ div.k2ItemsBlockRot a.moduleCustomLinkRot {
 
 div.k2ItemsBlock a.moduleCustomLink:hover {}
 
-/*Duplicates for MeetUs Template */
 div.moduletable {}
 
 div.moduletable-facility {
