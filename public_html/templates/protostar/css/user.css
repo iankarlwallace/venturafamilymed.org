@@ -2413,7 +2413,9 @@ div.itemContainerAnnouncements {
   border-top: 1px solid #fdb527;
 }
 
-div.itemContainerLast {}
+div.itemContainerLast {
+  height: 375px;
+}
 
 /* this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container) */
 /* --- Item block for each item group --- */
