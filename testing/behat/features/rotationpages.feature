@@ -7,14 +7,14 @@ Feature: Rotation Pages
 
   Background:
     Given I am on "/rotations"
-  #And I fill in "username" with "resident"
-  #And I fill in "password" with "play"
-  #And I press "submit"
-  #Then I should be on "/component/users/"
-  #And I press "Rotation Pages"
-  #Then I should see "Rotations"
-  #And I should see "AFMC"
-  #And I should see "Ultrasound"
+    And I fill in "username" with "resident"
+    And I fill in "password" with "play"
+    And I press button with XPath "#content > div.login > form > fieldset > div:nth-child(3) > div > button"
+    Then I should be on "/component/users/"
+    And I press "Rotation Pages"
+    Then I should see "Rotations"
+    And I should see "AFMC"
+    And I should see "Ultrasound"
 
   @javascript 
   Rotation Pages Diabetes

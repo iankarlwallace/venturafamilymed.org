@@ -18,7 +18,8 @@
 		"behat/mink-zombie-driver": "*",
 		"behat/mink-goutte-driver": "*",
                 "dmore/behat-chrome-extension": "*",
-		"behat/symfony2-extension": "*"
+		"behat/symfony2-extension": "*",
+		"ciaranmcnulty/behat-stepthroughextension": "*"
 	},
  	"config": {
 		"bin-dir": "bin/"

@@ -22,4 +22,22 @@ class FeatureContext extends Behat\MinkExtension\Context\MinkContext
     public function __construct()
     {
     }
+
+    /**
+	   * @Given I press button with XPath :xpath
+	   */
+    public function iPressButtonWithXpath($xpath)
+	  {
+      $session = $this->getSession();
+      $element = $session->getPage()->find(
+        'xpath',
+        $session->getSelectorHandler()->selectorToXpath('xpath', $xpath)
+      );
+      if (null === $element) {
+        throw new InvalidArgumentException(
+          sprintf('Could not evaluate XPath: "%s"', $xpath)
+        );
+      }
+      $element->click();
+		}
 }
