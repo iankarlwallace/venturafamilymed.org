@@ -2432,11 +2432,7 @@ div.itemContainerAnnouncements {
   border-top: 1px solid #fdb527;
 }
 
-/* make the last item in a containe max-content height allows for next row to */
-/* start below it */
-div.itemContainerLast {
-  height: max-content;
-}
+div.itemContainerLast {}
 
 /* this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container) */
 /* --- Item block for each item group --- */
