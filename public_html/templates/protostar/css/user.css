@@ -2417,7 +2417,7 @@ div.itemContainerAnnouncements {
 /* row layout.  This is a hack to make it work currently but should be fixed  */
 /* otherwise the second row image is "trapped" on the right border            */
 div.itemContainerLast {
-  height: 500px;
+  height: 425px;
 }
 
 /* this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container) */
