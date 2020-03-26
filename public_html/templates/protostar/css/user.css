@@ -72,6 +72,25 @@ div.utzleft {
 }
 /* Cafe POCUS Changes By Jake David - 01-22-2020 END */
 
+/* We have old custom templates from K2 2.6 which have never been updated */
+/* Most notably meet-us which displays all the resident/faculty images    */
+/* Sadly it requires a bit of TLC related to the reponsive layout         */
+
+div.clr {
+  *zoom: 1;
+}
+
+div.clr:before,
+div.clr:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+div.clr:after {
+  clear: both;
+}
+
 /* Changes note in template.css START */
 div#sclogin-126 {
   float: none;
