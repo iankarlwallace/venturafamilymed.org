@@ -19,10 +19,9 @@
 		"behat/mink-goutte-driver": "*",
                 "dmore/behat-chrome-extension": "*",
 		"behat/symfony2-extension": "*",
-		"ciaranmcnulty/behat-stepthroughextension": "*"
+		"ciaranmcnulty/behat-stepthroughextension": "dev-master"
 	},
  	"config": {
 		"bin-dir": "bin/"
 	}
 }
-

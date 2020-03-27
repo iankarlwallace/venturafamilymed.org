@@ -25,16 +25,21 @@ class FeatureContext extends Behat\MinkExtension\Context\MinkContext
 
     /**
 	   * @Given I press button with XPath :xpath
+     *
+     * To be able to click complicated buttons/links that have duplicates
+     * in the page select with Xpath.  Not ideal but will work.
+     * Mink expects not to have /html/body on xpaths so omit that
 	   */
     public function iPressButtonWithXpath($xpath)
 	  {
       $session = $this->getSession();
-      $element = $session->getPage()->find(
-        'xpath',
-        $session->getSelectorHandler()->selectorToXpath('xpath', $xpath)
-      );
+      $page = $session->getPage();
+      $selectorsHandler = $session->getSelectorsHandler();
+      $selectorXpath = $selectorsHandler->selectorToXpath('xpath',$xpath);
+      $element = $page->find('xpath', $selectorXpath);
+
       if (null === $element) {
-        throw new InvalidArgumentException(
+        throw new \InvalidArgumentException(
           sprintf('Could not evaluate XPath: "%s"', $xpath)
         );
       }
