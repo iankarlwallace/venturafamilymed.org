@@ -12,8 +12,9 @@ run_backstopjs_tests () {
 
 run_behat_tests() {
   cd $BEHATDIR
-  $YARNCMD upgrade
-  $COMPOSER upgrade
+  `$YARNCMD upgrade`
+  `$COMPOSER upgrade`
+  sleep 5
   $BEHATDIR/bin/behat -f pretty -o std -f junit -o xml
 }
 
