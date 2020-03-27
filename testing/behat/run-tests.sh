@@ -20,7 +20,7 @@ case "$1" in
     ;;
   *)
     $CHROMECMD --headless > /dev/null 2>&1 &
-    PID=$1
+    PID=$!
     ;;
 esac
 
