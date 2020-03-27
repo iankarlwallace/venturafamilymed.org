@@ -188,7 +188,7 @@
     "mime-db": "1.37.0",
     "mime-types": "2.1.21",
     "mimic-fn": "1.2.0",
-    "minimist": "0.0.8",
+    "minimist": "1.2.2",
     "minizlib": "1.2.1",
     "mute-stream": "0.0.7",
     "nopt": "4.0.1",
