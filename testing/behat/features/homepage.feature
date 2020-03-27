@@ -46,7 +46,7 @@ Feature: Homepage
     And I should see "300 Hillmont Avenue, Bldg 340, Room 120"
     And I should see "Ventura, California 93003"
     And I should see "phone: (805) 652-6228"
-    And I should see "2019 Ventura Family Medicine"
+    And I should see "2020 Ventura Family Medicine"
 
   #The search function is available from the homepage as well
   Scenario: Homepage search function as visitor
