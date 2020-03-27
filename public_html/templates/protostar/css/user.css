@@ -1363,13 +1363,6 @@ span.itemEditLink a:hover {
   color: #d2d7d9;
 }
 
-/* DUPLICATES from components/com_k2/css/k2.css removed to 480 */
-
-div.itemHeader span.itemDateCreated {
-  color: #999;
-  font-size: 10px;
-}
-
 div.itemHeader h2.itemTitle {
   font-family: Quicksand, "Times New Roman", Times, serif;
   font-size: 30px;
@@ -1378,27 +1371,6 @@ div.itemHeader h2.itemTitle {
   padding: 4px 0 4px 0;
   margin: 0;
 }
-
-div.itemHeader h2.itemTitle span {}
-
-div.itemHeader h2.itemTitle a {}
-
-div.itemHeader h2.itemTitle span sup {
-  font-size: 12px;
-  color: #CF1919;
-  text-decoration: none;
-}
-
-/* "Featured" presented in superscript */
-div.itemHeader span.itemAuthor {
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-
-div.itemHeader span.itemAuthor a {}
-
-div.itemHeader span.itemAuthor a:hover {}
 
 div.itemHeader h2.itemTitleFront {
   font-family: Quicksand, "Times New Roman", Times, serif;
@@ -1422,28 +1394,12 @@ div.itemHeader h2.itemTitleFront span sup {
   text-decoration: none;
 }
 
-/* "Featured" presented in superscript */
-/*div.itemToolbar {padding:2px 0;margin:12px 0 0 0;border-top:1px dotted #A8AEAB;border-bottom:1px dotted #A8AEAB;background:#E5E7E6;}*/
 div.itemToolbar {
   padding: 2px;
 }
 
-div.itemToolbar ul {
-  text-align: right;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 div.itemToolbar ul li {
-  display: inline;
-  list-style: none;
-  padding: 0 4px 0 8px;
-  margin: 0;
   border-left: 1px solid #d2d7d9;
-  text-align: center;
-  background: none;
-  font-size: 13px;
   color: #fdb527;
 }
 
@@ -1451,81 +1407,12 @@ div.itemToolbar ul>li:first-child {
   border: none;
 }
 
-/* remove the first CSS border from the left of the toolbar */
 div.itemToolbar ul li a {
-  font-size: 13px;
-  font-weight: normal;
   color: #fdb527;
 }
 
 div.itemToolbar ul li a:hover {
   color: #011822;
-}
-
-div.itemToolbar ul li a span {}
-
-div.itemToolbar ul li a.itemPrintLink {}
-
-div.itemToolbar ul li a.itemPrintLink span {}
-
-div.itemToolbar ul li a.itemEmailLink {}
-
-div.itemToolbar ul li a.itemEmailLink span {}
-
-div.itemToolbar ul li a.itemVideoLink {}
-
-div.itemToolbar ul li a.itemVideoLink span {}
-
-div.itemToolbar ul li a.itemImageGalleryLink {}
-
-div.itemToolbar ul li a.itemImageGalleryLink span {}
-
-div.itemToolbar ul li a.itemCommentsLink {}
-
-div.itemToolbar ul li a.itemCommentsLink span {}
-
-div.itemToolbar ul li a img {
-  vertical-align: middle;
-}
-
-div.itemToolbar ul li span.itemTextResizerTitle {}
-
-div.itemToolbar ul li a#fontDecrease {
-  margin: 0 0 0 2px;
-}
-
-div.itemToolbar ul li a#fontDecrease img {
-  width: 13px;
-  height: 13px;
-  background: url(../images/system/font_decrease.gif) no-repeat;
-}
-
-div.itemToolbar ul li a#fontIncrease {
-  margin: 0 0 0 4px;
-}
-
-div.itemToolbar ul li a#fontIncrease img {
-  width: 13px;
-  height: 13px;
-  background: url(../images/system/font_increase.gif) no-repeat;
-}
-
-div.itemToolbar ul li a#fontDecrease span,
-div.itemToolbar ul li a#fontIncrease span {
-  display: none;
-}
-
-div.itemRatingBlock {
-  padding: 8px 0;
-}
-
-div.itemRatingBlock span {
-  display: block;
-  float: left;
-  font-style: normal;
-  padding: 0 4px 0 0;
-  margin: 0;
-  color: #999;
 }
 
 div.itemBody {
@@ -1562,12 +1449,6 @@ div.itemImageBlockMeetus {
   float: left;
 }
 
-span.itemImage {
-  display: block;
-  text-align: center;
-  margin: 0 0 8px 0;
-}
-
 span.itemImage img {
   border: 0px solid #ccc;
   padding: 5px;
@@ -1577,85 +1458,14 @@ span.itemImage img {
   -moz-border-radius: 10px;
 }
 
-span.itemImageCaption {
-  color: #666;
-  float: left;
-  display: block;
-  font-size: 11px;
-}
-
-span.itemImageCredits {
-  color: #999;
-  float: right;
-  display: block;
-  font-style: italic;
-  font-size: 11px;
-}
-
-div.itemIntroText {
-  color: #444;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 24px;
-  padding: 4px 0 12px 0;
-}
-
-div.itemIntroText img {}
-
-div.itemFullText {}
-
-div.itemFullText h3 {
-  margin: 0;
-  padding: 16px 0 4px 0;
-}
-
-div.itemFullText p {}
-
-div.itemFullText img {}
-
-div.itemExtraFields {
-  margin: 16px 0 0 0;
-  padding: 8px 0 0 0;
-  border-top: 1px dotted #ddd;
-}
-
 div.itemExtraFields h3 {
-  margin: 0;
-  padding: 0 0 8px 0;
   line-height: normal !important;
 }
 
-div.itemExtraFields ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-div.itemExtraFields ul li {
-  display: block;
-}
-
-div.itemExtraFields ul li span.itemExtraFieldsLabel {
-  display: block;
-  float: left;
-  font-weight: bold;
-  margin: 0 4px 0 0;
-  width: 30%;
-}
-
-div.itemExtraFields ul li span.itemExtraFieldsValue {}
-
 div.itemContentFooter {
-  display: block;
-  text-align: right;
   padding: 2px;
   margin: 8px 0 4px 0;
   border-top: 1px solid #ddd;
-  color: #999;
-}
-
-span.itemHits {
-  float: left;
 }
 
 span.itemDateModified {
@@ -1689,7 +1499,6 @@ div.itemGooglePlusOneButton {
 
 div.itemLinks {
   margin: 4px 0;
-  padding: 0;
 }
 
 div.itemCategory {
@@ -1697,243 +1506,56 @@ div.itemCategory {
   border-bottom: 1px dotted #ccc;
 }
 
-div.itemCategory span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.itemCategory a {}
-
 div.itemTagsBlock {
   padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
 
-div.itemTagsBlock span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.itemTagsBlock ul.itemTags {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline;
-}
-
-div.itemTagsBlock ul.itemTags li {
-  display: inline;
-  list-style: none;
-  padding: 0 4px 0 0;
-  margin: 0;
-  text-align: center;
-}
-
-div.itemTagsBlock ul.itemTags li a {}
-
-div.itemTagsBlock ul.itemTags li a:hover {}
-
 div.itemAttachmentsBlock {
-  padding: 4px;
-  border-top: 1px dotted #ccc;
   text-align: center;
   border-bottom: 1px dotted #ccc;
   text-align: center;
 }
 
-div.itemAttachmentsBlock span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.itemAttachmentsBlock ul.itemAttachments {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 div.itemAttachmentsBlock ul.itemAttachments li {
-  list-style: none;
-  padding: 8px;
-  text-align: center;
   display: inline-block;
-  border: 1px solid #bbb;
+  padding: 8px;
   margin: 7px;
+  border: 1px solid #bbb;
   border-radius: 5px;
   background-color: #d2d7d9;
-}
-
-div.itemAttachmentsBlock ul.itemAttachments li a {}
-
-div.itemAttachmentsBlock ul.itemAttachments li a:hover {}
-
-div.itemAttachmentsBlock ul.itemAttachments li span {
-  font-size: 10px;
-  color: #999;
-  font-weight: normal;
 }
 
 /* Author block */
 div.itemAuthorBlock {
   background: #d2d7d9;
-  border: 1px solid #ddd;
-  margin: 0 0 16px 0;
-  padding: 8px;
 }
 
 div.itemAuthorBlock img.itemAuthorAvatar {
-  float: left;
-  display: block;
   background: #FEFEFE;
-  padding: 4px;
-  border: 1px solid #ddd;
-  margin: 0 8px 0 0;
-}
-
-div.itemAuthorBlock div.itemAuthorDetails {
-  margin: 0;
-  padding: 4px 0 0 0;
-}
-
-div.itemAuthorBlock div.itemAuthorDetails h3.authorName {
-  margin: 0 0 4px 0;
-  padding: 0;
 }
 
 div.itemAuthorBlock div.itemAuthorDetails h3.authorName a {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
 }
 
-div.itemAuthorBlock div.itemAuthorDetails h3.authorName a:hover {}
-
-div.itemAuthorBlock div.itemAuthorDetails p {}
-
 div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorUrl {
-  font-weight: bold;
-  color: #555;
   border-right: 1px solid #ccc;
   padding: 0 8px 0 0;
   margin: 0 4px 0 0;
 }
 
-div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorEmail {
-  font-weight: bold;
-  color: #555;
-}
-
-div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorUrl a,
-div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorEmail a {
-  font-weight: normal;
-}
-
-/* Author latest */
-div.itemAuthorLatest {
-  margin-bottom: 16px;
-  padding: 0;
-}
-
-div.itemAuthorLatest h3 {}
-
-div.itemAuthorLatest ul {}
-
-div.itemAuthorLatest ul li {}
-
-div.itemAuthorLatest ul li a {}
-
-div.itemAuthorLatest ul li a:hover {}
-
-/* Related by tag */
-div.itemRelated {
-  margin-bottom: 16px;
-  padding: 0;
-}
-
-/* Add overflow-x:scroll; if you want to enable the scrolling features, as explained in item.php */
-div.itemRelated h3 {}
-
-div.itemRelated ul {}
-
-div.itemRelated ul li {}
-
 div.itemRelated ul li.k2ScrollerElement {
-  float: left;
-  overflow: hidden;
   border: 1px solid #ccc;
-  padding: 4px;
-  margin: 0 4px 4px 0;
   background: #FEFEFE;
 }
 
-/* you need to insert this class in the related li element in item.php for this styling to take effect */
-div.itemRelated ul li.clr {
-  clear: both;
-  height: 0;
-  line-height: 0;
-  display: block;
-  float: none;
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
-a.itemRelTitle {}
-
-div.itemRelCat {}
-
-div.itemRelCat a {}
-
-div.itemRelAuthor {}
-
-div.itemRelAuthor a {}
-
-img.itemRelImg {}
-
-div.itemRelIntrotext {}
-
-div.itemRelFulltext {}
-
-div.itemRelMedia {}
-
-div.itemRelImageGallery {}
-
 /* Video */
-/*div.itemVideoBlock {margin:0 0 0 0;padding:10px;background:#473B24;}*/
 div.itemVideoBlock {
   display: inline;
 }
 
-div.itemVideoBlock div.itemVideoEmbedded {
-  text-align: center;
-}
-
-/* for embedded videos (not using AllVideos) */
-div.itemVideoBlock span.itemVideo {
-  display: block;
-  overflow: hidden;
-}
-
-div.itemVideoBlock span.itemVideoCaption {
-  color: #eee;
-  float: left;
-  display: block;
-  font-size: 11px;
-  font-weight: bold;
-  width: 60%;
-}
-
-div.itemVideoBlock span.itemVideoCredits {
-  color: #eee;
-  float: right;
-  display: block;
-  font-style: italic;
-  font-size: 11px;
-  width: 35%;
-  text-align: right;
-}
+/* DUPLICATES from components/com_k2/css/k2.css removed to 1003 */
 
 /* Image Gallery */
 div.itemImageGallery {
