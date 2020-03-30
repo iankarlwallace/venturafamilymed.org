@@ -1660,19 +1660,14 @@ span.catItemAddLink a {
   border-radius: 2px;
 }
 
-/* DUPLICATES from components/com_k2/css/k2.css removed to 1384 */
-
 span.catItemAddLink a:hover {
   background: #FEFEcc;
 }
 
 div.itemListCategory img {
-  float: left;
-  display: block;
   background: #FEFEFE;
   padding: 4px;
   border: 1px solid #ddd;
-  margin: 0 8px 0 0;
   border-radius: 2px;
 }
 
@@ -1681,31 +1676,9 @@ div.itemListCategory h2 {
   font-family: quicksand, sans-serif;
 }
 
-div.itemListCategory p {}
-
-/* --- Sub-category block --- */
-div.itemListSubCategories {}
-
-div.itemListSubCategories h3 {}
-
-div.subCategoryContainer {
-  float: left;
-}
-
-div.subCategoryContainerLast {}
-
 /* this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container) */
 div.subCategory {
   background: #d2d7d9;
-  border: 1px solid #ddd;
-  margin: 4px;
-  padding: 8px;
-}
-
-div.subCategory a.subCategoryImage,
-div.subCategory a.subCategoryImage:hover {
-  text-align: center;
-  display: block;
 }
 
 div.subCategory a.subCategoryImage img,
@@ -1713,35 +1686,10 @@ div.subCategory a.subCategoryImage:hover img {
   background: #FEFEFE;
   padding: 4px;
   border: 1px solid #ddd;
-  margin: 0 8px 0 0;
 }
-
-div.subCategory h2 {}
-
-div.subCategory h2 a {}
-
-div.subCategory h2 a:hover {}
-
-div.subCategory p {}
-
-/* --- Item groups --- */
-div.itemList {}
-
-div#itemListLeading {}
-
-div#itemListPrimary {}
-
-div#itemListSecondary {}
 
 div#itemListLinks {
   background: #d2d7d9;
-  border: 1px solid #ddd;
-  margin: 8px 0;
-  padding: 8px;
-}
-
-div.itemContainer {
-  float: left;
 }
 
 div.itemContainerAnnouncements {
@@ -1749,29 +1697,6 @@ div.itemContainerAnnouncements {
   margin: 4px;
   border-top: 1px solid #fdb527;
 }
-
-div.itemContainerLast {}
-
-/* this class is appended to the last container on each row of items (useful when you want to set 0 padding/margin to the last container) */
-/* --- Item block for each item group --- */
-div.catItemView {
-  padding: 4px;
-}
-
-/* this is the item container for this view - we add a generic padding so that items don't get stuck with each other */
-/* Additional class appended to the element above for further styling per group item */
-div.groupLeading {}
-
-div.groupPrimary {}
-
-div.groupSecondary {}
-
-div.groupLinks {
-  padding: 0;
-  margin: 0;
-}
-
-div.catItemIsFeatured {}
 
 /* Attach a class for each featured item */
 span.catItemEditLink {
@@ -1801,11 +1726,6 @@ div.catItemHeader {
   font-family: quicksand, arial, helvetica, sans-serif;
 }
 
-div.catItemHeader span.catItemDateCreated {
-  color: #999;
-  font-size: 11px;
-}
-
 div.catItemHeader h3.catItemTitle {
   font-size: 20px;
   font-weight: normal;
@@ -1813,14 +1733,6 @@ div.catItemHeader h3.catItemTitle {
   padding: 5px 0 2px 0;
   margin: 0;
   text-align: center;
-}
-
-div.catItemHeader h3.catItemTitle span {}
-
-div.catItemHeader h3.catItemTitle span sup {
-  font-size: 12px;
-  color: #CF1919;
-  text-decoration: none;
 }
 
 /* superscript */
@@ -1844,28 +1756,8 @@ div.catItemHeader h3.catItemTitleMeetus span sup {
 
 /* superscript */
 div.catItemHeader span.catItemAuthor {
-  display: block;
-  padding: 0;
   padding-top: 5px;
   line-height: 15px;
-  margin: 0;
-}
-
-div.catItemHeader span.catItemAuthor a {}
-
-div.catItemHeader span.catItemAuthor a:hover {}
-
-div.catItemRatingBlock {
-  padding: 8px 0;
-}
-
-div.catItemRatingBlock span {
-  display: block;
-  float: left;
-  font-style: normal;
-  padding: 0 4px 0 0;
-  margin: 0;
-  color: #999;
 }
 
 div.catItemBody {
@@ -1879,8 +1771,6 @@ div.catItemImageBlock {
 }
 
 span.catItemImage {
-  display: block;
-  text-align: center;
   margin: 0;
 }
 
@@ -1906,124 +1796,32 @@ span.catItemImageMeetus img {
   border-radius: 5px;
 }
 
-div.catItemIntroText {}
-
-div.catItemIntroText img {}
-
-div.catItemExtraFields, div.genericItemExtraFields {
-  margin: 16px 0 0 0;
-  padding: 8px 0 0 0;
-  border-top: 1px dotted #ddd;
-}
-
 div.catItemExtraFields h4, div.genericItemExtraFields h4 {
-  margin: 0;
-  padding: 0 0 8px 0;
   line-height: normal !important;
 }
 
-div.catItemExtraFields ul, div.genericItemExtraFields ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-div.catItemExtraFields ul li, div.genericItemExtraFields ul li {
-  display: block;
-}
-
-div.catItemExtraFields ul li span.catItemExtraFieldsLabel, div.genericItemExtraFields ul li span.genericItemExtraFieldsLabel {
-  display: block;
-  float: left;
-  font-weight: bold;
-  margin: 0 4px 0 0;
-  width: 30%;
-}
-
-div.catItemExtraFields ul li span.catItemExtraFieldsValue {}
-
-div.catItemLinks {
-  margin: 0 0 16px 0;
-  padding: 0;
-}
-
 div.catItemHitsBlock {
-  padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
 
-span.catItemHits {}
-
 div.catItemCategory {
-  padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
 
 div.catItemCategory span {
-  font-weight: bold;
   color: #555;
-  padding: 0 4px 0 0;
 }
 
-div.catItemCategory a {}
-
 div.catItemTagsBlock {
-  padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
 
 div.catItemTagsBlock span {
-  font-weight: bold;
   color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.catItemTagsBlock ul.catItemTags {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline;
-}
-
-div.catItemTagsBlock ul.catItemTags li {
-  display: inline;
-  list-style: none;
-  padding: 0 4px 0 0;
-  margin: 0;
-  text-align: center;
-}
-
-div.catItemTagsBlock ul.catItemTags li a {}
-
-div.catItemTagsBlock ul.catItemTags li a:hover {}
-
-div.catItemAttachmentsBlock {
-  padding: 4px;
-}
-
-div.catItemAttachmentsBlock span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.catItemAttachmentsBlock ul.catItemAttachments {
-  padding: 0;
 }
 
 div.catItemAttachmentsBlock ul.catItemAttachments li {
   list-style: square;
-  padding: 0 4px;
-}
-
-div.catItemAttachmentsBlock ul.catItemAttachments li a {}
-
-div.catItemAttachmentsBlock ul.catItemAttachments li a:hover {}
-
-div.catItemAttachmentsBlock ul.catItemAttachments li span {
-  font-size: 10px;
-  color: #999;
-  font-weight: normal;
 }
 
 /* Video */
@@ -2039,84 +1837,34 @@ div.catItemVideoBlock h3 {
   font-weight: 400;
 }
 
-div.catItemVideoBlock div.catItemVideoEmbedded {
-  text-align: center;
-}
-
-/* for embedded videos (not using AllVideos) */
-div.catItemVideoBlock span.catItemVideo {
-  display: block;
-}
-
-/* Image Gallery */
-div.catItemImageGallery {
-  margin: 0 0 16px 0;
-  padding: 0;
-}
-
-/* Anchor link to comments */
-div.catItemCommentsLink {
-  display: inline;
-  margin: 0 8px 0 0;
-  padding: 0 8px 0 0;
-  border-right: 1px solid #ccc;
-}
-
-div.catItemCommentsLink a {}
-
-div.catItemCommentsLink a:hover {}
-
 /* Read more link */
 div.catItemReadMore {
-  display: inline;
   font-size: smaller;
   margin-left: 4px;
 }
-
-div.catItemReadMore a {}
 
 div.catItemReadMore a:hover {
   font-weight: 600;
   color: #006EA0;
 }
 
-/* Modified date */
-span.catItemDateModified {
-  display: block;
-  text-align: right;
-  padding: 4px;
-  margin: 4px 0;
-  color: #999;
-  border-top: 1px solid #ddd;
-}
-
-/*----------------------------------------------------------------------
-Component: Itemlist view (user)
-----------------------------------------------------------------------*/
-/* User info block */
-div.userView {}
-
 div.userBlock {
   background: #d2d7d9;
   border: 1px solid #ddd;
   margin: 0 0 16px 0;
-  padding: 8px;
   clear: both;
 }
 
 span.userItemAddLink {
-  display: block;
   padding: 8px 0;
   margin: 0 0 4px 0;
   border-bottom: 1px dotted #ccc;
-  text-align: right;
 }
 
 span.userItemAddLink a {
   padding: 4px 16px;
   border: 1px solid #ccc;
   background: #eee;
-  text-decoration: none;
 }
 
 span.userItemAddLink a:hover {
@@ -2124,52 +1872,7 @@ span.userItemAddLink a:hover {
 }
 
 div.userBlock img {
-  display: block;
-  float: left;
   background: #FEFEFE;
-  padding: 4px;
-  border: 1px solid #ddd;
-  margin: 0 8px 0 0;
-}
-
-div.userBlock h2 {}
-
-div.userBlock div.userDescription {
-  padding: 4px 0;
-}
-
-div.userBlock div.userAdditionalInfo {
-  padding: 4px 0;
-  margin: 8px 0 0 0;
-}
-
-span.userURL {
-  font-weight: bold;
-  color: #555;
-  display: block;
-}
-
-span.userEmail {
-  font-weight: bold;
-  color: #555;
-  display: block;
-}
-
-div.userItemList {}
-
-/* User items */
-div.userItemView {}
-
-/* this is the item container for this view */
-div.userItemIsFeatured {}
-
-/* Attach a class for each featured item */
-div.userItemViewUnpublished {
-  opacity: 0.9;
-  border: 4px dashed #ccc;
-  background: #fffff2;
-  padding: 8px;
-  margin: 8px 0;
 }
 
 span.userItemEditLink {
@@ -2195,44 +1898,11 @@ span.userItemEditLink a:hover {
   background: #ffffcc;
 }
 
-div.userItemHeader {}
-
-div.userItemHeader span.userItemDateCreated {
-  color: #999;
-  font-size: 11px;
-}
-
 div.userItemHeader h3.userItemTitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 110%;
-  padding: 10px 0 4px 0;
-  margin: 0;
-}
-
-div.userItemHeader h3.userItemTitle span sup {
-  font-size: 12px;
-  color: #CF1919;
-  text-decoration: none;
-}
-
-/* "Unpublished" presented in superscript */
-div.userItemBody {
-  padding: 8px 0;
-  margin: 0;
-}
-
-div.userItemImageBlock {
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-span.userItemImage {
-  display: block;
-  text-align: center;
-  margin: 0 8px 8px 0;
 }
 
 span.userItemImage img {
@@ -2240,90 +1910,15 @@ span.userItemImage img {
   padding: 8px;
 }
 
-div.userItemIntroText {
-  font-size: inherit;
-  font-weight: normal;
-  line-height: inherit;
-  padding: 4px 0 12px 0;
-}
-
-div.userItemIntroText img {}
-
-div.userItemLinks {
-  margin: 0 0 16px 0;
-  padding: 0;
-}
-
 div.userItemCategory {
   padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
 
-div.userItemCategory span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.userItemCategory a {}
-
 div.userItemTagsBlock {
   padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
-
-div.userItemTagsBlock span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.userItemTagsBlock ul.userItemTags {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline;
-}
-
-div.userItemTagsBlock ul.userItemTags li {
-  display: inline;
-  list-style: none;
-  padding: 0 4px 0 0;
-  margin: 0;
-  text-align: center;
-}
-
-div.userItemTagsBlock ul.userItemTags li a {}
-
-div.userItemTagsBlock ul.userItemTags li a:hover {}
-
-/* Anchor link to comments */
-div.userItemCommentsLink {
-  display: inline;
-  margin: 0 8px 0 0;
-  padding: 0 8px 0 0;
-  border-right: 1px solid #ccc;
-}
-
-div.userItemCommentsLink a {}
-
-div.userItemCommentsLink a:hover {}
-
-/* Read more link */
-div.userItemReadMore {
-  display: inline;
-}
-
-div.userItemReadMore a {}
-
-div.userItemReadMore a:hover {}
-
-/*----------------------------------------------------------------------
-Component: Itemlist view (tag)
-----------------------------------------------------------------------*/
-div.tagView {}
-
-div.tagItemList {}
 
 div.tagItemView {
   border-bottom: 1px dotted #ccc;
@@ -2331,38 +1926,11 @@ div.tagItemView {
   margin: 0 0 16px 0;
 }
 
-/* this is the item container for this view */
-div.tagItemHeader {}
-
-div.tagItemHeader span.tagItemDateCreated {
-  color: #999;
-  font-size: 11px;
-}
-
 div.tagItemHeader h2.tagItemTitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 110%;
-  padding: 10px 0 4px 0;
-  margin: 0;
-}
-
-div.tagItemBody {
-  padding: 8px 0;
-  margin: 0;
-}
-
-div.tagItemImageBlock {
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-span.tagItemImage {
-  display: block;
-  text-align: center;
-  margin: 0 8px 8px 0;
 }
 
 span.tagItemImage img {
@@ -2370,70 +1938,10 @@ span.tagItemImage img {
   padding: 8px;
 }
 
-div.tagItemIntroText {
-  font-size: inherit;
-  font-weight: normal;
-  line-height: inherit;
-  padding: 4px 0 12px 0;
-}
-
-div.tagItemIntroText img {}
-
-div.tagItemExtraFields {}
-
-div.tagItemExtraFields h4 {}
-
-div.tagItemExtraFields ul {}
-
-div.tagItemExtraFields ul li {}
-
-div.tagItemExtraFields ul li span.tagItemExtraFieldsLabel {}
-
-div.tagItemExtraFields ul li span.tagItemExtraFieldsValue {}
-
-div.tagItemCategory {
-  display: inline;
-  margin: 0 8px 0 0;
-  padding: 0 8px 0 0;
-  border-right: 1px solid #ccc;
-}
-
-div.tagItemCategory span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.tagItemCategory a {}
-
-/* Read more link */
-div.tagItemReadMore {
-  display: inline;
-}
-
-div.tagItemReadMore a {}
-
-div.tagItemReadMore a:hover {}
-
-/*----------------------------------------------------------------------
-Component: Itemlist view (generic)
-----------------------------------------------------------------------*/
-div.genericView {}
-
-div.genericItemList {}
-
 div.genericItemView {
   border-bottom: 1px dotted #ccc;
   padding: 8px 0;
   margin: 0 0 16px 0;
-}
-
-/* this is the item container for this view */
-div.genericItemHeader {}
-
-div.genericItemHeader span.genericItemDateCreated {
-  color: #999;
-  font-size: 11px;
 }
 
 div.genericItemHeader h2.genericItemTitle {
@@ -2441,86 +1949,11 @@ div.genericItemHeader h2.genericItemTitle {
   font-size: 24px;
   font-weight: normal;
   line-height: 110%;
-  padding: 10px 0 4px 0;
-  margin: 0;
-}
-
-div.genericItemBody {
-  padding: 8px 0;
-  margin: 0;
-}
-
-div.genericItemImageBlock {
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-span.genericItemImage {
-  display: block;
-  text-align: center;
-  margin: 0 8px 8px 0;
 }
 
 span.genericItemImage img {
   border: 1px solid #ccc;
   padding: 8px;
-}
-
-div.genericItemIntroText {
-  font-size: inherit;
-  font-weight: normal;
-  line-height: inherit;
-  padding: 4px 0 12px 0;
-}
-
-div.genericItemIntroText img {}
-
-div.genericItemExtraFields {}
-
-div.genericItemExtraFields h4 {}
-
-div.genericItemExtraFields ul {}
-
-div.genericItemExtraFields ul li {}
-
-div.genericItemExtraFields ul li span.genericItemExtraFieldsLabel {}
-
-div.genericItemExtraFields ul li span.genericItemExtraFieldsValue {}
-
-div.genericItemCategory {
-  display: inline;
-  margin: 0 8px 0 0;
-  padding: 0 8px 0 0;
-  border-right: 1px solid #ccc;
-}
-
-div.genericItemCategory span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.genericItemCategory a {}
-
-/* Read more link */
-div.genericItemReadMore {
-  display: inline;
-}
-
-div.genericItemReadMore a {}
-
-div.genericItemReadMore a:hover {}
-
-/* No results found message */
-div#genericItemListNothingFound {
-  padding: 40px;
-  text-align: center;
-}
-
-div#genericItemListNothingFound p {
-  font-size: 20px;
-  color: #999;
 }
 
 /* --- Google Search (use Firebug or similar tools to inspect the generated HTML, then style accordingly --- */
@@ -2534,24 +1967,10 @@ div#genericItemListNothingFound p {
   display: none !important;
 }
 
-/* Hide unneeded elements of the results page */
-/*----------------------------------------------------------------------
-Component: Latest view
-----------------------------------------------------------------------*/
-div.latestItemsContainer {
-  float: left;
-}
-
 /* Category info block */
 div.latestItemsCategory {
   background: #d2d7d9;
-  border: 1px solid #ddd;
   margin: 0 8px 8px 0;
-  padding: 8px;
-}
-
-div.latestItemsCategoryImage {
-  text-align: center;
 }
 
 div.latestItemsCategoryImage img {
@@ -2561,90 +1980,22 @@ div.latestItemsCategoryImage img {
   margin: 0 8px 0 0;
 }
 
-div.latestItemsCategory h2 {}
-
-div.latestItemsCategory p {}
-
 /* User info block */
 div.latestItemsUser {
   background: #d2d7d9;
-  border: 1px solid #ddd;
   margin: 0 8px 8px 0;
-  padding: 8px;
   clear: both;
 }
 
 div.latestItemsUser img {
-  display: block;
-  float: left;
   background: #FEFEFE;
-  padding: 4px;
-  border: 1px solid #ddd;
-  margin: 0 8px 0 0;
 }
-
-div.latestItemsUser h2 {}
-
-div.latestItemsUser p.latestItemsUserDescription {
-  padding: 4px 0;
-}
-
-div.latestItemsUser p.latestItemsUserAdditionalInfo {
-  padding: 4px 0;
-  margin: 8px 0 0 0;
-}
-
-span.latestItemsUserURL {
-  font-weight: bold;
-  color: #555;
-  display: block;
-}
-
-span.latestItemsUserEmail {
-  font-weight: bold;
-  color: #555;
-  display: block;
-}
-
-/* Latest items list */
-div.latestItemList {
-  padding: 0 8px 8px 0;
-}
-
-div.latestItemView {}
-
-/* this is the item container for this view */
-div.latestItemHeader {}
 
 div.latestItemHeader h3.latestItemTitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 110%;
-  padding: 10px 0 4px 0;
-  margin: 0;
-}
-
-span.latestItemDateCreated {
-  color: #999;
-  font-size: 11px;
-}
-
-div.latestItemBody {
-  padding: 8px 0;
-  margin: 0;
-}
-
-div.latestItemImageBlock {
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-span.latestItemImage {
-  display: block;
-  text-align: center;
-  margin: 0 8px 8px 0;
 }
 
 span.latestItemImage img {
@@ -2652,137 +2003,28 @@ span.latestItemImage img {
   padding: 8px;
 }
 
-div.latestItemIntroText {
-  font-size: inherit;
-  font-weight: normal;
-  line-height: inherit;
-  padding: 4px 0 12px 0;
-}
-
-div.latestItemIntroText img {}
-
-div.latestItemLinks {
-  margin: 0 0 16px 0;
-  padding: 0;
-}
-
 div.latestItemCategory {
   padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
-
-div.latestItemCategory span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.latestItemCategory a {}
 
 div.latestItemTagsBlock {
   padding: 4px;
   border-bottom: 1px dotted #ccc;
 }
 
-div.latestItemTagsBlock span {
-  font-weight: bold;
-  color: #555;
-  padding: 0 4px 0 0;
-}
-
-div.latestItemTagsBlock ul.latestItemTags {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline;
-}
-
-div.latestItemTagsBlock ul.latestItemTags li {
-  display: inline;
-  list-style: none;
-  padding: 0 4px 0 0;
-  margin: 0;
-  text-align: center;
-}
-
-div.latestItemTagsBlock ul.latestItemTags li a {}
-
-div.latestItemTagsBlock ul.latestItemTags li a:hover {}
-
-/* Video */
-div.latestItemVideoBlock {
-  margin: 0 0 16px 0;
-  padding: 16px;
-  background: #010101 url(../images/system/videoplayer-bg.gif) repeat-x bottom;
-}
-
-div.latestItemVideoBlock span.latestItemVideo {
-  display: block;
-}
-
-/* Anchor link to comments */
-div.latestItemCommentsLink {
-  display: inline;
-  margin: 0 8px 0 0;
-  padding: 0 8px 0 0;
-  border-right: 1px solid #ccc;
-}
-
-div.latestItemCommentsLink a {}
-
-div.latestItemCommentsLink a:hover {}
-
-/* Read more link */
-div.latestItemReadMore {
-  display: inline;
-}
-
-div.latestItemReadMore a {}
-
-div.latestItemReadMore a:hover {}
-
 /* Items presented in a list */
 h2.latestItemTitleList {
   font-size: 14px;
-  padding: 2px 0;
-  margin: 8px 0 2px 0;
   font-family: Arial, Helvetica, sans-serif;
-  border-bottom: 1px dotted #ccc;
   line-height: normal;
-}
-
-/*----------------------------------------------------------------------
-Component: Register & profile page views (register.php & profile.php)
-----------------------------------------------------------------------*/
-.k2AccountPage {}
-
-.k2AccountPage table {}
-
-.k2AccountPage table tr th {}
-
-.k2AccountPage table tr td {}
-
-.k2AccountPage table tr td label {
-  white-space: nowrap;
-}
-
-img.k2AccountPageImage {
-  border: 4px solid #ddd;
-  margin: 10px 0;
-  padding: 0;
-  display: block;
-}
-
-.k2AccountPage div.k2AccountPageNotice {
-  padding: 8px;
 }
 
 .k2AccountPage div.k2AccountPageUpdate {
   border-top: 1px dotted #ccc;
-  margin: 8px 0;
-  padding: 8px;
-  text-align: right;
 }
+
+/* DUPLICATES from components/com_k2/css/k2.css removed to 2463 */
 
 .k2AccountPage th.k2ProfileHeading {
   text-align: left;
