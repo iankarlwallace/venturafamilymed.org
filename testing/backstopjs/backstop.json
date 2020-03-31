@@ -209,10 +209,10 @@
   "report": ["CI"],
   "engine": "puppeteer",
   "engineOptions": {
-    "args": ["--no-sandbox"]
+    "args": ["--disable-gpu"]
   },
-  "asyncCaptureLimit": 2,
-  "asyncCompareLimit": 50,
+  "asyncCaptureLimit": 1,
+  "asyncCompareLimit": 5,
   "debug": false,
   "debugWindow": false
 }
