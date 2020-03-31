@@ -2121,8 +2121,8 @@ div.k2TopCommentersBlock ul li span.tcLatestCommentDate {
 Modules: mod_k2_content
 ----------------------------------------------------------------------*/
 div.k2ItemsBlock {
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 div.k2ItemsBlock p.modulePretext {}
@@ -2274,8 +2274,6 @@ div.moduletable-facility img {
 }
 
 div.k2ItemsBlockMeetUs {
-  padding-left: 20px;
-  padding-right: 20px;
   height: 100%;
   overflow: auto;
 }
