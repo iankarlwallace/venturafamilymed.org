@@ -19,6 +19,9 @@
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
+  "misMatchThreshold": 10.00,
+  "requireSameDimensions": false,
+  "removeSelectors": ["body>footer","ul.breadcrumb"],
   "scenarios": [
     {
       "label": "index_php",
@@ -27,17 +30,14 @@
       "referenceUrl": "https://www.venturafamilymed.org/index.php",
       "readyEvent": "",
       "readySelector": "",
-      "delay": 0,
+      "delay": 50,
       "hideSelectors": [],
-      "removeSelectors": ["body>footer","ul.breadcrumb"],
       "hoverSelector": "",
       "clickSelector": "",
       "postInteractionWait": 0,
       "selectors": [],
       "selectorExpansion": true,
-      "expect": 0,
-      "misMatchThreshold": 1.00,
-      "requireSameDimensions": false
+      "expect": 0
     },
     {
       "label": "meet-us",
@@ -194,8 +194,8 @@
     },
     {
       "label": "hepc",
-      "url": "https://www.venturafamilymed.org/hepc",
-      "referenceUrl": "https://www.venturafamilymed.org/hepc",
+      "url": "https://www.venturafamilymed.org/research-qi/hep-c",
+      "referenceUrl": "https://www.venturafamilymed.org/research-qi/hep-c",
       "removeSelectors": ["iframe"]
     }
   ],
@@ -209,9 +209,17 @@
   "report": ["CI"],
   "engine": "puppeteer",
   "engineOptions": {
-    "args": ["--disable-gpu"]
+    "slowMo": 250,
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-gpu",
+      "--force-device-scale-factor=1",
+      "--disable-infobars=true",
+      "--hide-scrollbars"
+    ]
   },
-  "asyncCaptureLimit": 1,
+  "asyncCaptureLimit": 2,
   "asyncCompareLimit": 5,
   "debug": false,
   "debugWindow": false
