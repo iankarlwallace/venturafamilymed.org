@@ -76,18 +76,18 @@ div.utzleft {
 /* Most notably meet-us which displays all the resident/faculty images    */
 /* Sadly it requires a bit of TLC related to the reponsive layout         */
 
-div.clr {
+.itemContainer.itemContainerLast.div.clr {
   *zoom: 1;
 }
 
-div.clr:before,
-div.clr:after {
+.itemContainer.itemContainerLast.div.clr:before,
+.itemContainer.itemContainerLast.div.clr:after {
   display: table;
   content: "";
   line-height: 0;
 }
 
-div.clr:after {
+.itemContainer.itemContainerLast.div.clr:after {
   clear: both;
 }
 
