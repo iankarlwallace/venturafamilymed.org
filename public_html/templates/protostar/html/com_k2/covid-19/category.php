@@ -82,6 +82,21 @@ defined('_JEXEC') or die;
                     <?php endif; ?>
 
                     <!-- Subcategory more... It would be best to LIST the items in the subcategory HERE -->
+                    <div class="subCategoryItems">
+                      <?php if(isset($this->leading) && count($this->leading)): ?>
+                        <?php foreach($this->leading as $key=>$item): ?>
+                          <?php if($item->catid == $subCategory->id): ?>
+                            <?php
+                              // Load the category_item.php template by default
+                              $this->item=$item;
+                              echo $this->loadTemplate('item');
+                            ?>
+                          <?php endif; ?>
+                        <?php endforeach; ?>
+                        <div class="clearfix"></div>
+                      <?php endif; ?>
+                    </div>
+
                     <a class="subCategoryMore" href="<?php echo $subCategory->link; ?>">
                         <?php echo JText::_('K2_VIEW_ITEMS'); ?>
                     </a>
