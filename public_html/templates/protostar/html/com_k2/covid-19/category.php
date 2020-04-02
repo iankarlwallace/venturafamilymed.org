@@ -81,7 +81,7 @@ defined('_JEXEC') or die;
                     <div><?php echo $subCategory->description; ?></div>
                     <?php endif; ?>
 
-                    <!-- Subcategory more... -->
+                    <!-- Subcategory more... It would be best to LIST the items in the subcategory HERE -->
                     <a class="subCategoryMore" href="<?php echo $subCategory->link; ?>">
                         <?php echo JText::_('K2_VIEW_ITEMS'); ?>
                     </a>
@@ -89,11 +89,8 @@ defined('_JEXEC') or die;
                     <div class="clr"></div>
                 </div>
             </div>
-            <?php if (($key+1)%($this->params->get('subCatColumns'))==0): ?>
             <div class="clr"></div>
-            <?php endif; ?>
             <?php endforeach; ?>
-
             <div class="clr"></div>
         </div>
         <?php endif; ?>
