@@ -83,6 +83,7 @@ defined('_JEXEC') or die;
 
                     <!-- Subcategory more... It would be best to LIST the items in the subcategory HERE -->
                     <div class="subCategoryItems">
+                      <?php var_dump($this); ?>
                       <?php if(isset($this->leading) && count($this->leading)): ?>
                         <?php foreach($this->leading as $key=>$item): ?>
                           <?php if($item->catid == $subCategory->id): ?>
