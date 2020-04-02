@@ -2,11 +2,6 @@
   "id": "vfm_org",
   "viewports": [
     {
-      "label": "smart-phone-portrait",
-      "width": 720,
-      "height": 1512
-    },
-    {
       "label": "smart-phone-landscape",
       "width": 1512,
       "height": 720
@@ -44,7 +39,7 @@
       "hideSelectors": [],
       "hoverSelector": "",
       "clickSelector": "",
-      "postInteractionWait": 0,
+      "postInteractionWait": 50,
       "selectors": [],
       "selectorExpansion": true,
       "expect": 0
@@ -232,5 +227,5 @@
   "asyncCaptureLimit": 2,
   "asyncCompareLimit": 50,
   "debug": false,
-  "debugWindow": false
+  "debugWindow": false 
 }
