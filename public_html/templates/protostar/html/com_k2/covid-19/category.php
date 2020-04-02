@@ -84,6 +84,7 @@ defined('_JEXEC') or die;
                     <!-- Subcategory more... It would be best to LIST the items in the subcategory HERE -->
                     <div class="subCategoryItems">
                       <?php  // Load the category_item.php template by default
+                        var_dump($subCategory);
                         $this->item=$subCategory;
                         echo $this->loadTemplate('item');
                       ?>
