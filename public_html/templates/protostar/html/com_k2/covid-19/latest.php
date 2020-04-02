@@ -12,6 +12,7 @@ defined('_JEXEC') or die;
 
 ?>
 
+<!-- START COVID-19 Template <?php echo getcwd(); ?> -->
 <!-- Start K2 Latest Layout -->
 <div id="k2Container" class="latestView<?php if ($this->params->get('pageclass_sfx')) echo ' '.$this->params->get('pageclass_sfx'); ?>">
     <?php if ($this->params->get('show_page_title')): ?>
@@ -152,3 +153,4 @@ defined('_JEXEC') or die;
     <div class="clr"></div>
 </div>
 <!-- End K2 Latest Layout -->
+<!-- END COVID-19 Template <?php echo getcwd(); ?> -->

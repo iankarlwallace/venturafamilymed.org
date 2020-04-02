@@ -15,6 +15,7 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 
 ?>
 
+<!-- START COVID-19 Template <?php echo getcwd(); ?> -->
 <!-- Start K2 Item Layout -->
 <div class="catItemView group<?php echo ucfirst($this->item->itemGroup); ?><?php echo ($this->item->featured) ? ' catItemIsFeatured' : ''; ?><?php if($this->item->params->get('pageclass_sfx')) echo ' '.$this->item->params->get('pageclass_sfx'); ?>">
     <!-- Plugins: BeforeDisplay -->
@@ -295,3 +296,4 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
     <div class="clr"></div>
 </div>
 <!-- End K2 Item Layout -->
+<!-- END COVID-19 Template <?php echo getcwd(); ?> -->

@@ -12,6 +12,7 @@ defined('_JEXEC') or die;
 
 ?>
 
+<!-- START COVID-19 Template <?php echo getcwd(); ?> -->
 <!-- Start K2 Item Layout -->
 <div class="latestItemView">
     <!-- Plugins: BeforeDisplay -->
@@ -162,3 +163,4 @@ defined('_JEXEC') or die;
     <div class="clr"></div>
 </div>
 <!-- End K2 Item Layout -->
+<!-- END COVID-19 Template <?php echo getcwd(); ?> -->

@@ -19,6 +19,7 @@ defined('_JEXEC') or die;
 </a>
 <?php endif; ?>
 
+<!-- START COVID-19 Template <?php echo getcwd(); ?> -->
 <!-- Start K2 Item Layout -->
 <span id="startOfPageId<?php echo JRequest::getInt('id'); ?>"></span>
 
@@ -678,3 +679,4 @@ defined('_JEXEC') or die;
     <div class="clr"></div>
 </div>
 <!-- End K2 Item Layout -->
+<!-- END COVID-19 Template <?php echo getcwd(); ?> -->
