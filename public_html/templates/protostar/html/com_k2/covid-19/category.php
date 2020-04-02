@@ -22,31 +22,12 @@ defined('_JEXEC') or die;
     </div>
     <?php endif; ?>
 
-    <?php if ($this->params->get('catFeedIcon')): ?>
-    <!-- RSS feed icon -->
-    <div class="k2FeedIcon">
-        <a href="<?php echo $this->feed; ?>" title="<?php echo JText::_('K2_SUBSCRIBE_TO_THIS_RSS_FEED'); ?>">
-            <span><?php echo JText::_('K2_SUBSCRIBE_TO_THIS_RSS_FEED'); ?></span>
-        </a>
-        <div class="clr"></div>
-    </div>
-    <?php endif; ?>
-
     <?php if (isset($this->category) || ( $this->params->get('subCategories') && isset($this->subCategories) && count($this->subCategories) )): ?>
     <!-- Blocks for current category and subcategories -->
     <div class="itemListCategoriesBlock">
         <?php if (isset($this->category) && ( $this->params->get('catImage') || $this->params->get('catTitle') || $this->params->get('catDescription') || $this->category->event->K2CategoryDisplay )): ?>
         <!-- Category block -->
         <div class="itemListCategory">
-            <?php if (isset($this->addLink)): ?>
-            <!-- Item add link -->
-            <span class="catItemAddLink">
-                <a data-k2-modal="edit" href="<?php echo $this->addLink; ?>">
-                    <?php echo JText::_('K2_ADD_A_NEW_ITEM_IN_THIS_CATEGORY'); ?>
-                </a>
-            </span>
-            <?php endif; ?>
-
             <?php if ($this->params->get('catImage') && $this->category->image): ?>
             <!-- Category image -->
             <img alt="<?php echo K2HelperUtilities::cleanHtml($this->category->name); ?>" src="<?php echo $this->category->image; ?>" style="width:<?php echo $this->params->get('catImageWidth'); ?>px; height:auto;" />
@@ -72,15 +53,10 @@ defined('_JEXEC') or die;
         <?php if ($this->params->get('subCategories') && isset($this->subCategories) && count($this->subCategories)): ?>
         <!-- Subcategories -->
         <div class="itemListSubCategories">
-            <h3><?php echo JText::_('K2_CHILDREN_CATEGORIES'); ?></h3>
-
             <?php foreach($this->subCategories as $key=>$subCategory): ?>
             <?php
-            // Define a CSS class for the last container on each row
-            if ((($key+1)%($this->params->get('subCatColumns'))==0))
+                // We will only allow one category per line - define all as the last container of the line
                 $lastContainer = ' subCategoryContainerLast';
-            else
-                $lastContainer = '';
             ?>
             <div class="subCategoryContainer<?php echo $lastContainer; ?>"<?php echo (count($this->subCategories)==1) ? '' : ' style="width:'.number_format(100/$this->params->get('subCatColumns'), 1).'%;"'; ?>>
                 <div class="subCategory">
