@@ -81,6 +81,14 @@ div#k2Container div.latestItemsCategory {
   border-radius: 5px
 }
 
+.external {
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url(/images/icons/external-link.png);
+  background-image: linear-gradient(transparent,transparent),url(/images/icons/external-link.svg);
+  padding-right: 13px;
+}
+
 /* END COVID 19 Styling additions   */
 
 /* We have old custom templates from K2 2.6 which have never been updated */
