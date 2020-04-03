@@ -72,6 +72,17 @@ div.utzleft {
 }
 /* Cafe POCUS Changes By Jake David - 01-22-2020 END */
 
+/* START COVID 19 Styling additions */
+#k2Container.itemListView.covid19 .itemListCategories {
+  background: #d2d7d9;
+  border: 1px solid #006EA0;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 10px
+}
+
+/* END COVID 19 Styling additions   */
+
 /* We have old custom templates from K2 2.6 which have never been updated */
 /* Most notably meet-us which displays all the resident/faculty images    */
 /* Sadly it requires a bit of TLC related to the reponsive layout         */
