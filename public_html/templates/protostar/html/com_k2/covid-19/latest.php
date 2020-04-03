@@ -45,7 +45,9 @@ defined('_JEXEC') or die;
             <?php endif; ?>
 
             <?php if ($this->params->get('categoryTitle')): ?>
+            <!-- Would apppear that this category styling should generate an H2 header ... -->
             <h2><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></h2>
+            <!-- Would apppear that this category styling should generate an H2 header ... -->
             <?php endif; ?>
 
             <?php if ($this->params->get('categoryDescription') && isset($category->description)): ?>
@@ -55,7 +57,7 @@ defined('_JEXEC') or die;
             <div class="clr"></div>
 
             <!-- K2 Plugins: K2CategoryDisplay -->
-            <?php echo $category->event->K2CategoryDisplay; ?>
+	    <?php echo $category->event->K2CategoryDisplay; ?>
             <div class="clr"></div>
         </div>
         <!-- End K2 Category block -->
@@ -117,19 +119,20 @@ defined('_JEXEC') or die;
 
         <!-- Start Items list -->
         <div class="latestItemList">
+	    <ul>
             <?php if ($this->params->get('latestItemsDisplayEffect')=="first"): ?>
 
             <?php foreach ($block->items as $itemCounter=>$item): K2HelperUtilities::setDefaultImage($item, 'latest', $this->params); ?>
             <?php if ($itemCounter==0): ?>
             <?php $this->item=$item; echo $this->loadTemplate('item'); ?>
             <?php else: ?>
-            <h2 class="latestItemTitleList">
+            <li class="latestItemTitleList">
                 <?php if ($item->params->get('latestItemTitleLinked')): ?>
                 <a href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a>
                 <?php else: ?>
                 <?php echo $item->title; ?>
                 <?php endif; ?>
-            </h2>
+            </li>
             <?php endif; ?>
             <?php endforeach; ?>
 
@@ -140,6 +143,7 @@ defined('_JEXEC') or die;
             <?php endforeach; ?>
 
             <?php endif; ?>
+            </ul>
         </div>
         <!-- End Item list -->
     </div>
