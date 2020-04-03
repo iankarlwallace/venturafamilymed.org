@@ -73,7 +73,7 @@ div.utzleft {
 /* Cafe POCUS Changes By Jake David - 01-22-2020 END */
 
 /* START COVID 19 Styling additions */
-#k2Container > div.latestItemsCategory {
+div#k2Container div.latestItemsCategory {
   background: #d2d7d9;
   border: 1px solid #006EA0;
   margin-top: 5px;
