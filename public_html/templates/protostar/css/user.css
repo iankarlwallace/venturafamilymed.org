@@ -1,3 +1,6 @@
+/* User.css                                              */
+/* Background color of FEFEFE should be converted to FFF */
+
 /* Refactored CSS file - Changes are bracketed with a START and END comment*/
 /* Cafe POCUS Changes By Jake David - 01-22-2020 START */
 /* File contained multiple background-color defs - #d2d7d9 and #e7edf1*/
@@ -90,10 +93,6 @@ div#k2Container div.latestItemsCategory {
 }
 /* END COVID 19 Styling additions   */
 
-/* We have old custom templates from K2 2.6 which have never been updated */
-/* Most notably meet-us which displays all the resident/faculty images    */
-/* Sadly it requires a bit of TLC related to the reponsive layout         */
-
 div.clr {
   *zoom: 1;
 }
@@ -142,7 +141,7 @@ body {
   line-height: 25px;
   font-size: 15px;
   color: #011822;
-  background-color: #FEFEFE;
+  background-color: #FFF;
 }
 
 a {
