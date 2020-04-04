@@ -27,7 +27,7 @@
   "misMatchThreshold": 5.00,
   "requireSameDimensions": false,
   "removeSelectors": ["body>footer","ul.breadcrumb"],
-  "delay": 50,
+  "delay": 10,
   "scenarios": [
     {
       "label": "index_php",
@@ -214,7 +214,7 @@
   "report": ["CI"],
   "engine": "puppeteer",
   "engineOptions": {
-    "slowMo": 50,
+    "slowMo": 10,
     "args": [
       "--no-sandbox",
       "--disable-setuid-sandbox",
@@ -224,7 +224,7 @@
       "--hide-scrollbars"
     ]
   },
-  "asyncCaptureLimit": 2,
+  "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
   "debug": false,
   "debugWindow": false 
