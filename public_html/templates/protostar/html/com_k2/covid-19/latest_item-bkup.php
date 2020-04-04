@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 
 ?>
 
-<!-- Start K2 Item Layout -->
+<!-- Start K2 Item Layout COVID-19 -->
 <div class="latestItemView">
     <!-- Plugins: BeforeDisplay -->
     <?php echo $this->item->event->BeforeDisplay; ?>
@@ -161,4 +161,4 @@ defined('_JEXEC') or die;
 
     <div class="clr"></div>
 </div>
-<!-- End K2 Item Layout -->
+<!-- End K2 Item Layout COVID-19 -->
