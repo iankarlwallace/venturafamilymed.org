@@ -224,8 +224,8 @@
       "--hide-scrollbars"
     ]
   },
-  "asyncCaptureLimit": 5,
-  "asyncCompareLimit": 50,
+  "asyncCaptureLimit": 3,
+  "asyncCompareLimit": 25,
   "debug": false,
   "debugWindow": false 
 }
