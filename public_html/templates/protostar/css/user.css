@@ -88,7 +88,6 @@ div#k2Container div.latestItemsCategory {
   background-image: linear-gradient(transparent,transparent),url(/images/icons/external-link.svg);
   padding-right: 13px;
 }
-
 /* END COVID 19 Styling additions   */
 
 /* We have old custom templates from K2 2.6 which have never been updated */
@@ -1280,28 +1279,7 @@ div.announcement-side {
   width: 130px;
 }
 
-/*  THIS USED TO BE K2.CSS - was 2.6.x file - CHANGES */
-/*
-### Legend ###
-Font families used:
-font-family:Quicksand, "Times New Roman", Times, serif;
-font-family:"Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
-font-family:Arial, Helvetica, sans-serif;
-*/
-/*new colors 6/2015
-#fdb527
-#006EA0
-#cfdce4
-#e7edf1
-*/
-
-/* --- Global K2 container --- */
-#k2Container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-/* Does anyone use these?*/
+/* --- meet us template CSS --- */
 .evenMeetus {
   background: #FEFEFE;
   padding: 2px;
@@ -1312,6 +1290,192 @@ font-family:Arial, Helvetica, sans-serif;
   background: #FEFEFE;
   padding: 2px;
   min-height: 195px;
+}
+
+/* class appended on last list item */
+.lastItemMeetus {
+  border: none;
+}
+
+div.itemImageBlockMeetus {
+  padding: 2px;
+  margin: 0 15px 5px 0;
+  float: left;
+}
+
+div.itemNavigationMeetus {
+  padding: 4px 10px;
+  margin: 0 -18px 5px -18px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  background: #fffff0;
+  text-align: center;
+}
+
+div.itemNavigationMeetus span.itemNavigationTitle {
+  color: #999;
+}
+
+div.itemNavigationMeetus a.itemPrevious {
+  padding: 0 20px;
+}
+
+div.itemNavigationMeetus a.itemNext {
+  padding: 0 20px;
+}
+
+/* superscript */
+div.catItemHeader h3.catItemTitleMeetus {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 110%;
+  padding: 5px 0 2px 0;
+  margin: 0;
+  text-align: center;
+  min-height: 25px;
+}
+
+div.catItemHeader h3.catItemTitleMeetus span {}
+
+div.catItemHeader h3.catItemTitleMeetus span sup {
+  font-size: 12px;
+  color: #CF1919;
+  text-decoration: none;
+}
+
+div.catItemImageBlockMeetus {
+  padding: 5px;
+  margin: 0 0 0px 0;
+}
+
+span.catItemImageMeetus {
+  display: block;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+span.catItemImageMeetus img {
+  border: 1px solid #d2d7d9;
+  color: #006EA0;
+  border-radius: 5px;
+}
+
+div.k2ItemsBlockMeetUs {
+  height: 100%;
+  overflow: auto;
+}
+
+div.k2ItemsBlockMeetUs p.modulePretext {}
+
+div.k2ItemsBlockMeetUs ul {
+  margin: 5px 0;
+  padding: 0;
+  list-style: none outside none;
+}
+
+div.k2ItemsBlockMeetUs ul li {
+  width: 111px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  zoom: 1;
+  *display: inline;
+}
+
+div.k2ItemsBlockMeetUs ul li a {}
+
+div.k2ItemsBlockMeetUs ul li a:hover {}
+
+div.k2ItemsBlockMeetUs ul li.lastItem {}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemTitle {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemTitle:hover {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor a {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor a:hover {}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemAuthorAvatar img {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemIntrotext {
+  display: block;
+  padding: 4px 0;
+  line-height: 120%;
+}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemIntrotext a.moduleItemImage img {
+  border: 1px solid #006EA0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemExtraFields {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemVideo {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemVideo span.moduleItemVideoCaption {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemVideo span.moduleItemVideoCredits {}
+
+div.k2ItemsBlockMeetUs ul li span.moduleItemDateCreated {
+  font-size: x-small;
+  color: gray;
+}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemCategory {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemTags {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemTags b {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemTags a {
+  padding: 0 2px;
+}
+
+div.k2ItemsBlockMeetUs ul li div.moduleItemTags a:hover {}
+
+div.k2ItemsBlockMeetUs ul li div.moduleAttachments {}
+
+div.k2ItemsBlockMeetUs ul li ul.moduleAttachmentsList {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemComments {
+  border-right: 1px solid #ccc;
+  padding: 0 4px 0 0;
+  margin: 0 8px 0 0;
+}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemComments:hover {}
+
+div.k2ItemsBlockMeetUs ul li span.moduleItemHits {
+  border-right: 1px solid #ccc;
+  padding: 0 4px 0 0;
+  margin: 0 8px 0 0;
+}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemReadMore {}
+
+div.k2ItemsBlockMeetUs ul li a.moduleItemReadMore:hover {}
+
+div.k2ItemsBlockMeetUs a.moduleCustomLink {}
+
+div.k2ItemsBlockMeetUs a.moduleCustomLink:hover {}
+
+/* --- meet us template CSS --- */
+
+/* --- Global K2 container --- */
+#k2Container {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 div.k2FeedIcon {
@@ -1366,10 +1530,7 @@ div.k2UsersBlock ul li {}
   border: none;
 }
 
-/* class appended on last list item */
-.lastItemMeetus {
-  border: none;
-}
+
 
 /* class appended on last list item */
 /* --- Avatars --- */
@@ -1656,12 +1817,6 @@ span.itemImageFront {
 span.itemImageFront img {
   border: 1px solid #006EA0;
   border-radius: 5px;
-}
-
-div.itemImageBlockMeetus {
-  padding: 2px;
-  margin: 0 15px 5px 0;
-  float: left;
 }
 
 span.itemImage {
@@ -2062,27 +2217,6 @@ div.itemNavigation a.itemPrevious {
 
 div.itemNavigation a.itemNext {
   padding: 0 12px;
-}
-
-div.itemNavigationMeetus {
-  padding: 4px 10px;
-  margin: 0 -18px 5px -18px;
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
-  background: #fffff0;
-  text-align: center;
-}
-
-div.itemNavigationMeetus span.itemNavigationTitle {
-  color: #999;
-}
-
-div.itemNavigationMeetus a.itemPrevious {
-  padding: 0 20px;
-}
-
-div.itemNavigationMeetus a.itemNext {
-  padding: 0 20px;
 }
 
 /* Comments */
@@ -2539,25 +2673,6 @@ div.catItemHeader h3.catItemTitle span sup {
 }
 
 /* superscript */
-div.catItemHeader h3.catItemTitleMeetus {
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 110%;
-  padding: 5px 0 2px 0;
-  margin: 0;
-  text-align: center;
-  min-height: 25px;
-}
-
-div.catItemHeader h3.catItemTitleMeetus span {}
-
-div.catItemHeader h3.catItemTitleMeetus span sup {
-  font-size: 12px;
-  color: #CF1919;
-  text-decoration: none;
-}
-
-/* superscript */
 div.catItemHeader span.catItemAuthor {
   display: block;
   padding: 0;
@@ -2602,23 +2717,6 @@ span.catItemImage {
 span.catItemImage img {
   border: 1px solid #ccc;
   padding: 8px;
-}
-
-div.catItemImageBlockMeetus {
-  padding: 5px;
-  margin: 0 0 0px 0;
-}
-
-span.catItemImageMeetus {
-  display: block;
-  text-align: center;
-  margin: 0 0 0 0;
-}
-
-span.catItemImageMeetus img {
-  border: 1px solid #d2d7d9;
-  color: #006EA0;
-  border-radius: 5px;
 }
 
 div.catItemIntroText {}
@@ -3743,64 +3841,6 @@ div.moduletable-facility img {
   display: block;
 }
 
-div.k2ItemsBlockMeetUs {
-  height: 100%;
-  overflow: auto;
-}
-
-div.k2ItemsBlockMeetUs p.modulePretext {}
-
-div.k2ItemsBlockMeetUs ul {
-  margin: 5px 0;
-  padding: 0;
-  list-style: none outside none;
-}
-
-div.k2ItemsBlockMeetUs ul li {
-  width: 111px;
-  display: inline-block;
-  float: left;
-  text-align: center;
-  zoom: 1;
-  *display: inline;
-}
-
-div.k2ItemsBlockMeetUs ul li a {}
-
-div.k2ItemsBlockMeetUs ul li a:hover {}
-
-div.k2ItemsBlockMeetUs ul li.lastItem {}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemTitle {
-  font-size: 12px;
-  font-weight: 600;
-}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemTitle:hover {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor a {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor a:hover {}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemAuthorAvatar img {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemIntrotext {
-  display: block;
-  padding: 4px 0;
-  line-height: 120%;
-}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemIntrotext a.moduleItemImage img {
-  border: 1px solid #006EA0;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemExtraFields {}
-
 div.moduleItemExtraFields ul {}
 
 div.moduleItemExtraFields ul li {}
@@ -3814,58 +3854,6 @@ div.moduleItemExtraFields ul li span.moduleItemExtraFieldsLabel {
 }
 
 div.moduleItemExtraFields ul li span.moduleItemExtraFieldsValue {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemVideo {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemVideo span.moduleItemVideoCaption {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemVideo span.moduleItemVideoCredits {}
-
-div.k2ItemsBlockMeetUs ul li span.moduleItemDateCreated {
-  font-size: x-small;
-  color: gray;
-}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemCategory {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemTags {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemTags b {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemTags a {
-  padding: 0 2px;
-}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemTags a:hover {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleAttachments {}
-
-div.k2ItemsBlockMeetUs ul li ul.moduleAttachmentsList {
-  list-style-type: circle;
-  margin-left: 20px;
-}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemComments {
-  border-right: 1px solid #ccc;
-  padding: 0 4px 0 0;
-  margin: 0 8px 0 0;
-}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemComments:hover {}
-
-div.k2ItemsBlockMeetUs ul li span.moduleItemHits {
-  border-right: 1px solid #ccc;
-  padding: 0 4px 0 0;
-  margin: 0 8px 0 0;
-}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemReadMore {}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemReadMore:hover {}
-
-div.k2ItemsBlockMeetUs a.moduleCustomLink {}
-
-div.k2ItemsBlockMeetUs a.moduleCustomLink:hover {}
 
 /*----------------------------------------------------------------------
 Modules: mod_k2_user (mod_k2_login will be removed in v2.6)
