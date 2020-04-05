@@ -36,7 +36,7 @@ Feature: Homepage
     And I should see "The Family Medicine Residency Program at Ventura County Medical Center (VCMC)"
     And I should see "Ventura Residents establish continuity primary care practices"
     And I should see "Thank you for taking the time to learn more about us."
-    And I should see "We are full spectrum Family Medicine. Our graduates are empowered to serve with continuity of care in all settings, valuing all peoples."
+    And I should see "Our graduates are empowered to serve with continuity of care in all settings, valuing all peoples."
 
   #Homepage Contact Information Footer
   Scenario: Homepage contact information footer
