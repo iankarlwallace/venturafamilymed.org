@@ -20,7 +20,8 @@
   "stylelint": {
     "extends": ["/usr/local/share/.config/yarn/global/node_modules/stylelint-config-standard"],
     "rules": {
-      "indentation": 2
+      "indentation": 2,
+      "no-descending-specificity": null
     }
   }
 }
