@@ -698,8 +698,8 @@ ul.nav-child>li>a>img {
   border: 1px solid @dropdownBorder;
   *border-right-width: 2px;
   *border-bottom-width: 2px;
-  .border-radius(0px 6px 6p 6px);
-  .box-shadow(0 5px 10px rgba(0, 0, 0, .2));
+  border-radius: 0px 6px 6p 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -798,7 +798,6 @@ div.centered {
 ul.menu-facilities {
   text-align: center;
   vertical-align: top;
-  |
 }
 
 ul.menu-facilities li {
@@ -842,7 +841,6 @@ ul.menu-facilities .active {
 ul.menu-fast {
   text-align: center;
   vertical-align: top;
-  |
 }
 
 ul.menu-fast li {

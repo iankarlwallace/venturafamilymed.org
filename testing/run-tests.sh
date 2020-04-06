@@ -8,8 +8,8 @@ ROOTDIR=$(dirname $(realpath $0))
 cd $ROOTDIR
 
 cd $ROOTDIR/backstopjs
-echo "Update to Backstop JS tests"
-yarn upgrade
+echo "Yarn install dependencies to Backstop JS tests"
+yarn --force --frozen-lockfile
 
 echo "Running Backstop JS tests"
 yarn backstop test
@@ -19,7 +19,7 @@ echo "Update to Behat"
 COMPOSER_MEMORY_LIMIT=-1
 export COMPOSER_MEMORY_LIMIT
 composer update
-yarn upgrade
+yarn --force --frozen-lockfile
 
 echo "Running Behat tests"
 $ROOTDIR/behat/run-tests.sh
