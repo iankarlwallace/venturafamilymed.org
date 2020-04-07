@@ -24,7 +24,7 @@
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
-  "misMatchThreshold": 5.00,
+  "misMatchThreshold": 3.00,
   "requireSameDimensions": false,
   "removeSelectors": ["body>footer","ul.breadcrumb"],
   "delay": 10,
@@ -224,7 +224,7 @@
       "--hide-scrollbars"
     ]
   },
-  "asyncCaptureLimit": 3,
+  "asyncCaptureLimit": 5,
   "asyncCompareLimit": 25,
   "debug": false,
   "debugWindow": false 
