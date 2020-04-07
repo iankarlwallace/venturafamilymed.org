@@ -7180,7 +7180,7 @@ hr.hr-condensed {
   border-radius: 4px;
 }
 
-.radio.btn-group input[type=radio] {
+.radio.btn-group input[type="radio"] {
   display: none;
 }
 

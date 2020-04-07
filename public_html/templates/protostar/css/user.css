@@ -1,12 +1,11 @@
-/* User.css                                              */
-/* Background color of FEFEFE should be converted to FFF */
-
-/* Refactored CSS file - Changes are bracketed with a START and END comment*/
-/* Cafe POCUS Changes By Jake David - 01-22-2020 START */
-/* File contained multiple background-color defs - #d2d7d9 and #e7edf1*/
+/** User.css
+ * Refactored CSS file - Changes are bracketed with a START and END comment
+ * Cafe POCUS Changes By Jake David - 01-22-2020 START
+ * File contained multiple background-color defs - #d2d7d9 and #e7edf1
+ */
 div.utzprobe {
   float: right;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   border-radius: 4px;
   width: 300px;
   padding: 3px;
@@ -22,7 +21,7 @@ div.utzprobe img {
 
 div.utzblock {
   width: 98%;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   overflow: auto;
   padding: 3px;
   margin: 5px auto;
@@ -73,43 +72,46 @@ div.utzleft {
   margin: 5px;
   text-align: center;
 }
-/* Cafe POCUS Changes By Jake David - 01-22-2020 END */
 
-/* START COVID 19 Styling additions */
+/** Cafe POCUS Changes By Jake David - 01-22-2020 END
+ * START COVID 19 Styling additions
+ */
 div#k2Container div.latestItemsCategory {
   background: #d2d7d9;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   margin-top: 2px;
   padding: 2px;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 .external {
   background-position: center right;
   background-repeat: no-repeat;
   background-image: url(/images/icons/external-link.png);
-  background-image: linear-gradient(transparent,transparent),url(/images/icons/external-link.svg);
+  background-image: linear-gradient(transparent, transparent),
+    url(/images/icons/external-link.svg);
   padding-right: 13px;
 }
-/* END COVID 19 Styling additions   */
 
+/* END COVID 19 Styling additions   */
 div.clr {
   *zoom: 1;
 }
 
-div.clr:before,
-div.clr:after {
+div.clr::before,
+div.clr::after {
   display: table;
   content: "";
   line-height: 0;
 }
 
-div.clr:after {
+div.clr::after {
   clear: both;
 }
 
-/* Used in the meet-us module for the padding-left padding-right and highlight*/
-/* the top box                                                                */
+/* Used in the meet-us module for the padding-left padding-right and highlight
+ * the top box
+ */
 div.moduletable {
   padding-left: 20px;
   padding-right: 20px;
@@ -117,7 +119,7 @@ div.moduletable {
 
 div#k2ModuleBox216.k2ItemsBlock {
   background: #d2d7d9;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   margin-top: 5px;
   padding: 8px;
   border-radius: 10px;
@@ -154,11 +156,10 @@ a:focus {
 }
 
 /* END */
-
 .container-fluid {
   background-color: #fff;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 strong {
@@ -179,7 +180,7 @@ h1,
 h2,
 h3 {
   line-height: 40px;
-  font-family: quicksand;
+  font-family: Quicksand, sans-serif;
   font-weight: 300;
 }
 
@@ -306,11 +307,15 @@ input[type="color"],
 .dropdown-submenu:focus>a {
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0077b3));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
 }
 
 .dropdown-menu>.active>a,
@@ -318,11 +323,15 @@ input[type="color"],
 .dropdown-menu>.active>a:focus {
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0077b3));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
 }
 
 .dropdown-menu>.disabled>a,
@@ -331,19 +340,19 @@ input[type="color"],
   color: #111;
 }
 
-.dropdown-submenu:hover>a:after {
+.dropdown-submenu:hover>a::after {
   border-left-color: #fff;
 }
 
 .well {
   background-color: #d2d7d9;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   padding: 8px;
   margin: 5px;
-  color: #006EA0;
+  color: #006ea0;
 }
 
 .well blockquote {
@@ -359,7 +368,7 @@ input[type="color"],
 }
 
 .well h3 {
-  font-family: quicksand;
+  font-family: Quicksand, sans-serif;
 }
 
 .btn {
@@ -368,15 +377,19 @@ input[type="color"],
 
 .btn-primary {
   color: #fff;
-  background-color: #006EA0;
-  background-image: -moz-linear-gradient(top, #08c, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #08c, #0044cc);
-  background-image: -o-linear-gradient(top, #08c, #0044cc);
-  background-image: linear-gradient(to bottom, #08c, #0044cc);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0043cc', GradientType=0);
+  background-color: #006ea0;
+  background-image: -moz-linear-gradient(top, #08c, #04c);
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#04c));
+  background-image: -webkit-linear-gradient(top, #08c, #04c);
+  background-image: -o-linear-gradient(top, #08c, #04c);
+  background-image: linear-gradient(to bottom, #08c, #04c);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0043cc', GradientType=0);
   border-color: #805050;
-  *background-color: #0044cc;
+  *background-color: #04c;
 }
 
 .btn-primary:hover,
@@ -409,7 +422,7 @@ input[type="submit"].btn {
 }
 
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #0044cc;
+  background-color: #04c;
 }
 
 .nav-header {
@@ -435,16 +448,16 @@ input[type="submit"].btn {
 
 .nav-tabs>li>a,
 .nav-pills>li>a {
-  margin-right: 0px;
+  margin-right: 0;
   line-height: 30px;
 }
 
 .nav-pills>li>a {
   padding-top: 2px;
   padding-bottom: 2px;
-  -webkit-border-radius: 10px 10px 0px 0px;
-  -moz-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .nav-pills>li>a:hover,
@@ -463,11 +476,11 @@ input[type="submit"].btn {
 .nav-pills>.active>a:focus {
   color: #181818;
   background-color: #fff !important;
-  margin: 0px;
+  margin: 0;
   border-right: 1px solid #011822;
   border-left: 1px solid #011822;
   border-top: 1px solid #011822;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid #fff;
 }
 
 .nav .dropdown-toggle .caret {
@@ -486,7 +499,7 @@ input[type="submit"].btn {
   margin-right: auto;
 }
 
-.navbar-fixed-bottom .nav>li>.dropdown-menu:after {
+.navbar-fixed-bottom .nav>li>.dropdown-menu::after {
   border-top: 6px solid #fff;
 }
 
@@ -526,14 +539,15 @@ input[type="submit"].btn {
 
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #0088cc;
+  border-color: #08c;
 }
 
 @media (max-width: 979px) {
+
   .nav-collapse .nav>li>a,
   .nav-collapse .dropdown-menu a {
     font-size: 14px;
-    color: #046EA0;
+    color: #046ea0;
     background-color: #d2d7d9;
     border: 1px solid #a0a5a7;
     text-align: center;
@@ -600,17 +614,17 @@ div.modal.fade.in {
 
 body.site {
   border-top: 2px solid #fdb527;
-  background-color: #006EA0;
+  background-color: #006ea0;
 }
 
 body.site.fluid {
-  background-color: #006EA0;
+  background-color: #006ea0;
 }
 
 .site-title {
   font-size: 30px;
   line-height: 50px;
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
   color: #fdb527;
 }
@@ -623,7 +637,7 @@ body.site.fluid {
 }
 
 .brand {
-  color: #004466;
+  color: #046;
 }
 
 .brand:hover {
@@ -687,19 +701,19 @@ ul.nav-child>li>a>img {
   top: -35%;
   left: 98%;
   z-index: @zindexDropdown;
-  display: none; // none by default, but block on "open" of the menu
+  display: none;
   float: left;
   min-width: 160px;
   padding: 5px 0;
-  margin: 2px 0 0; // override default ul
+  margin: 2px 0 0;
   list-style: none;
   background-color: @dropdownBackground;
-  border: 1px solid #ccc; // Fallback for IE7-8
+  border: 1px solid #ccc;
   border: 1px solid @dropdownBorder;
   *border-right-width: 2px;
   *border-bottom-width: 2px;
-  border-radius: 0px 6px 6p 6px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  border-radius: 0 6px 6px 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -719,7 +733,7 @@ ul.nav-child-sub>li>a {
   color: #011822;
 }
 
-.navigation .nav-child:before {
+.navigation .nav-child::before {
   position: absolute;
   top: -7px;
   left: 9px;
@@ -728,10 +742,10 @@ ul.nav-child-sub>li>a {
   border-bottom: 7px solid #ccc;
   border-left: 7px solid transparent;
   border-bottom-color: rgba(0, 0, 0, 0.2);
-  content: '';
+  content: "";
 }
 
-.navigation .nav-child:after {
+.navigation .nav-child::after {
   position: absolute;
   top: -6px;
   left: 10px;
@@ -739,7 +753,7 @@ ul.nav-child-sub>li>a {
   border-right: 6px solid transparent;
   border-bottom: 6px solid #fff;
   border-left: 6px solid transparent;
-  content: '';
+  content: "";
 }
 
 .navigation .nav-child li>a:hover,
@@ -748,14 +762,19 @@ ul.nav-child-sub>li>a {
   background-color: #08c;
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0077b3));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
 }
 
 @media (max-width: 768px) {
+
   .header .nav.pull-right,
   .header-search {
     text-align: center;
@@ -776,13 +795,12 @@ dl.tabs dt.open h3 a {
 }
 
 /* DUPLICATE LINES template.css COMPLETE */
-
 footer {
   color: #ccc;
   font-size: 11px;
   padding-left: 25px;
   padding-right: 25px;
-  border-top: 5px solid #FDB527;
+  border-top: 5px solid #fdb527;
 }
 
 div.quicklinks {
@@ -807,18 +825,19 @@ ul.menu-facilities li {
   margin: 0 10px 0 10px;
   float: left;
 }
+
 ul.menu-facilities>li>a {
-  color: #006EA0;
+  color: #006ea0;
   font-weight: 600;
 }
 
 ul.menu-facilities>li>a:hover,
 ul.menu-facilities>li>a:focus {
-  color: #fdb527
+  color: #fdb527;
 }
 
 ul.menu-facilities>li>a>img {
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   width: 200px;
   height: 100px;
   border-radius: 3px;
@@ -835,7 +854,7 @@ ul.menu-facilities>li>a>img:focus {
 ul.menu-facilities .active {
   color: #fdb527;
   font-weight: bold;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
 }
 
 ul.menu-fast {
@@ -852,7 +871,7 @@ ul.menu-fast li {
 }
 
 ul.menu-fast>li>a>img {
-  border: 2px solid #006EA0;
+  border: 2px solid #006ea0;
   width: 150px;
   height: 100px;
   border-radius: 2px;
@@ -873,7 +892,7 @@ ul.menu-fast .active {
 }
 
 ul.menu-fast .active>a {
-  color: #006EA0;
+  color: #006ea0;
 }
 
 ul.menu-fast .active>a>img {
@@ -882,17 +901,17 @@ ul.menu-fast .active>a>img {
 
 div.moduletablebgorange {
   background-color: #d2d7d9;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   padding: 8px;
   margin: 5px;
-  color: #006EA0;
+  color: #006ea0;
 }
 
 div.moduletablebgorange h3 {
-  font-family: quicksand;
+  font-family: Quicksand, sans-serif;
 }
 
 div.moduletablebgorange a:hover,
@@ -919,7 +938,7 @@ div.announcement {
   margin-bottom: 15px;
   margin-right: auto;
   margin-left: auto;
-  color: #006EA0;
+  color: #006ea0;
   font-weight: 600;
   background-color: #ccc;
   width: 50%;
@@ -927,12 +946,12 @@ div.announcement {
 }
 
 div.announcement-side {
-  padding: 0px;
+  padding: 0;
   margin: 5px;
   border-radius: 5px;
   border: 1px solid #83a0b5;
   text-align: center;
-  color: #006EA0;
+  color: #006ea0;
   font-weight: 600;
   background-color: #ccc;
   width: 130px;
@@ -994,17 +1013,15 @@ div.catItemHeader h3.catItemTitleMeetus {
   min-height: 25px;
 }
 
-div.catItemHeader h3.catItemTitleMeetus span {}
-
 div.catItemHeader h3.catItemTitleMeetus span sup {
   font-size: 12px;
-  color: #CF1919;
+  color: #cf1919;
   text-decoration: none;
 }
 
 div.catItemImageBlockMeetus {
   padding: 5px;
-  margin: 0 0 0px 0;
+  margin: 0 0 0 0;
 }
 
 span.catItemImageMeetus {
@@ -1015,7 +1032,7 @@ span.catItemImageMeetus {
 
 span.catItemImageMeetus img {
   border: 1px solid #d2d7d9;
-  color: #006EA0;
+  color: #006ea0;
   border-radius: 5px;
 }
 
@@ -1023,8 +1040,6 @@ div.k2ItemsBlockMeetUs {
   height: 100%;
   overflow: auto;
 }
-
-div.k2ItemsBlockMeetUs p.modulePretext {}
 
 div.k2ItemsBlockMeetUs ul {
   margin: 5px 0;
@@ -1041,26 +1056,10 @@ div.k2ItemsBlockMeetUs ul li {
   *display: inline;
 }
 
-div.k2ItemsBlockMeetUs ul li a {}
-
-div.k2ItemsBlockMeetUs ul li a:hover {}
-
-div.k2ItemsBlockMeetUs ul li.lastItem {}
-
 div.k2ItemsBlockMeetUs ul li a.moduleItemTitle {
   font-size: 12px;
   font-weight: 600;
 }
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemTitle:hover {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor a {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemAuthor a:hover {}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemAuthorAvatar img {}
 
 div.k2ItemsBlockMeetUs ul li div.moduleItemIntrotext {
   display: block;
@@ -1069,38 +1068,20 @@ div.k2ItemsBlockMeetUs ul li div.moduleItemIntrotext {
 }
 
 div.k2ItemsBlockMeetUs ul li div.moduleItemIntrotext a.moduleItemImage img {
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemExtraFields {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemVideo {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemVideo span.moduleItemVideoCaption {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemVideo span.moduleItemVideoCredits {}
 
 div.k2ItemsBlockMeetUs ul li span.moduleItemDateCreated {
   font-size: x-small;
   color: gray;
 }
 
-div.k2ItemsBlockMeetUs ul li a.moduleItemCategory {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemTags {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemTags b {}
-
 div.k2ItemsBlockMeetUs ul li div.moduleItemTags a {
   padding: 0 2px;
 }
-
-div.k2ItemsBlockMeetUs ul li div.moduleItemTags a:hover {}
-
-div.k2ItemsBlockMeetUs ul li div.moduleAttachments {}
 
 div.k2ItemsBlockMeetUs ul li ul.moduleAttachmentsList {
   list-style-type: circle;
@@ -1113,25 +1094,15 @@ div.k2ItemsBlockMeetUs ul li a.moduleItemComments {
   margin: 0 8px 0 0;
 }
 
-div.k2ItemsBlockMeetUs ul li a.moduleItemComments:hover {}
-
 div.k2ItemsBlockMeetUs ul li span.moduleItemHits {
   border-right: 1px solid #ccc;
   padding: 0 4px 0 0;
   margin: 0 8px 0 0;
 }
 
-div.k2ItemsBlockMeetUs ul li a.moduleItemReadMore {}
-
-div.k2ItemsBlockMeetUs ul li a.moduleItemReadMore:hover {}
-
-div.k2ItemsBlockMeetUs a.moduleCustomLink {}
-
-div.k2ItemsBlockMeetUs a.moduleCustomLink:hover {}
-
-/* --- meet us template CSS --- */
-
-/* --- Global K2 container --- */
+/** --- meet us template CSS ---
+ *  --- Global K2 container ---
+ */
 #k2Container {
   padding-left: 20px;
   padding-right: 20px;
@@ -1144,16 +1115,16 @@ div.k2FeedIcon {
 /* --- ReCaptcha --- */
 .recaptchatable .recaptcha_image_cell,
 #recaptcha_table {
-  background-color: #FEFEFE !important;
+  background-color: #fefefe !important;
 }
 
 #recaptcha_response_field {
-  background-color: #FEFEFE !important;
+  background-color: #fefefe !important;
 }
 
-/* DUPLICATES from components/com_k2/css/k2.css removed to 276 */
-
-/* --- Primary lists in modules --- */
+/** DUPLICATES from components/com_k2/css/k2.css removed to 276
+  * --- Primary lists in modules ---
+  */
 div.k2LatestCommentsBlock ul,
 div.k2TopCommentersBlock ul,
 div.k2ItemsBlock ul,
@@ -1189,14 +1160,12 @@ div.k2UsersBlock ul li {}
   border: none;
 }
 
-
-
 /* class appended on last list item */
 /* --- Avatars --- */
 .k2Avatar img {
   display: block;
   float: left;
-  background: #FEFEFE;
+  background: #fefefe;
   border: 1px solid #ccc;
   padding: 2px;
   margin: 2px 4px 4px 0;
@@ -1307,7 +1276,7 @@ div.itemHeader h2.itemTitle a {}
 
 div.itemHeader h2.itemTitle span sup {
   font-size: 12px;
-  color: #CF1919;
+  color: #cf1919;
   text-decoration: none;
 }
 
@@ -1340,7 +1309,7 @@ div.itemHeader h2.itemTitleFront a {
 
 div.itemHeader h2.itemTitleFront span sup {
   font-size: 12px;
-  color: #CF1919;
+  color: #cf1919;
   text-decoration: none;
 }
 
@@ -1474,7 +1443,7 @@ span.itemImageFront {
 }
 
 span.itemImageFront img {
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   border-radius: 5px;
 }
 
@@ -1703,7 +1672,7 @@ div.itemAuthorBlock {
 div.itemAuthorBlock img.itemAuthorAvatar {
   float: left;
   display: block;
-  background: #FEFEFE;
+  background: #fefefe;
   padding: 4px;
   border: 1px solid #ddd;
   margin: 0 8px 0 0;
@@ -1781,7 +1750,7 @@ div.itemRelated ul li.k2ScrollerElement {
   border: 1px solid #ccc;
   padding: 4px;
   margin: 0 4px 4px 0;
-  background: #FEFEFE;
+  background: #fefefe;
 }
 
 /* you need to insert this class in the related li element in item.php for this styling to take effect */
@@ -1909,7 +1878,7 @@ div.itemComments ul.itemCommentsList li img {
   float: left;
   margin: 4px 4px 4px 0;
   padding: 4px;
-  background: #FEFEFE;
+  background: #fefefe;
   border-bottom: 1px solid #d7d7d7;
   border-left: 1px solid #f2f2f2;
   border-right: 1px solid #f2f2f2;
@@ -2048,7 +2017,7 @@ div.itemCommentsForm form span#formLog {
   margin: 0 0 0 20px;
   padding: 0 0 0 20px;
   font-weight: bold;
-  color: #CF1919;
+  color: #cf1919;
 }
 
 div.itemCommentsForm form .formLogLoading {
@@ -2074,7 +2043,7 @@ div.k2ReportCommentFormContainer blockquote span.quoteIconLeft {
   font-style: italic;
   font-weight: bold;
   font-size: 40px;
-  color: #135CAE;
+  color: #135cae;
   line-height: 30px;
   vertical-align: top;
   display: block;
@@ -2085,7 +2054,7 @@ div.k2ReportCommentFormContainer blockquote span.quoteIconRight {
   font-style: italic;
   font-weight: bold;
   font-size: 40px;
-  color: #135CAE;
+  color: #135cae;
   line-height: 30px;
   vertical-align: top;
   display: block;
@@ -2124,7 +2093,7 @@ div.k2ReportCommentFormContainer form span#formLog {
   margin: 0 0 0 20px;
   padding: 0 0 0 20px;
   font-weight: bold;
-  color: #CF1919;
+  color: #cf1919;
 }
 
 div.k2ReportCommentFormContainer form .formLogLoading {
@@ -2152,7 +2121,7 @@ div.itemListCategoriesBlock {}
 /* --- Category block --- */
 div.itemListCategory {
   background: #d2d7d9;
-  border: 1px solid #006EA0;
+  border: 1px solid #006ea0;
   margin-top: 5px;
   padding: 8px;
   border-radius: 10px;
@@ -2171,13 +2140,13 @@ span.catItemAddLink a {
 }
 
 span.catItemAddLink a:hover {
-  background: #FEFEcc;
+  background: #fefecc;
 }
 
 div.itemListCategory img {
   float: left;
   display: block;
-  background: #FEFEFE;
+  background: #fefefe;
   padding: 4px;
   border: 1px solid #ddd;
   margin: 0 8px 0 0;
@@ -2185,7 +2154,7 @@ div.itemListCategory img {
 }
 
 div.itemListCategory h2 {
-  color: #006EA0;
+  color: #006ea0;
   font-family: quicksand, sans-serif;
 }
 
@@ -2218,7 +2187,7 @@ div.subCategory a.subCategoryImage:hover {
 
 div.subCategory a.subCategoryImage img,
 div.subCategory a.subCategoryImage:hover img {
-  background: #FEFEFE;
+  background: #fefefe;
   padding: 4px;
   border: 1px solid #ddd;
   margin: 0 8px 0 0;
@@ -2327,7 +2296,7 @@ div.catItemHeader h3.catItemTitle span {}
 
 div.catItemHeader h3.catItemTitle span sup {
   font-size: 12px;
-  color: #CF1919;
+  color: #cf1919;
   text-decoration: none;
 }
 
@@ -2382,29 +2351,34 @@ div.catItemIntroText {}
 
 div.catItemIntroText img {}
 
-div.catItemExtraFields, div.genericItemExtraFields {
+div.catItemExtraFields,
+div.genericItemExtraFields {
   margin: 16px 0 0 0;
   padding: 8px 0 0 0;
   border-top: 1px dotted #ddd;
 }
 
-div.catItemExtraFields h4, div.genericItemExtraFields h4 {
+div.catItemExtraFields h4,
+div.genericItemExtraFields h4 {
   margin: 0;
   padding: 0 0 8px 0;
   line-height: normal !important;
 }
 
-div.catItemExtraFields ul, div.genericItemExtraFields ul {
+div.catItemExtraFields ul,
+div.genericItemExtraFields ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-div.catItemExtraFields ul li, div.genericItemExtraFields ul li {
+div.catItemExtraFields ul li,
+div.genericItemExtraFields ul li {
   display: block;
 }
 
-div.catItemExtraFields ul li span.catItemExtraFieldsLabel, div.genericItemExtraFields ul li span.genericItemExtraFieldsLabel {
+div.catItemExtraFields ul li span.catItemExtraFieldsLabel,
+div.genericItemExtraFields ul li span.genericItemExtraFieldsLabel {
   display: block;
   float: left;
   font-weight: bold;
@@ -2549,7 +2523,7 @@ div.catItemReadMore a {}
 
 div.catItemReadMore a:hover {
   font-weight: 600;
-  color: #006EA0;
+  color: #006ea0;
 }
 
 /* Modified date */
@@ -2598,7 +2572,7 @@ span.userItemAddLink a:hover {
 div.userBlock img {
   display: block;
   float: left;
-  background: #FEFEFE;
+  background: #fefefe;
   padding: 4px;
   border: 1px solid #ddd;
   margin: 0 8px 0 0;
@@ -2685,7 +2659,7 @@ div.userItemHeader h3.userItemTitle {
 
 div.userItemHeader h3.userItemTitle span sup {
   font-size: 12px;
-  color: #CF1919;
+  color: #cf1919;
   text-decoration: none;
 }
 
@@ -3027,7 +3001,7 @@ div.latestItemsCategoryImage {
 }
 
 div.latestItemsCategoryImage img {
-  background: #FEFEFE;
+  background: #fefefe;
   padding: 4px;
   border: 1px solid #ddd;
   margin: 0 8px 0 0;
@@ -3049,7 +3023,7 @@ div.latestItemsUser {
 div.latestItemsUser img {
   display: block;
   float: left;
-  background: #FEFEFE;
+  background: #fefefe;
   padding: 4px;
   border: 1px solid #ddd;
   margin: 0 8px 0 0;
@@ -3357,7 +3331,7 @@ div.k2ItemsBlock p.modulePretext {}
 div.k2ItemsBlockRot p.modulePretextRot {
   font-size: 14px;
   font-weight: bold;
-  font-variant: small-caps
+  font-variant: small-caps;
 }
 
 /*Edit 9/2/14* to remove bullet from sidebar*/
@@ -3370,7 +3344,7 @@ div.k2ItemsBlock ul {
 div.k2ItemsBlockRot ul {
   margin: 0px 0px;
   padding: 0px;
-  list-style: none outside none
+  list-style: none outside none;
 }
 
 div.k2ItemsBlock ul li {}
@@ -3663,12 +3637,12 @@ div.k2CalendarBlock {
 
 /* use this height value so that the calendar height won't change on Month change via ajax */
 div.k2CalendarLoader {
-  background: #FEFEFE url(../images/system/k2CalendarLoader.gif) no-repeat 50% 50%;
+  background: #fefefe url(../images/system/k2CalendarLoader.gif) no-repeat 50% 50%;
 }
 
 table.calendar {
   margin: 0 auto;
-  background: #FEFEFE;
+  background: #fefefe;
   border-collapse: collapse;
 }
 
@@ -3677,7 +3651,7 @@ table.calendar tr td {
   vertical-align: middle;
   padding: 2px;
   border: 1px solid #f4f4f4;
-  background: #FEFEFE;
+  background: #fefefe;
 }
 
 table.calendar tr td.calendarNavMonthPrev {
@@ -3740,32 +3714,32 @@ table.calendar tr td.calendarDateLinked a {
 table.calendar tr td.calendarDateLinked a:hover {
   display: block;
   background: #135cae;
-  color: #FEFEFE;
+  color: #fefefe;
   padding: 2px;
   text-decoration: none;
 }
 
 table.calendar tr td.calendarToday {
   background: #135cae;
-  color: #FEFEFE;
+  color: #fefefe;
 }
 
 table.calendar tr td.calendarTodayLinked {
   background: #135cae;
-  color: #FEFEFE;
+  color: #fefefe;
   padding: 0;
 }
 
 table.calendar tr td.calendarTodayLinked a {
   display: block;
   padding: 2px;
-  color: #FEFEFE;
+  color: #fefefe;
   text-decoration: none;
 }
 
 table.calendar tr td.calendarTodayLinked a:hover {
   display: block;
-  background: #BFD9FF;
+  background: #bfd9ff;
   padding: 2px;
   text-decoration: none;
 }
@@ -3854,7 +3828,7 @@ div.k2SearchBlock form input.k2SearchLoading {
 
 div.k2SearchBlock div.k2LiveSearchResults {
   display: none;
-  background: #FEFEFE;
+  background: #fefefe;
   position: absolute;
   z-index: 99;
   border: 1px solid #ccc;
@@ -3900,7 +3874,7 @@ div.k2TagCloudBlock a:hover {
   float: left;
   display: block;
   background: #135cae;
-  color: #FEFEFE;
+  color: #fefefe;
   text-decoration: none;
 }
 
@@ -4003,7 +3977,7 @@ ul.editmenu a {
 
 ul.moduleAttachments li {
   list-style: circle inside none;
-  color: #006EA0;
+  color: #006ea0;
 }
 
 .copyright {
@@ -4039,7 +4013,7 @@ ul.moduleAttachments li {
 }
 
 .footer .container-fluid {
-  background-color: #006EA0;
+  background-color: #006ea0;
   margin-left: -25px;
   margin-right: -25px;
 }
@@ -4159,7 +4133,7 @@ a.forgot.btn i {
 }
 
 .sclogin-modal-links a.btn-primary {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Logged in User options */
@@ -4196,7 +4170,7 @@ a.forgot.btn i {
 
 .sclogin #scprofile-pic,
 .sclogin .sclogin-greeting {
-  color: #FDB527;
+  color: #fdb527;
 }
 
 .sc-connect-user {
@@ -4306,10 +4280,10 @@ a.forgot.btn i {
 }
 
 .sourcecoast.modal.fade {
-  -webkit-transition: opacity .3s linear, top .3s ease-out;
-  -moz-transition: opacity .3s linear, top .3s ease-out;
-  -o-transition: opacity .3s linear, top .3s ease-out;
-  transition: opacity .3s linear, top .3s ease-out;
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+  transition: opacity 0.3s linear, top 0.3s ease-out;
   top: -25%;
   opacity: 0;
 }
@@ -5160,10 +5134,10 @@ Layout helpers
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border linear .2s, box-shadow linear .2s;
-  -moz-transition: border linear .2s, box-shadow linear .2s;
-  -o-transition: border linear .2s, box-shadow linear .2s;
-  transition: border linear .2s, box-shadow linear .2s;
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
 }
 
 .sourcecoast textarea:focus,
@@ -5186,9 +5160,12 @@ Layout helpers
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(82, 168, 236, 0.6);
 }
 
 .sourcecoast input[type="radio"],
@@ -6302,7 +6279,7 @@ Layout helpers
   display: inline-block;
   width: 14px;
   height: 14px;
-  *margin-right: .3em;
+  *margin-right: 0.3em;
   line-height: 14px;
   vertical-align: text-top;
   background-image: url("img/glyphicons-halflings.png");
@@ -6984,7 +6961,11 @@ Layout helpers
   color: #ffffff;
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#0088cc),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
   background-image: -o-linear-gradient(top, #0088cc, #0077b3);
   background-image: linear-gradient(to bottom, #0088cc, #0077b3);
@@ -7000,7 +6981,11 @@ Layout helpers
   outline: 0;
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#0088cc),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
   background-image: -o-linear-gradient(top, #0088cc, #0077b3);
   background-image: linear-gradient(to bottom, #0088cc, #0077b3);
@@ -7687,7 +7672,11 @@ Layout helpers
   padding-right: 20px;
   background-color: #fafafa;
   background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#ffffff),
+      to(#f2f2f2));
   background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
@@ -7890,9 +7879,9 @@ Layout helpers
 
 .sourcecoast .navbar-fixed-top .navbar-inner,
 .sourcecoast .navbar-static-top .navbar-inner {
-  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
-  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sourcecoast .navbar-fixed-bottom {
@@ -7900,9 +7889,9 @@ Layout helpers
 }
 
 .sourcecoast .navbar-fixed-bottom .navbar-inner {
-  -webkit-box-shadow: 0 -1px 10px rgba(0, 0, 0, .1);
-  -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, .1);
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sourcecoast .navbar .nav {
@@ -7962,7 +7951,11 @@ Layout helpers
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #ededed;
   background-image: -moz-linear-gradient(top, #f2f2f2, #e5e5e5);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#e5e5e5));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#f2f2f2),
+      to(#e5e5e5));
   background-image: -webkit-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: -o-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: linear-gradient(to bottom, #f2f2f2, #e5e5e5);
@@ -7973,9 +7966,12 @@ Layout helpers
   *background-color: #e5e5e5;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .075);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .075);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .075);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.075);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.075);
 }
 
 .sourcecoast .navbar .btn-navbar:hover,
@@ -8012,7 +8008,7 @@ Layout helpers
 }
 
 .sourcecoast .navbar .nav>li>.dropdown-menu:before {
-  content: '';
+  content: "";
   display: inline-block;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
@@ -8024,7 +8020,7 @@ Layout helpers
 }
 
 .sourcecoast .navbar .nav>li>.dropdown-menu:after {
-  content: '';
+  content: "";
   display: inline-block;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
@@ -8106,7 +8102,11 @@ Layout helpers
 .sourcecoast .navbar-inverse .navbar-inner {
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222222, #111111);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#222222),
+      to(#111111));
   background-image: -webkit-linear-gradient(top, #222222, #111111);
   background-image: -o-linear-gradient(top, #222222, #111111);
   background-image: linear-gradient(to bottom, #222222, #111111);
@@ -8192,9 +8192,12 @@ Layout helpers
   color: #ffffff;
   background-color: #515151;
   border-color: #111111;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .15);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .15);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .15);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1),
+    0 1px 0 rgba(255, 255, 255, 0.15);
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
@@ -8231,7 +8234,11 @@ Layout helpers
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #0e0e0e;
   background-image: -moz-linear-gradient(top, #151515, #040404);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#151515),
+      to(#040404));
   background-image: -webkit-linear-gradient(top, #151515, #040404);
   background-image: -o-linear-gradient(top, #151515, #040404);
   background-image: linear-gradient(to bottom, #151515, #040404);
@@ -8491,8 +8498,8 @@ Layout helpers
 .sourcecoast #autocomplete-fields ul.ui-autocomplete {
   list-style-type: none;
   margin: 0;
-  background-color: #FFF;
-  border-color: #333333 #333333 #293E6A;
+  background-color: #fff;
+  border-color: #333333 #333333 #293e6a;
   border-style: solid;
   border-width: 1px 1px 2px;
   max-width: 90%;
@@ -8541,7 +8548,7 @@ Layout helpers
 
 .sourcecoast #autocomplete-fields .ui-autocomplete li {
   color: #333;
-  border-color: #FFF;
+  border-color: #fff;
   border-style: solid;
   border-width: 1px 0;
   cursor: pointer;
@@ -8615,7 +8622,7 @@ div.moduletable-resmodule {
 
 div.moduletable-resmodule ul li {
   float: left;
-  border: 1px solid #046EA0;
+  border: 1px solid #046ea0;
   display: inline-block;
   margin: 3px;
   padding: 7px;
