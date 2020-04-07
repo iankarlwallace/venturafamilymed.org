@@ -31,7 +31,7 @@ class FeatureContext extends Behat\MinkExtension\Context\MinkContext
      * Mink expects not to have /html/body on xpaths so omit that
 	   */
     public function iPressButtonWithXpath($xpath)
-	  {
+    {
       $session = $this->getSession();
       $page = $session->getPage();
       $selectorsHandler = $session->getSelectorsHandler();
@@ -42,7 +42,8 @@ class FeatureContext extends Behat\MinkExtension\Context\MinkContext
         throw new \InvalidArgumentException(
           sprintf('Could not evaluate XPath: "%s"', $xpath)
         );
+      } else {
+	$element->click();
       }
-      $element->click();
-		}
+    }
 }
