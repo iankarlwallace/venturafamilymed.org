@@ -42,12 +42,25 @@ fi
 # Source is $HOME/$DOMAINROOT while target is $HOME/$TARGETDIR
 # Use rsync to tell us what would be copied if anything is needed
 cd $HOME/$DOMAINROOT/public_html
-TARGETFILE="templates/protostar/css/user.css"
+SUBDIR="templates/protostar/css"
+TARGETFILES="user.css template.css"
 
-if [ "$CMD" == "diff" ]; then
-  /usr/bin/diff -wBsc $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
-fi
+for FILE in $TARGETFILES
+do
+  echo "Working on $SUBDIR/$FILE"
 
-if [ "$CMD" == "deploy" ]; then
-  /usr/bin/rsync -avP $TARGETFILE $HOME/$TARGETDIR/$TARGETFILE
-fi
+  case "$CMD" in
+
+    diff)
+	/usr/bin/diff -wBsc $SUBDIR/$FILE $HOME/$TARGETDIR/$SUBDIR/$FILE
+	;;
+
+    deploy)
+	/usr/bin/rsync -avP $SUBDIR/$FILE $HOME/$TARGETDIR/$SUBDIR/$FILE
+	;;
+
+    *)
+	echo "Commands are diff or deploy."
+	;;
+  esac
+done
