@@ -46,8 +46,9 @@ defined('_JEXEC') or die;
 
             <?php if ($this->params->get('categoryTitle')): ?>
             <!-- Would apppear that this category styling should generate an H2 header ... -->
-            <h2><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></h2>
+            <!-- <h2><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></h2> -->
             <!-- Would apppear that this category styling should generate an H2 header ... -->
+            <strong><?php echo $category->name; ?></strong>
             <?php endif; ?>
 
             <?php if ($this->params->get('categoryDescription') && isset($category->description)): ?>
