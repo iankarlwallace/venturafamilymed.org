@@ -19,7 +19,7 @@
   "homepage": "https://github.com/iankarlwallace/venturafamilymed.org#readme",
   "stylelint": {
     "extends": [
-      "stylelint-prettier/recommended"
+      "/usr/local/share/.config/yarn/global/node_modules/stylelint-config-standard"
     ]
   }
 }
