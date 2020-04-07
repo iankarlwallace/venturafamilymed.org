@@ -78,6 +78,7 @@ textarea {
   margin: 0;
   font-size: 100%;
   vertical-align: middle;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 button,
@@ -126,6 +127,7 @@ input[type="search"]::-webkit-search-cancel-button {
 textarea {
   overflow: auto;
   vertical-align: top;
+  height: auto;
 }
 
 @media print {
@@ -207,7 +209,7 @@ textarea {
 }
 
 .hide-text {
-  font: 0/0 a;
+  font: 0/0 a, sans-serif;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
@@ -617,6 +619,7 @@ a:focus {
 }
 
 .container {
+  max-width: 960px;
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
@@ -652,6 +655,7 @@ a:focus {
 
 p {
   margin: 0 0 9px;
+  word-wrap: break-word;
 }
 
 .lead {
@@ -826,6 +830,7 @@ ol ul {
 
 li {
   line-height: 18px;
+  word-wrap: break-word;
 }
 
 ul.unstyled,
@@ -987,7 +992,7 @@ code {
   color: #d14;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
-  white-space: nowrap;
+  white-space: pre-wrap;
 }
 
 pre {
@@ -1063,12 +1068,14 @@ textarea {
   line-height: 18px;
 }
 
+/** Duplicate at 74
 input,
 button,
 select,
 textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+*/
 
 label {
   display: block;
@@ -1108,12 +1115,15 @@ input[type="color"],
 input,
 textarea,
 .uneditable-input {
+  margin-left: 0;
   width: 206px;
 }
 
+/** Duplicate at 127
 textarea {
   height: auto;
 }
+*/
 
 textarea,
 input[type="text"],
@@ -1326,11 +1336,13 @@ textarea[class*="span"],
   display: inline-block;
 }
 
+/** Duplicate at 1112
 input,
 textarea,
 .uneditable-input {
   margin-left: 0;
 }
+*/
 
 .controls-row [class*="span"] + [class*="span"] {
   margin-left: 20px;
@@ -2699,10 +2711,12 @@ button.close {
   *background-color: #d9d9d9;
 }
 
+/** Duplicate is at 2737
 .btn:active,
 .btn.active {
   background-color: #ccc \9;
 }
+*/
 
 .btn:first-child {
   *margin-left: 0;
@@ -2732,6 +2746,7 @@ button.close {
   -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #ccc \9;
 }
 
 .btn.disabled,
@@ -3248,11 +3263,14 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
 }
 
+/** Duplicate at 3268
 .btn-large .caret {
   margin-top: 6px;
 }
+*/
 
 .btn-large .caret {
+  margin-top: 6px;
   border-left-width: 5px;
   border-right-width: 5px;
   border-top-width: 5px;
@@ -3995,13 +4013,18 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 0;
 }
 
+/** Duplicate at 4041
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
   border-width: 0 0 1px;
 }
+*/
 
 .navbar-fixed-bottom .navbar-inner {
   border-width: 1px 0 0;
+  -webkit-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-fixed-top .navbar-inner,
@@ -4025,6 +4048,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
+  border-width: 0 0 1px;
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -4034,11 +4058,13 @@ input[type="submit"].btn.btn-mini {
   bottom: 0;
 }
 
+/** Duplicate at 4020
 .navbar-fixed-bottom .navbar-inner {
   -webkit-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
 }
+*/
 
 .navbar .nav {
   position: relative;
@@ -4395,9 +4421,10 @@ input[type="submit"].btn.btn-mini {
   background-color: #000 \9;
 }
 
+/* Had margin 0 0 18px initially */
 .breadcrumb {
   padding: 8px 15px;
-  margin: 0 0 18px;
+  margin: 10px 0;
   list-style: none;
   background-color: #f5f5f5;
   -webkit-border-radius: 4px;
@@ -4862,6 +4889,7 @@ input[type="submit"].btn.btn-mini {
 
 .popover-content {
   padding: 9px 14px;
+  min-height: 33px;
 }
 
 .popover .arrow,
@@ -5506,6 +5534,7 @@ a.badge:focus {
 }
 
 .hero-unit {
+  text-align: center;
   padding: 60px;
   margin-bottom: 30px;
   font-size: 18px;
@@ -6876,9 +6905,11 @@ a.disabled:hover {
   text-decoration: none;
 }
 
+/** Duplicate at 5526
 .hero-unit {
   text-align: center;
 }
+*/
 
 .hero-unit .lead {
   margin-bottom: 18px;
@@ -6887,9 +6918,11 @@ a.disabled:hover {
   line-height: 27px;
 }
 
+/** Duplicate at 3261 and moved to user.css
 .btn .caret {
   margin-bottom: 7px;
 }
+*/
 
 .btn.btn-micro .caret {
   margin: 5px 0;
@@ -6919,10 +6952,12 @@ body.modal {
   background-color: #f9f9f9;
 }
 
+/** Duplicate at 6931
 .blog-row-rule,
 .blog-item-rule {
   border: 0;
 }
+*/
 
 .row-fluid .row-reveal {
   visibility: hidden;
@@ -6941,11 +6976,15 @@ body.modal {
   font-size: 12px;
 }
 
+/** Duplicate at 6931
 .blog-row-rule,
 .blog-item-rule {
   border: 0;
 }
+*/
 
+/** Duplicate selectors and moved to user.css b/c slightly different
+ *  duplicates start around 630s
 .row-fluid .offset1 {
   margin-left: 8.382978723%;
 }
@@ -6989,6 +7028,7 @@ body.modal {
 .row-fluid .offset11 {
   margin-left: 91.489361693%;
 }
+*/
 
 .navbar .nav > li > a.btn {
   padding: 4px 10px;
@@ -7150,9 +7190,11 @@ hr.hr-condensed {
   min-height: 10px;
 }
 
+/** Duplicate above moved to user.css
 .row-striped .row-fluid [class*="span"] {
   margin-left: 8px;
 }
+*/
 
 .row-striped .row-fluid [class*="span"]:first-child {
   margin-left: 0;
@@ -7209,9 +7251,11 @@ fieldset.radio.btn-group {
   border: 1px solid #ddd;
 }
 
+/** Duplicate at 3710 moved to user.css
 .tab-content {
   overflow: visible;
 }
+*/
 
 .tabs-left .tab-content {
   overflow: auto;
@@ -7254,10 +7298,12 @@ fieldset.radio.btn-group {
   z-index: 100;
 }
 
+/** Duplicate at 812 moved to user.css
 .page-header {
   margin: 2px 0 10px 0;
   padding-bottom: 5px;
 }
+*/
 
 .input-prepend > .add-on,
 .input-append > .add-on {
@@ -7354,6 +7400,7 @@ select.chzn-done.invalid + .chzn-container.chzn-container-multi > ul.chzn-choice
   color: #9d261d;
 }
 
+/** Duplicate at 4745 moved to user.css
 .tooltip {
   max-width: 400px;
 }
@@ -7363,6 +7410,7 @@ select.chzn-done.invalid + .chzn-container.chzn-container-multi > ul.chzn-choice
   text-align: left;
   text-shadow: none;
 }
+*/
 
 th .tooltip-inner {
   font-weight: normal;
@@ -7409,9 +7457,11 @@ th .tooltip-inner {
   *padding-bottom: 7px;
 }
 
+/** Duplicate at 2344 moved to user.css
 .dropdown-menu {
   text-align: left;
 }
+*/
 
 .alert-link {
   font-weight: bold;
@@ -7609,7 +7659,7 @@ div.modal.jviewport-width100 {
 }
 
 [data-icon]::before {
-  font-family: 'IcoMoon';
+  font-family: 'IcoMoon', sans-serif;
   content: attr(data-icon);
   speak: none;
 }
@@ -7625,7 +7675,7 @@ div.modal.jviewport-width100 {
 
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
-  font-family: 'IcoMoon';
+  font-family: 'IcoMoon', sans-serif;
   font-style: normal;
   speak: none;
 }
@@ -8557,10 +8607,12 @@ div.modal.jviewport-width100 {
   content: "\4b";
 }
 
+/** Duplicate at 228 and moved to user.css
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*/
 
 body.site {
   border-top: 3px solid #08c;
@@ -8572,13 +8624,17 @@ body.site.fluid {
   background-color: #fff;
 }
 
+/** Duplicate at 5005
 .thumbnail {
   margin-bottom: 9px;
 }
+*/
 
+/** Duplicate at 5362
 .accordion-group {
   background: #fff;
 }
+*/
 
 .site-title {
   font-size: 40px;
@@ -8629,18 +8685,22 @@ body.site.fluid {
   margin-bottom: 0;
 }
 
+/** Duplicate at 5536
 .hero-unit {
   background-color: #08c;
 }
+*/
 
 .hero-unit > * {
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+/** Duplicate 621 in this file
 .container {
   max-width: 960px;
 }
+*/
 
 .body .container {
   background-color: #fff;
@@ -8658,6 +8718,7 @@ body.site.fluid {
   margin: 0 0 5px 0;
 }
 
+/** Duplicate 176 user.css
 h1,
 h2,
 h3,
@@ -8667,36 +8728,49 @@ h6 {
   margin: 12px 0;
   word-wrap: break-word;
 }
+*/
 
+/** Duplicate 194 user.css
 h1 {
   font-size: 26px;
   line-height: 28px;
 }
+*/
 
+/** Duplicate 198 user.css
 h2 {
   font-size: 22px;
   line-height: 24px;
 }
+*/
 
+/** Duplicate 202 user.css
 h3 {
   font-size: 18px;
   line-height: 20px;
 }
+*/
 
+/** Duplicate 206 user.css
 h4 {
   font-size: 14px;
   line-height: 16px;
 }
+*/
 
+/** Duplicate 210 user.css
 h5 {
   font-size: 13px;
   line-height: 15px;
 }
+*/
 
+/** Dulicate 214 user.css
 h6 {
   font-size: 12px;
   line-height: 14px;
 }
+*/
 
 .module-header {
   padding-bottom: 17px;
@@ -8704,9 +8778,11 @@ h6 {
   border-bottom: 1px solid #eee;
 }
 
+/** Duplicate at 655
 p {
   word-wrap: break-word;
 }
+*/
 
 .item-title {
   margin-bottom: 9px;
@@ -8756,9 +8832,11 @@ p {
   padding: 15px 0;
 }
 
+/** Duplicate at 4423
 .breadcrumb {
   margin: 10px 0;
 }
+*/
 
 .breadcrumb > li,
 .breadcrumb > .active {
@@ -9060,12 +9138,13 @@ figcaption {
     border-radius: 4px 4px 0 0;
   }
 
+  /* border-bottm was color ddd initially */
   .nav-tabs > li:last-child > a,
   .nav-tabs > .active:last-child > a {
     -webkit-border-radius: 0 0 4px 4px;
     -moz-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #333;
   }
 
   .nav-tabs > li > a:hover {
@@ -9077,10 +9156,12 @@ figcaption {
     border: 1px solid #333;
   }
 
+  /** Duplicate at 9091
   .nav-tabs > li:last-child > a,
   .nav-tabs > .active:last-child > a {
     border-bottom: 1px solid #333;
   }
+  */
 
   .nav-tabs.nav-dark > li > a:hover {
     border-color: #333;
@@ -9090,9 +9171,11 @@ figcaption {
     float: none;
   }
 
+  /** Duplicate below
   .nav-pills > li > a {
     margin-right: 0;
   }
+  */
 
   .nav-pills > li > a {
     margin-bottom: 3px;
@@ -9203,9 +9286,11 @@ div.current dd.tabs {
   margin: 10px;
 }
 
+/** Duplicate at 988
 code {
   white-space: pre-wrap;
 }
+*/
 
 #filter-search {
   vertical-align: top;
@@ -9239,10 +9324,12 @@ body.modal-open {
   display: inline;
 }
 
+/** Moved to user.css b/c modifies the padding-top attribute
 .controls > .radio:first-child,
 .controls > .checkbox:first-child {
   padding-top: 0;
 }
+*/
 
 .form-horizontal .controls > .radio:first-child,
 .form-horizontal .controls > .checkbox:first-child {
@@ -9279,9 +9366,11 @@ body.modal-open {
   padding: 28px 10px 10px 10px;
 }
 
+/** Duplicate at 829
 li {
   word-wrap: break-word;
 }
+*/
 
 ul.manager .height-50 .icon-folder-2 {
   height: 35px;
@@ -9290,9 +9379,11 @@ ul.manager .height-50 .icon-folder-2 {
   font-size: 30px;
 }
 
+/** Duplicate at 4886
 .popover-content {
   min-height: 33px;
 }
+*/
 
 .finder-selects {
   margin: 0 15px 15px 0;
