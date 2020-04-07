@@ -1,0 +1,29 @@
+{
+  "name": "venturafamilymed.org",
+  "version": "1.0.0",
+  "description": "Venturafamilymed.org Website and Testing suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iankarlwallace/venturafamilymed.org.git"
+  },
+  "keywords": [],
+  "author": "Ian Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iankarlwallace/venturafamilymed.org/issues"
+  },
+  "homepage": "https://github.com/iankarlwallace/venturafamilymed.org#readme",
+  "stylelint": {
+    "extends": [
+      "/usr/local/share/.config/yarn/global/node_modules/stylelint-config-standard",
+      "/usr/local/share/.config/yarn/global/node_modules/stylelint-config-prettier"
+    ],
+    "rules": {
+      "no-descending-specificity": null
+    }
+  }
+}

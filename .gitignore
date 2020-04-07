@@ -19,6 +19,7 @@
 /testing/backstopjs/yarn-error.log
 /testing/backstopjs/backstop_data/bitmaps_test
 /testing/backstopjs/backstop_data/html_report
+/node_modules/
 
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
