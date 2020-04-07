@@ -94,6 +94,13 @@ div#k2Container div.latestItemsCategory {
 }
 
 /* END COVID 19 Styling additions   */
+
+/* Duplicate of Selector in Template.css */
+.controls > .radio:first-child,
+.controls > .checkbox:first-child {
+  padding-top: 0;
+}
+
 div.clr {
   *zoom: 1;
 }
@@ -107,6 +114,83 @@ div.clr::after {
 
 div.clr::after {
   clear: both;
+}
+
+.btn .caret {
+  margin-bottom: 7px;
+}
+
+.row-fluid .offset1 {
+  margin-left: 8.382978723%;
+}
+
+.row-fluid .offset2 {
+  margin-left: 16.89361702%;
+}
+
+.row-fluid .offset3 {
+  margin-left: 25.404255317%;
+}
+
+.row-fluid .offset4 {
+  margin-left: 33.914893614%;
+}
+
+.row-fluid .offset5 {
+  margin-left: 42.425531911%;
+}
+
+.row-fluid .offset6 {
+  margin-left: 50.93617020799999%;
+}
+
+.row-fluid .offset7 {
+  margin-left: 59.446808505%;
+}
+
+.row-fluid .offset8 {
+  margin-left: 67.95744680199999%;
+}
+
+.row-fluid .offset9 {
+  margin-left: 76.468085099%;
+}
+
+.row-fluid .offset10 {
+  margin-left: 84.97872339599999%;
+}
+
+.row-fluid .offset11 {
+  margin-left: 91.489361693%;
+}
+
+.row-striped .row-fluid [class*="span"] {
+  margin-left: 8px;
+}
+
+.tab-content {
+  overflow: visible;
+}
+
+.page-header {
+  margin: 2px 0 10px 0;
+  padding-bottom: 5px;
+}
+
+.tooltip {
+  max-width: 400px;
+}
+
+/** Duplicate at 630
+.tooltip-inner {
+  max-width: none;
+  text-align: left;
+  text-shadow: none;
+}
+*/
+
+.dropdown-menu {
+  text-align: left;
 }
 
 /* Used in the meet-us module for the padding-left padding-right and highlight
@@ -123,6 +207,19 @@ div#k2ModuleBox216.k2ItemsBlock {
   margin-top: 5px;
   padding: 8px;
   border-radius: 10px;
+}
+
+/* Items moved out of template.css */
+.hero-unit {
+  background-color: #08c;
+}
+
+.accordion-group {
+  background: #fff;
+}
+
+.thumbnail {
+  margin-bottom: 9px;
 }
 
 /* Changes note in template.css START */
@@ -144,6 +241,8 @@ body {
   font-size: 15px;
   color: #011822;
   background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -174,6 +273,7 @@ h5,
 h6 {
   margin: 6px 0;
   font-weight: 400;
+  word-wrap: break-word;
 }
 
 h1,
@@ -186,26 +286,32 @@ h3 {
 
 h1 {
   font-size: 36px;
+  line-height: 38px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
+  line-height: 24px;
 }
 
 h3 {
   font-size: 18px;
+  line-height: 20px;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 h5 {
   font-size: 13px;
+  line-height: 15px;
 }
 
 h6 {
   font-size: 12px;
+  line-height: 14px;
 }
 
 h1 small {
@@ -523,6 +629,9 @@ input[type="submit"].btn {
 }
 
 .tooltip-inner {
+  max-width: none;
+  text-align: left;
+  text-shadow: none;
   color: #fff;
   background-color: #011822;
 }
