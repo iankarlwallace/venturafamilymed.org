@@ -30,30 +30,26 @@
       "/usr/local/share/.config/yarn/global/node_modules/stylelint-config-prettier"
     ],
     "plugins": [
-       "/usr/local/share/.config/yarn/global/node_modules/stylelint-no-browser-hacks/lib"
-     ],
-     "rules": {
-       "block-closing-brace-newline-after": "always",
-       "color-no-invalid-hex": true,
-       "indentation": 2,
-       "property-no-unknown": true,
-       "plugin/no-browser-hacks": [true, {
-         "browsers": [
-           "last 2 versions",
-           "ie >=8"
-         ]
-       }],
-       "max-empty-lines": 1,
-       "value-keyword-case": "lower",
-       "rule-empty-line-before": ["always", {
-         "except": ["inside-block-and-after-rule", "first-nested"],
-         "ignore": ["after-comment"]
-         }],
-       "at-rule-empty-line-before": [ "always", {
-         "except": [ "blockless-after-same-name-blockless", "first-nested"],
-         "ignore": ["after-comment"]
-         }],
-       "no-descending-specificity": null
+      "/usr/local/share/.config/yarn/global/node_modules/stylelint-no-browser-hacks/lib"
+    ],
+    "rules": {
+      "block-closing-brace-newline-after": "always",
+      "color-no-invalid-hex": true,
+      "indentation": 2,
+      "property-no-unknown": true,
+      "plugin/no-browser-hacks": [true, {
+        "browsers": [
+          "last 2 versions",
+          "ie >=8"
+        ]
+      }],
+      "max-empty-lines": 1,
+      "value-keyword-case": "lower",
+      "rule-empty-line-before": ["always", {
+        "except": [],
+        "ignore": ["after-comment"]
+      }],
+      "no-descending-specificity": null
     }
   }
 }
