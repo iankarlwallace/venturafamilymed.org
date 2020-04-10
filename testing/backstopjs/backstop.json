@@ -25,7 +25,7 @@
   "onReadyScript": "puppet/onReady.js",
   "misMatchThreshold": 3.00,
   "requireSameDimensions": false,
-  "removeSelectors": ["body>footer", "ul.breadcrumb", "div.moduletablebgorange.modinfectiousdisease"],
+  "removeSelectors": ["body>footer", "ul.breadcrumb", "#k2ModuleBox249"],
   "delay": 10,
   "scenarios": [{
       "label": "index_php",
