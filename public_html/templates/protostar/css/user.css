@@ -93,8 +93,10 @@ div#k2Container div.latestItemsCategory {
   padding-right: 13px;
 }
 
-/** END COVID 19 Styling additions
- * Duplicate of Selector in Template.css */
+/** END COVID 19 Styling additions */
+
+/*  */
+
 div.clr {
   *zoom: 1;
 }
@@ -109,27 +111,6 @@ div.clr::after {
 div.clr::after {
   clear: both;
 }
-
-.row-striped .row-fluid [class*="span"] {
-  margin-left: 8px;
-}
-
-.tab-content {
-  overflow: visible;
-}
-
-.page-header {
-  margin: 2px 0 10px 0;
-  padding-bottom: 5px;
-}
-
-/** Duplicate at 630
-.tooltip-inner {
-  max-width: none;
-  text-align: left;
-  text-shadow: none;
-}
-*/
 
 /* Used in the meet-us module for the padding-left padding-right and highlight
  * the top box
@@ -147,7 +128,6 @@ div#k2ModuleBox216.k2ItemsBlock {
   border-radius: 10px;
 }
 
-/* Changes note in template.css START */
 div#sclogin-126 {
   float: none;
   max-width: none;
@@ -161,11 +141,11 @@ div#sclogin-126 {
 
 body {
   font-family: Raleway, sans-serif;
-  font-weight: 400;
-  line-height: 25px;
   font-size: 15px;
+  line-height: 25px;
   color: #011822;
   background-color: #fff;
+  font-weight: 400;
 }
 
 a {
@@ -177,11 +157,10 @@ a:focus {
   color: #005580;
 }
 
-/* END */
 .container-fluid {
   background-color: #fff;
-  padding-left: 0;
   padding-right: 0;
+  padding-left: 0;
 }
 
 strong {
@@ -368,19 +347,15 @@ input[type="color"],
   color: #111;
 }
 
-.dropdown-submenu:hover>a::after {
-  border-left-color: #fff;
-}
-
 .well {
-  background-color: #d2d7d9;
-  border: 1px solid #006ea0;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  color: #006ea0;
   padding: 8px;
   margin: 5px;
-  color: #006ea0;
+  background-color: #d2d7d9;
+  border: 1px solid #006ea0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .well blockquote {
@@ -404,7 +379,6 @@ input[type="color"],
 }
 
 .btn-primary {
-  color: #fff;
   background-color: #006ea0;
   background-image: -moz-linear-gradient(top, #08c, #04c);
   background-image: -webkit-gradient(linear,
@@ -503,7 +477,6 @@ input[type="submit"].btn {
 .nav-pills>.active>a:hover,
 .nav-pills>.active>a:focus {
   color: #181818;
-  background-color: #fff !important;
   margin: 0;
   border-right: 1px solid #011822;
   border-left: 1px solid #011822;
@@ -527,20 +500,11 @@ input[type="submit"].btn {
   margin-right: auto;
 }
 
-.navbar-fixed-bottom .nav>li>.dropdown-menu::after {
-  border-top: 6px solid #fff;
-}
-
 .breadcrumb {
   margin: 5px 15px;
 }
 
 .modal-backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   z-index: 99990;
   background-color: #011822;
 }
@@ -554,7 +518,6 @@ input[type="submit"].btn {
   max-width: none;
   text-align: left;
   text-shadow: none;
-  color: #fff;
   background-color: #011822;
 }
 
@@ -632,11 +595,6 @@ a.thumbnail:focus {
 .input-prepend .chzn-container-single .chzn-drop,
 .input-append .chzn-container-single .chzn-drop {
   border-color: #ccc;
-}
-
-.input-prepend>.add-on,
-.input-append>.add-on {
-  vertical-align: top;
 }
 
 div.modal {
@@ -760,10 +718,6 @@ ul.nav-child-sub>li>a {
   font-size: 12px;
 }
 
-.navigation .nav-child .divider {
-  border-bottom: 1px solid #fff;
-}
-
 .navigation .nav-child a {
   font-size: 14px;
   line-height: 20px;
@@ -831,8 +785,6 @@ dl.tabs dt.open h3 a {
   color: #011822;
 }
 
-/* DUPLICATE LINES template.css COMPLETE
- * Extra defs from template.css file        */
 button,
 input,
 select,
@@ -842,10 +794,6 @@ textarea {
 
 textarea {
   height: auto;
-}
-
-.hide-text {
-  font: 0/0 a, sans-serif;
 }
 
 p {
@@ -861,10 +809,6 @@ textarea,
 .btn.active,
 .btn:active {
   background-color: #ccc \9;
-}
-
-.btn-large .caret {
-  margin-top: 6px;
 }
 
 .navbar-fixed-bottom .navbar-inner {
@@ -885,10 +829,6 @@ textarea,
 .nav-tabs>li:last-child>a,
 .nav-tabs>.active:last-child>a {
   border-bottom: 1px solid #333;
-}
-
-code {
-  white-space: pre-wrap;
 }
 
 footer {
@@ -1594,6 +1534,8 @@ div.itemCategory span {
   color: #555;
   padding: 0 4px 0 0;
 }
+
+/* Cleared duplicates to this point in FILE from template.css */
 
 div.itemTagsBlock {
   padding: 4px;
