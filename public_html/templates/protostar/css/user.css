@@ -94,9 +94,7 @@ div#k2Container div.latestItemsCategory {
 }
 
 /** END COVID 19 Styling additions */
-
 /*  */
-
 div.clr {
   *zoom: 1;
 }
@@ -315,10 +313,10 @@ input[type="color"],
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#08c),
-  to(#0077b3));
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
@@ -331,10 +329,10 @@ input[type="color"],
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#08c),
-  to(#0077b3));
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
@@ -382,10 +380,10 @@ input[type="color"],
   background-color: #006ea0;
   background-image: -moz-linear-gradient(top, #08c, #04c);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#08c),
-  to(#04c));
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#04c));
   background-image: -webkit-linear-gradient(top, #08c, #04c);
   background-image: -o-linear-gradient(top, #08c, #04c);
   background-image: linear-gradient(to bottom, #08c, #04c);
@@ -754,10 +752,10 @@ ul.nav-child-sub>li>a {
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#08c),
-  to(#0077b3));
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
@@ -1158,14 +1156,12 @@ div.k2FeedIcon {
   background-color: #fefefe !important;
 }
 
-/* Example CSS: display:block;clear:both;padding:2px 0;border-bottom:1px dotted #ccc; */
 .clearList {
   display: none;
   float: none;
   clear: both;
 }
 
-/* this class is used to clear all previous floating list elements */
 .lastItem {
   border: none;
 }
@@ -1534,8 +1530,6 @@ div.itemCategory span {
   color: #555;
   padding: 0 4px 0 0;
 }
-
-/* Cleared duplicates to this point in FILE from template.css */
 
 div.itemTagsBlock {
   padding: 4px;
@@ -3410,11 +3404,10 @@ ul.moduleAttachments li {
   margin-right: -25px;
 }
 
-/* --- END --- */
-
-/* Formerly: public_html/media/sourcecoast/themes/sclogin/default.css */
+/** Formerly: public_html/media/sourcecoast/themes/sclogin/default.css
+*   All duplicates being removed
+ */
 .sclogin {
-  overflow: visible;
   text-align: right;
   margin-bottom: 3px;
   max-width: 110px;
@@ -3422,64 +3415,9 @@ ul.moduleAttachments li {
   margin-left: 15px;
 }
 
-#login-modal {
-  top: 15%;
-}
-
-.sclogin .powered-by {
-  clear: both;
-}
-
-div.sclogin-social-login a.show,
-div.sclogin-joomla-login a.show,
-div.sclogin-social-connect a.show {
-  margin-bottom: 9px;
-}
-
-div.sclogin-social-connect,
-div.social-login.reconnect:nth-of-type(2) {
-  clear: left;
-}
-
-.sclogin-social-login .pull-left {
-  margin: 5px;
-}
-
-.sclogin-social-login.bottom {
-  padding: 5px 0;
-}
-
 input#sclogin-username.input-block-level,
 input#sclogin-passwd.input-block-level {
   height: 30px;
-}
-
-a.forgot.btn {
-  height: 28px !important;
-  padding: 0 0;
-}
-
-a.forgot.btn i {
-  margin-top: 6px;
-}
-
-#form-sclogin-submitcreate a,
-.sclogin-modal-links a.btn,
-.scuser-menu a.dropdown-toggle {
-  text-decoration: none !important;
-}
-
-#form-sclogin-submitcreate a,
-.scuser-menu a.dropdown-toggle {
-  color: #000;
-}
-
-.sclogin [class*="span"] {
-  margin-left: 0 !important;
-}
-
-.sclogin .clearfix {
-  clear: both;
 }
 
 #sclogin-username,
@@ -3493,22 +3431,9 @@ a.forgot.btn i {
   width: 87% !important;
 }
 
-.sclogin-joomla-login.vertical a.forgot.btn {
-  width: 13% !important;
-}
-
 .sclogin-joomla-login.vertical input#sclogin-username.input-append,
 .sclogin-joomla-login.vertical input#sclogin-passwd.input-append {
   width: 100%;
-}
-
-.sclogin-joomla-login.vertical #form-sclogin-submitcreate .btn {
-  margin-top: 2px !important;
-}
-
-/* Horizontal Layout */
-.sclogin-joomla-login.horizontal .control-group {
-  margin-right: 2px;
 }
 
 /* Modal Links */
@@ -3516,25 +3441,8 @@ a.forgot.btn i {
   margin-right: 0;
 }
 
-.sclogin-modal-links a.btn-primary {
-  color: #fff;
-}
-
-/* Logged in User options */
-.sclogin .flat-list {
-  display: block !important;
-  border: none !important;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  margin-top: 1px !important;
-}
-
 .sclogin .flat-list>li {
   list-style: none;
-}
-
-.sclogin .logout-button {
-  margin-top: 0;
 }
 
 .sclogin .sclogout-button {
@@ -3543,12 +3451,7 @@ a.forgot.btn i {
   margin-right: auto;
 }
 
-.sclogin .scuser-menu.dropdown-view {
-  float: left;
-}
-
 .sclogin .scuser-menu.list-view {
-  clear: both;
   margin-top: 3px;
 }
 
@@ -3557,21 +3460,7 @@ a.forgot.btn i {
   color: #fdb527;
 }
 
-.sc-connect-user {
-  clear: both;
-}
-
-.sclogin .top {
-  padding-top: 0;
-  padding-bottom: 15px;
-}
-
-.sclogin .side {
-  padding-left: 15px;
-}
-
 /* Formerly: /public_html/media/sourcecoast/css/sc_bootstrap.css */
-
 /**
 * Bootstrap v2.3.2
 *
@@ -3878,7 +3767,6 @@ a.forgot.btn i {
 }
 
 @media print {
-
   .sourcecoast * {
     text-shadow: none !important;
     color: #000 !important;
@@ -6317,10 +6205,10 @@ a.forgot.btn i {
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#08c),
-  to(#0077b3));
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
@@ -6337,10 +6225,10 @@ a.forgot.btn i {
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #08c, #0077b3);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#08c),
-  to(#0077b3));
+      0 0,
+      0 100%,
+      from(#08c),
+      to(#0077b3));
   background-image: -webkit-linear-gradient(top, #08c, #0077b3);
   background-image: -o-linear-gradient(top, #08c, #0077b3);
   background-image: linear-gradient(to bottom, #08c, #0077b3);
@@ -7028,10 +6916,10 @@ a.forgot.btn i {
   background-color: #fafafa;
   background-image: -moz-linear-gradient(top, #fff, #f2f2f2);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#fff),
-  to(#f2f2f2));
+      0 0,
+      0 100%,
+      from(#fff),
+      to(#f2f2f2));
   background-image: -webkit-linear-gradient(top, #fff, #f2f2f2);
   background-image: -o-linear-gradient(top, #fff, #f2f2f2);
   background-image: linear-gradient(to bottom, #fff, #f2f2f2);
@@ -7315,10 +7203,10 @@ a.forgot.btn i {
   background-color: #ededed;
   background-image: -moz-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#f2f2f2),
-  to(#e5e5e5));
+      0 0,
+      0 100%,
+      from(#f2f2f2),
+      to(#e5e5e5));
   background-image: -webkit-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: -o-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: linear-gradient(to bottom, #f2f2f2, #e5e5e5);
@@ -7465,10 +7353,10 @@ a.forgot.btn i {
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222, #111);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#222),
-  to(#111));
+      0 0,
+      0 100%,
+      from(#222),
+      to(#111));
   background-image: -webkit-linear-gradient(top, #222, #111);
   background-image: -o-linear-gradient(top, #222, #111);
   background-image: linear-gradient(to bottom, #222, #111);
@@ -7597,10 +7485,10 @@ a.forgot.btn i {
   background-color: #0e0e0e;
   background-image: -moz-linear-gradient(top, #151515, #040404);
   background-image: -webkit-gradient(linear,
-  0 0,
-  0 100%,
-  from(#151515),
-  to(#040404));
+      0 0,
+      0 100%,
+      from(#151515),
+      to(#040404));
   background-image: -webkit-linear-gradient(top, #151515, #040404);
   background-image: -o-linear-gradient(top, #151515, #040404);
   background-image: linear-gradient(to bottom, #151515, #040404);
