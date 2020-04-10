@@ -9391,8 +9391,8 @@ figcaption {
     border: 1px solid #333;
   }
 
-  .nav-tabs > li:last-child > a,
-  .nav-tabs > .active:last-child > a {
+  .nav-tabs>li:last-child>a,
+  .nav-tabs>.active:last-child>a {
     border-bottom: 1px solid #333;
   }
 
@@ -9404,7 +9404,7 @@ figcaption {
     float: none;
   }
 
-  .nav-pills > li > a {
+  .nav-pills>li>a {
     margin-right: 0;
   }
 
@@ -9556,8 +9556,8 @@ body.modal-open {
   display: inline;
 }
 
-.controls > .radio:first-child,
-.controls > .checkbox:first-child {
+.controls>.radio:first-child,
+.controls>.checkbox:first-child {
   padding-top: 0;
 }
 
