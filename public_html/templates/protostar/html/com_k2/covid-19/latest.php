@@ -48,7 +48,8 @@ defined('_JEXEC') or die;
             <!-- Would apppear that this category styling should generate an H2 header ... -->
             <!-- <h2><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></h2> -->
             <!-- Would apppear that this category styling should generate an H2 header ... -->
-            <strong><?php echo $category->name; ?></strong>
+            <!-- <strong><?php echo $category->name; ?></strong> -->
+	    {slider title="<?php echo $category->name; ?>" class="info icon"}	    
             <?php endif; ?>
 
             <?php if ($this->params->get('categoryDescription') && isset($category->description)): ?>
@@ -148,11 +149,13 @@ defined('_JEXEC') or die;
         </div>
         <!-- End Item list -->
     </div>
+    {/sliders}
+    <!-- END OF MY SLIDER ADDITION latest.php -->
 
     <?php if (($key+1)%($this->params->get('latestItemsCols'))==0): ?>
     <div class="clr"></div>
     <?php endif; ?>
-
+    
     <?php endforeach; ?>
     <div class="clr"></div>
 </div>
