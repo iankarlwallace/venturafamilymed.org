@@ -7,9 +7,10 @@ Feature: Covid-19
   #Covid-19 Landing paget
   Scenario: Covid-19 Page
     Given I am on "/covid-19"
-    Then I should see "General Information"
-    And I should see "Information"
-    And I should see "Ambulatory/Outpatient"
+    Then I should see "General Info"
+    And I should see "Resident Info"
+    And I should see "Inpatient"
+    And I should see "Ambulatory/Outpatient/AFMC"
     And I should see "Covid-19 Frequently Visited"
     And I should see "Tracking Site"
     And I should see "For assistance or questions, contact Ian Wallace at Ian dot Wallace at Ventura dot Org"
