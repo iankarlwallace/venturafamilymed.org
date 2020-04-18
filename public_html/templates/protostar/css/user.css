@@ -1,5 +1,11 @@
 /** User.css
  * Refactored CSS file - Changes are bracketed with a START and END comment
+ */
+.rl_sliders.accordion > .accordion-group > .accordion-body > .accordion-inner {
+  padding: 5px;
+}
+
+/**
  * Cafe POCUS Changes By Jake David - 01-22-2020 START
  * File contained multiple background-color defs - #d2d7d9 and #e7edf1
  */
