@@ -49,7 +49,7 @@ defined('_JEXEC') or die;
             <!-- <h2><a href="<?php echo $category->link; ?>"><?php echo $category->name; ?></a></h2> -->
             <!-- Would apppear that this category styling should generate an H2 header ... -->
             <!-- <strong><?php echo $category->name; ?></strong> -->
-	    {slider title="<?php echo $category->name; ?>" class="info icon"}	    
+	    {slider title="<?php echo $category->name; ?>" class="info"}	    
             <?php endif; ?>
 
             <?php if ($this->params->get('categoryDescription') && isset($category->description)): ?>
