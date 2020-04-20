@@ -5,6 +5,11 @@
   padding: 5px;
 }
 
+/* Tabs have a funny border on the bottom that goes through the tabs with our CSS */ 
+.rl_tabs > .nav {
+	padding-bottom: 9px;
+}
+
 /**
  * Cafe POCUS Changes By Jake David - 01-22-2020 START
  * File contained multiple background-color defs - #d2d7d9 and #e7edf1
