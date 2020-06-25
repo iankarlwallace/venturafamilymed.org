@@ -119,7 +119,7 @@ div#k2Container div.latestItemsCategory {
   background-position: center right;
   background-repeat: no-repeat;
   background-image: url("/images/icons/pptx-file.png");
-  background-image: linear-gradient(transparent, transparent), url("/images/icon/pptx-file.svg");
+  background-image: linear-gradient(transparent, transparent), url("/images/icons/pptx-file.svg");
   padding-right: 13px;
 }
 
