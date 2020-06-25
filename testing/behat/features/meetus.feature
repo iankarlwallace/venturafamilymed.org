@@ -58,7 +58,7 @@ Feature: Meet Us
     | Katsiaryna Malykhina, MD |
     | Rachel Mueller, DO       |
     | Michael Paglia, DO       |
-    | Seung Shin, DO           |
+    | Kevin Shin, DO           |
     | Elizabeth Simoneit, MD   |
     | Kim Hoang Tran, MD       |
     | Monica Tulimiero, MD     |
