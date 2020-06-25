@@ -115,6 +115,14 @@ div#k2Container div.latestItemsCategory {
   padding-right: 13px;
 }
 
+.pptx-file {
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url("/images/icons/pptx-file.png");
+  background-image: linear-gradient(transparent, transparent), url("/images/icon/pptx-file.svg");
+  padding-right: 13px;
+}
+
 /** END COVID 19 Styling additions */
 div.clr {
   *zoom: 1;
