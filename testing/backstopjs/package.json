@@ -229,7 +229,7 @@
     "npm-packlist": "2.1.1",
     "npm-profile": "5.0.1",
     "npm-registry-client": "8.6.0",
-    "npm-registry-fetch": "8.0.0",
+    "npm-registry-fetch": "8.1.1",
     "npm-run-path": "4.0.1",
     "npm-user-validate": "1.0.0",
     "npmlog": "4.1.2",
