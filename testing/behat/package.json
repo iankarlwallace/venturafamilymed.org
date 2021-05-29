@@ -324,7 +324,7 @@
     "wordwrap": "1.0.0",
     "wrap-ansi": "6.2.0",
     "write-file-atomic": "3.0.3",
-    "ws": "7.2.3",
+    "ws": "7.4.6",
     "xml-name-validator": "3.0.0",
     "xtend": "4.0.2",
     "yallist": "4.0.0",
